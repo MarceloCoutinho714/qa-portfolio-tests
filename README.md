@@ -1,13 +1,13 @@
 # QA-Portfolio-Tests
 
-## 📌 Sobre o Projeto
+##  Sobre o Projeto
 Este repositório tem como objetivo apresentar um portfólio de **testes manuais** e **testes de API em QA**, focado na validação funcional de sistemas e regras de negócio.
 
 Os testes documentados simulam cenários reais de aplicações web, com foco em qualidade, clareza e organização. 
 
 ---
 
-## 🧪 Tipos de Testes Abordados
+##  Tipos de Testes Abordados
 - Testes funcionais
 - Testes de validação de campos
 - Testes de busca e filtros
@@ -16,7 +16,7 @@ Os testes documentados simulam cenários reais de aplicações web, com foco em 
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+##  Ferramentas Utilizadas
 - Testes manuais
 - Documentação de casos de teste
 - Postman (para testes de API – em andamento)
@@ -24,7 +24,7 @@ Os testes documentados simulam cenários reais de aplicações web, com foco em 
 
 ---
 
-## 📂 Estrutura do Repositório
+##  Estrutura do Repositório
 
 manual-tests/
 |------ login-tests 
@@ -36,7 +36,7 @@ api-tests/
 
 ---
 
-## 🚀 Objetivo Profissional
+##  Objetivo Profissional
 Este repositório faz parte do meu desenvolvimento na área de **Quality Assurance (QA)**, com foco em boas práticas de teste, organização de cenários e documentação clara para times de desenvolvimento.
 
 ---
