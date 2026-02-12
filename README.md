@@ -41,5 +41,5 @@ Este repositório faz parte do meu desenvolvimento na área de **Quality Assuran
 
 ---
 
-## 📬 Contato
+##  Contato
 - GitHub: https://github.com/MarceloCoutinho714
