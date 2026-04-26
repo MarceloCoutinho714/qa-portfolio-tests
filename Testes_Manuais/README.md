@@ -20,7 +20,4 @@ Testes_Manuais/
  ├── Projeto_E-commerce_API/
  ├──...
 
- ## Evidências 
-
- Projeto_OPENCART/
- ├── TC.01_ Ausência de mensagem de erro por e-mail inválido/
+ 
