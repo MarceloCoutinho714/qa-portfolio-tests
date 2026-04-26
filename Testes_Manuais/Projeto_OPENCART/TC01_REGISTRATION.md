@@ -53,7 +53,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 Evidências coletadas durante a execução do teste: <br>
 
  **Sucesso**
-![Cadastro realizado com sucesso](Evidências/TC01_REGISTRATION/sucesso.png) <br><br>
+![Cadastro realizado com sucesso](Evidências/TC01_REGISTRATION/Cadastro-com-Sucesso.png) <br><br>
 
 
 Fluxo Alternativo <br><br>
@@ -133,4 +133,4 @@ com o cadastro. <br>
 ## Evidências <br>
 
 **Erro** 
-![Ausência de mensgem de erro por e-mail inválido](Evidências/TC01_REGISTRATION/erro.png) <br><br>
+![Ausência de mensgem de erro por e-mail inválido](Evidências/TC01_REGISTRATION/Ausência-de-Informação.png) <br><br>
