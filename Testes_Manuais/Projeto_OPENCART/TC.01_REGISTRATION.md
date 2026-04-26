@@ -48,6 +48,13 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Status: PASS** <br><br>
 
+## Evidências <br>
+
+Evidências coletadas durante a execução do teste: <br>
+
+ **Sucesso**
+![Cadastro realizado com sucesso](Evidências/TC.01_REGISTRATION/sucesso.png) <br><br>
+
 
 Fluxo Alternativo <br><br>
 
@@ -122,3 +129,8 @@ com o cadastro. <br>
 **Resultado Obtido:** Sistema não aprovou a criação do cadastro sem os requisitos mínimos. <br>
 
 **Status: PASS** <br><br>
+
+## Evidências <br>
+
+**Erro** 
+![Ausência de mensgem de erro por e-mail inválido](Evidências/TC.01_REGISTRATION/erro.png) <br><br>
