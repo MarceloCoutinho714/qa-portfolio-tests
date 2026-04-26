@@ -29,6 +29,8 @@ Os testes documentados simulam cenários reais de aplicações web, com foco em 
 manual-tests/
 |------ login-tests 
 |------ search-tests 
+|------ cart-tests
+|------ registration
 
 api-tests/
 |------ collections 
