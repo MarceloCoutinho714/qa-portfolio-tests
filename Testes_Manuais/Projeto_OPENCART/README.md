@@ -47,10 +47,10 @@ Os testes foram realizados nos seguintes módulos:
 
 ##  Estrutura do Projeto
 
-Testes_Manuais/
- └── Projeto_OPENCART/
-      ├── TC.01_REGISTRATION/
-      ├── TC.02_LOGIN/
-      ├── TC.03_SEARCH/
-      ├── TC.04_CART/
-      └── README.md
+Testes_Manuais/ <br>
+ └── Projeto_OPENCART/<br>
+      ├── TC.01_REGISTRATION/<br>
+      ├── TC.02_LOGIN/<br>
+      ├── TC.03_SEARCH/<br>
+      ├── TC.04_CART/<br>
+      └── README.md<br>
