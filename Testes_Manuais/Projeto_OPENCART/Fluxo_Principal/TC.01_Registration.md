@@ -1,6 +1,7 @@
 ## Feature: TC_REGISTRATION_001 - Cadastro de Conta com Credenciáis válidas
 
 Ambiente: Web/Edge/Windows
+
 Pré-condição:  Usuário acessar página inicial da Opencart
 Passos:
 1. Clicar em minha conta 
