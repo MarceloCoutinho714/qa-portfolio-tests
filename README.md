@@ -12,14 +12,14 @@ Os testes documentados simulam cenários reais de aplicações web, com foco em 
 - Testes de validação de campos
 - Testes de busca e filtros
 - Testes de login
-- Testes de API (em evolução)
+- Testes de API 
 
 ---
 
 ##  Ferramentas Utilizadas
 - Testes manuais
 - Documentação de casos de teste
-- Postman (para testes de API – em andamento)
+- Postman (para testes de API)
 - GitHub para versionamento e portfólio
 
 ---
