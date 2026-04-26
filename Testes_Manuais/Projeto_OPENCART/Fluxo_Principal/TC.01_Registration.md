@@ -10,6 +10,7 @@ Passos:
 
    
 **Regra de Negócio**
+
 O sistema deve permitir a criação de uma conta apenas quando todos os campos obrigatórios 
 (Nome, Sobrenome, E-mail e Senha) forem preenchidos com dados válidos, respeitando as 
 regras de validação definidas para cada campo.
