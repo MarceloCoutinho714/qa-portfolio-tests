@@ -121,6 +121,12 @@ com o cadastro. <br>
 
 **Status: FAIL** <br><br>
 
+## Evidências <br>
+
+**Erro** 
+![Ausência de mensgem de erro por e-mail inválido](Evidências/TC01_REGISTRATION/Ausencia-de-Informacao.png) <br><br>
+
+
 
 **TC_010.** Inserir senha com apenas 1 caractere (ex: A ou 1) <br>
 
@@ -130,7 +136,3 @@ com o cadastro. <br>
 
 **Status: PASS** <br><br>
 
-## Evidências <br>
-
-**Erro** 
-![Ausência de mensgem de erro por e-mail inválido](Evidências/TC01_REGISTRATION/Ausência-de-Informação.png) <br><br>
