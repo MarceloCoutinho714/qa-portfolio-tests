@@ -26,6 +26,14 @@ Exemplo: usuarioemail.com <br>
 3. Informar uma senha válida <br>
 4. Executar a request <br><br>
 
+### Input (body)
+{<br>
+“name” : “ Nicole ”,<br>
+“e-mail” “nicole.com”,<br>
+“password” :  “1234”,<br>
+}<br>
+
+
 ### Resultado Esperado 
 Status code **400**
 
@@ -66,6 +74,13 @@ apropriado.
 3. Informar uma senha inválida <br>
 4. Executar a request <br>
 
+### Input (body)
+{<br>
+“name” : “ Nicole ”,<br>
+“e-mail” “nicole@gmail.com”,<br>
+“password” :  “00000”,<br>
+}<br>
+
 ### Resultado Esperado 
 Status code **400**
 
@@ -104,6 +119,13 @@ apropriado.
 2. Não informar o campo e-mail <br>
 3. Informar uma senha válida <br>
 4. Executar a request <br>
+
+### Input (body)
+{<br>
+“name” : “ Nicole ”,<br>
+“e-mail” “   ”,<br>
+“password” :  “1234”,<br>
+}<br>
 
 ### Resultado Esperado 
 Status code **400**
@@ -144,6 +166,13 @@ apropriado.
 2. Informar um e-mail válido <br>
 3. Não informar o campo senha <br>
 4. Executar a request <br>
+
+### Input (body)
+{<br>
+“name” : “ Nicole ”,<br>
+“e-mail” “ nicole@gmail.com ”,<br>
+“password” :  “  ”,<br>
+}<br>
 
 ### Resultado Esperado 
 Status code **400**
