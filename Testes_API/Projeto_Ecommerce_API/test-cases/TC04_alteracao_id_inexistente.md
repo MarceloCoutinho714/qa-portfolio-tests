@@ -53,6 +53,6 @@ Média
 
 ## Evidência
 
-![PUT fez papel de POST e cria um produto](evidencias/put_produto_cria_em_vez_de_atualizar_bug.png) <br>
+![PUT fez papel de POST e cria um produto](../evidencias/put_produto_cria_em_vez_de_atualizar_bug.png) <br>
 
 
