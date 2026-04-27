@@ -17,6 +17,14 @@ estiverem preenchidos com dados válidos e no formato esperado.
 ### Passos
 1. Deixar campo nome em branco.
 
+### Input (body)
+{ <br>
+“name” : “   ”, <br>
+“e-mail” “nicole@gmail.com”, <br>
+“password” :  “1234”, <br>
+} <br>
+
+
 ### Resultado Esperado 
 Status code **400**
 
@@ -46,6 +54,13 @@ estiverem preenchidos com dados válidos e no formato esperado.
 
 ### Passos
 1. Deixar campo e-mail em branco
+
+### Input (body)
+{ <br>
+“name” : “ Nicole ”, <br>
+“e-mail” “    ”, <br>
+“password” : “1234”, <br>
+} <br>
 
 ### Resultado Esperado 
 Status code **400**
@@ -77,6 +92,13 @@ estiverem preenchidos com dados válidos e no formato esperado.
 ### Passos
 1. Deixar campo senha em branco
 
+### Input (body)
+{ <br>
+“name” : “ Nicole ”, <br>
+“e-mail” “ nicole@gmail.com ”, <br>
+“password” : “”, <br>
+} <br>
+
 ### Resultado Esperado 
 Status code **400**
 
@@ -107,6 +129,13 @@ estiverem preenchidos com dados válidos e no formato esperado.
 ### Passos
 1. Preencher o campo **Nome** com números (ex:12345)
 
+### Input (body)
+{ <br>
+“name” : “ 7712 ”, <br>
+“e-mail” “ nicole@gmail.com ”, <br>
+“password” : “1234”, <br>
+} <br>
+
 ### Resultado Esperado 
 Status code **400**
 
@@ -129,7 +158,7 @@ ID gerado
 
 ### Observação
 O sistema não valida corretamente o tipo de dado do campo nome, permitindo caracteres 
-inválidos.
+inválidos, **ver com o time se tal comportamento é aceitável.**
 
 ### TC - POST- Cadastro com E-mail em Formato Inválido
 **ID:**  API_POST_USER_005
@@ -147,6 +176,13 @@ estiverem preenchidos com dados válidos e no formato esperado.
 ### Passos
 1. Preencher o campo E-mail com um valor em formato inválido (ex: mariasilva.com.br, 
 mariasilva.br, mariasilva.com)
+
+### Input (body)
+{ <br>
+“name” : “ Nicole ”, <br>
+“e-mail” “ nicole.com ”, <br>
+“password” : “1234”, <br>
+} <br>
 
 ### Resultado Esperado 
 Status code **400**
