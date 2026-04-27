@@ -130,7 +130,7 @@ com o cadastro. <br>
 
 **TC_010.** Inserir senha com apenas 1 caractere (ex: A ou 1) <br>
 
-**Resultado esperado:** Sistema deve exibir mensagem informando requisitos mínimos de senha. <br>
+**Resultado esperado:** Sistema não deve permitir a criação do cadastro e deve exibir mensagem informando requisitos mínimos de senha. <br>
 
 **Resultado Obtido:** Sistema não aprovou a criação do cadastro sem os requisitos mínimos. <br>
 
