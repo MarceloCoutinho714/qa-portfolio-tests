@@ -58,7 +58,7 @@ Média
 Média
 
 ## Evidência <br>
-![PUT faz papel de POST e cria um novo produto](Evidencias/TC04_alteracao_id_inexistente.png)<br>
+![PUT faz papel de POST e cria um novo produto](Evidencias/put_produto_cria_em_vez_de_atualizar_bug.png)<br>
 
 
 
