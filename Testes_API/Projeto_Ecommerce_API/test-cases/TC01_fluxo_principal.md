@@ -212,5 +212,9 @@ Produto deletado conforme esperado
 **Status:** Pass <br><br>
 
 ## Evidências <br>
-![Cadastro realizado com sucesso.](../)
+### Cadastro com Sucesso
+![Cadastro realizado com sucesso.](../evidencias/post_usuario_sucesso.png) <br><br>
+
+### Login com Sucesso
+![Login realizado com sucesso.](../evidencias/post_login_sucesso.png) <br><br>
 
