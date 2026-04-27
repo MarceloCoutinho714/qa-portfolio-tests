@@ -108,7 +108,9 @@ permitidas. <br>
 ## Evidência <br>
 
 **BUG** <br>
+**Cadastro comm Númeors** <br>
 ![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](Evidências/TC01_REGISTRATION/Cadastro-de-Usuario-com-Numeros-BUG.png) <br><br>
+**Conta Criada com Númeors no lugar do nome** <br>
 ![Prova da criação do cadastro aprovada pelo sistema](Evidências/TC01_REGISTRATION/Criacao-Aprovada-pelo-Sistema-BUG.png) <br><br>
 
 
