@@ -25,7 +25,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ## Evidência <br>
-![Login com Sucesso!](Evidências/TC02_LOGIN/Login-com-Sucesso.png) <br><br>
+![Login com Sucesso!](Evidências/TC02_LOGIN/Sucesso.png) <br><br>
 
 Fluxo Alternativo <br><br>
 
