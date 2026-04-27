@@ -119,4 +119,4 @@ produtos permaneceram no carrinho corretamente. <br>
 **Status: PASS** <br><br>
 
 ## Evidências <br>
-![Carrinho funcionando com sucesso](Evidências/TC04_CART/Produto-Adicionado-com-sucesso.png) <br><br>
+![Carrinho funcionando com sucesso](Evidências/TC04_CART/Produto-Adicionado-com-Sucesso.png) <br><br>
