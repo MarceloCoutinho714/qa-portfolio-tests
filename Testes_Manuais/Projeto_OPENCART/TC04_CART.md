@@ -93,9 +93,6 @@ sucesso. <br>
 
 **Status: PASS** <br><br>
 
-## Evidências <br>
-![Carrinho funcionando com sucesso](Evidências/TC04_CART/Carrinho-funcionando-com-sucesso.png) <br><br>
-
 Fluxos Alternativo <br><br>
 
 Validação do Carrinho <br><br>
@@ -120,3 +117,6 @@ sessão. <br>
 produtos permaneceram no carrinho corretamente. <br>
 
 **Status: PASS** <br><br>
+
+## Evidências <br>
+![Carrinho funcionando com sucesso](Evidências/TC04_CART/Produto-Adicionado-com-sucesso.png) <br><br>
