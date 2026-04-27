@@ -41,5 +41,5 @@ Média <br><br>
 
 ## Evidência <br>
 **BUG** <br>
-![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](Evidências/BUG01_Nome.md/Cadastro-de-Usuario-com-Numeros.png) <br><br>
+![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](Evidências/TC01_REGISTRATION/Cadastro-de-Usuario-com-Numeros.png) <br><br>
 
