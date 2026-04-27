@@ -209,4 +209,8 @@ Status code **200**
 
 Produto deletado conforme esperado 
 
-**Status:** Pass
+**Status:** Pass <br><br>
+
+## Evidências <br>
+![Cadastro realizado com sucesso.](../)
+
