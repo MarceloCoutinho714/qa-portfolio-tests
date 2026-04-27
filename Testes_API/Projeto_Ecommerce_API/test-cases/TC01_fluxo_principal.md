@@ -7,7 +7,7 @@
 
 **Fluxo Principal** <br><br>
 
-### Test Case - POST- Criar Usuário <br>
+### TC - POST- Criar Usuário <br>
 
 **ID:** API_POST_USER_001 <br>
 
@@ -39,7 +39,7 @@ Usuário criado com sucesso
 
 **Status:** Pass <br>
 
-### Test Case - POST - Login
+### TC - POST - Login
 
 **ID:** API_POST_LOGIN_001 <br>
 
@@ -68,7 +68,7 @@ Token de autenticação gerado com sucesso
 
 **Status:** Pass <br><br>
 
-### Test case - GET - Lista de produtos
+### TC - GET - Lista de produtos
 
 **ID:** API_GET_PROD_001
 
@@ -113,7 +113,7 @@ Lista retornada corretamente.
 
 **Status:** Pass
 
-### Test Case - POST - Cadastrar Produto
+### TC - POST - Cadastrar Produto
 
 **ID:** API_POST_PROD_001
 
@@ -153,7 +153,7 @@ Produto cadastrado conforme esperado.
 
 **Status:** Pass
 
-### Test Case - DELETE - Deletar Produto
+### TC - DELETE - Deletar Produto
 **ID:** API_DEL_PROD_001
 
 **Título:** Validar exclusão de produto existente
