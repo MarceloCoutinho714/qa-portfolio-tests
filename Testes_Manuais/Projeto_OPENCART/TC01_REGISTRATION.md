@@ -108,7 +108,7 @@ permitidas. <br>
 ## Evidência <br>
 
 **BUG** <br>
-![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](Evidências/TC01_REGISTRATION/Cadastro-de-Usuario-com-Numeros.png) <br><br>
+![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](Evidências/TC01_REGISTRATION/Cadastro-de-Usuario-com-Numeros-BUG.png) <br><br>
 ![Prova da criação do cadastro aprovada pelo sistema](Evidências/TC01_REGISTRATION/Criacao-Aprovada-pelo-Sistema-BUG.PNG) <br><br>
 
 
