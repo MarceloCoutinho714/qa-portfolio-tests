@@ -16,7 +16,7 @@ O sistema não deve permitir o cadastro de produtos sem informar os campos obrig
 ### Passos
 1. Enviar request POST sem o campo nome.
 
-### Input
+### Input (body)
 { <br>
 "title": "  ",<br>
 "price": 100,<br>
@@ -54,7 +54,7 @@ O sistema não deve permitir o cadastro de produtos sem informar os campos obrig
 ### Passos
 1. Enviar request POST sem o campo preço.
 
-### Input
+### Input (body)
 { <br>
 "title": " Teclado sem fio ",<br>
 "price":   ,<br>
@@ -92,7 +92,7 @@ O sistema não deve permitir o cadastro de produtos sem informar os campos obrig
 ### Passos
 1. Enviar request POST sem o campo descrição.
 
-### Input
+### Input (body)
 { <br>
 "title": " Teclado sem fio ",<br>
 "price": 250,<br>
@@ -130,7 +130,7 @@ O sistema não deve permitir o cadastro de produtos sem informar os campos obrig
 ### Passos
 1. Enviar request POST sem o campo quantidade.
 
-### Input
+### Input (body)
 { <br>
 "title": " Teclado sem fio ",<br>
 "price": 250,<br>
