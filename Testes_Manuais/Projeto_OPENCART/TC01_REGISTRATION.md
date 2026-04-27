@@ -108,7 +108,7 @@ permitidas. <br>
 ## Evidência <br>
 
 **BUG**
-![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](Evidências/BUG01_Nome.md/Cadastro-de-Usuario-com-Numeros.png) <br><br>
+![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](Evidências/TC01_REGISTRATION/Cadastro-de-Usuario-com-Numeros.png) <br><br>
 
 
 **TC_009.** Inserir e-mail inválido no campo "E-mail" <br>
