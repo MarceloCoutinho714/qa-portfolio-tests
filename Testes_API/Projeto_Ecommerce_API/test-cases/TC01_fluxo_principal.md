@@ -25,6 +25,15 @@ O sistema deve permitir a criação de usuários quando os dados obrigatórios f
 
 1. Enviar request POST com dados válidos do usuário <br>
 
+### Input (body)
+{<br>
+“name” : “ Nicole ”,<br>
+“e-mail” “nicole@gmail.com”,<br>
+“password” :  “1234”,<br>
+"Admin": "true"<br>
+}<br>
+
+
 ### Resultado Esperado 
 
 Status code **201**
@@ -55,6 +64,12 @@ O sistema deve autenticar o usuário quando as credenciais forem válidas. <br>
 ### Passos
 
 1. Enviar request POST com login e senha válidos <br>
+
+### Input (body)
+{<br>
+“e-mail” “nicole@gmail.com”,<br>
+“password” :  “1234”,<br>
+}<br>
 
 ### Resultado Esperado 
 Status code **200**
@@ -136,6 +151,14 @@ informados corretamente.
 ### Passos
 
 1. Enviar request POST com dados válidos do produto
+
+### Input (body)
+{<br>
+"title": "TV 4K LG ",<br>
+"price": 10,<br>
+"description": "Televisor ",<br>
+"quantity" : 50 ,<br>
+}<br>
 
 ### Resultado Esperado
 
