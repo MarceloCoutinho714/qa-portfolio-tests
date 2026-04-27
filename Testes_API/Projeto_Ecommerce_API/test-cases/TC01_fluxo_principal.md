@@ -218,3 +218,5 @@ Produto deletado conforme esperado
 ### Login com Sucesso
 ![Login realizado com sucesso.](../evidencias/post_login_sucesso.png) <br><br>
 
+### Cadastro de Produto com Sucesso
+![Cadastro de produto realizado com sucesso.](../evidencias/post_produtos_sucesso.png) <br><br>
