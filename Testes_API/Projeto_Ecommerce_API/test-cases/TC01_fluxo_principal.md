@@ -155,7 +155,7 @@ informados corretamente.
 ### Input (body)
 {<br>
 "title": "TV 4K LG ",<br>
-"price": 10,<br>
+"price": 3000,<br>
 "description": "Televisor ",<br>
 "quantity" : 50 ,<br>
 }<br>
