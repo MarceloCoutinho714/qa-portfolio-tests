@@ -37,4 +37,9 @@ Campos de identificação do usuário normalmente possuem regras de validação 
 A ausência dessa validação pode permitir o registro de dados inconsistentes no sistema e impactar processos que dependem dessas informações. <br>
 
 **Severidade** <br>
-Média
+Média <br><br>
+
+## Evidência <br>
+**BUG** <br>
+![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](Evidências/BUG01_Nome.md/Cadastro-de-Usuario-com-Numeros.png) <br><br>
+
