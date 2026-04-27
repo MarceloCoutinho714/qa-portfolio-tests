@@ -1,59 +1,63 @@
-Bug ID: API-BUG-002
-Título: PUT em /produtos/{id} cria novo produto ao usar ID inexistente.
+# Bug ID: API-BUG-001 <br>
 
-Tipo: BUG Funcional API
-Ferramenta usada: Postman
-API Endpoint: /produtos/{id}
-Método HTTP: PUT
-Tipo de teste: Negativo API Test
+Título: PUT em /produtos/{id} cria novo produto ao usar ID inexistente. <br><br>
 
-Ambiente
-Ambiente: API pública de testes
-Ferramenta: Postman
-Data do teste: 31/01/2026
+Tipo: BUG Funcional API <br>
+Ferramenta usada: Postman <br>
+API Endpoint: /produtos/{id} <br>
+Método HTTP: PUT <br>
+Tipo de teste: Negativo API Test <br><br>
 
-Pré-condição 
+### Ambiente
+Ambiente: API pública de testes <br>
+Ferramenta: Postman<br>
+Data do teste: 31/01/2026<br>
 
-Nenhum produto existente com o ID informado na requisição.
+### Pré-condição 
 
-Passos para Reproduzir 
+Nenhum produto existente com o ID informado na requisição. <br>
 
-Criar um ID aleatório inexistente (não presente na base da API).
+### Passos para Reproduzir 
 
-Enviar uma requisição PUT para o endpoint /produtos/{id} utilizando esse ID inexistente.
+1. Criar um ID aleatório inexistente (não presente na base da API).
 
-Informar dados válidos de produto no body da requisição.
+2. Enviar uma requisição PUT para o endpoint /produtos/{id} utilizando esse ID inexistente.
 
-Executar a request.
+3. Informar dados válidos de produto no body da requisição.
 
-Resultado Esperado 
+4. Executar a request.
+
+### Resultado Esperado 
 
 A API deveria retornar erro indicando que o recurso não existe.
 
-Status Code: 404 
+Status Code: **404**
 
 Sem criação de um novo produto.
 
-Resultado Obtido
+### Resultado Obtido
 
 A API criou um novo produto e retornou:
 
-Status Code: 201 (Created)
+Status Code: **201 (Created)**
 
 Além disso, a API gerou um novo ID automaticamente, ignorando o ID informado na requisição.
 
 Isso indica quebra de contrato da API, pois o método PUT deveria atualizar um recurso existente e não criar um novo.
 
-Observação Adicional 
+### Observação Adicional 
 
 O teste foi realizado utilizando um ID gerado manualmente e de forma aleatória, garantindo que o recurso não existia previamente na API.
 
 Mesmo assim, o sistema criou um novo produto em vez de retornar erro apropriado.
 
-Severidade
-
+### Severidade
 Média
 
-Prioridade
-
+### Prioridade
 Média
+
+## Evidência <br>
+![PUT faz papel de POST e cria um novo produto](Evidencias/)
+
+
