@@ -1,4 +1,4 @@
-# QA-Portfolio-Tests
+# QA-Portfólio-Tests
 
 ##  Sobre o Projeto
 Este repositório tem como objetivo apresentar um portfólio de **testes manuais** e **testes de API em QA**, focado na validação funcional de sistemas e regras de negócio.
