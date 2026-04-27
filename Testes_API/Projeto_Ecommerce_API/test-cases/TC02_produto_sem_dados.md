@@ -16,6 +16,15 @@ O sistema não deve permitir o cadastro de produtos sem informar os campos obrig
 ### Passos
 1. Enviar request POST sem o campo nome.
 
+### Input
+{ <br>
+"title": "  ",<br>
+"price": 100,<br>
+"description": "A description",<br>
+"quantity": 58,<br>
+"id": 23665475,<br>
+} <br>
+
 ### Resultado Esperado 
 Status code **400**
 
@@ -44,6 +53,15 @@ O sistema não deve permitir o cadastro de produtos sem informar os campos obrig
 
 ### Passos
 1. Enviar request POST sem o campo preço.
+
+### Input
+{ <br>
+"title": " Teclado sem fio ",<br>
+"price":   ,<br>
+"description": "Teclado",<br>
+"quantity": 58,<br>
+"id": 23665475,<br>
+} <br>
 
 ### Resultado Esperado 
 Status code **400**
@@ -74,6 +92,15 @@ O sistema não deve permitir o cadastro de produtos sem informar os campos obrig
 ### Passos
 1. Enviar request POST sem o campo descrição.
 
+### Input
+{ <br>
+"title": " Teclado sem fio ",<br>
+"price": 250,<br>
+"description": "   ",<br>
+"quantity": 58,<br>
+"id": 23665475,<br>
+} <br>
+
 ### Resultado Esperado 
 Status code **400**
 
@@ -102,6 +129,16 @@ O sistema não deve permitir o cadastro de produtos sem informar os campos obrig
 
 ### Passos
 1. Enviar request POST sem o campo quantidade.
+
+### Input
+{ <br>
+"title": " Teclado sem fio ",<br>
+"price": 250,<br>
+"description": " Teclado ",<br>
+"quantity":  ,<br>
+"id": 23665475,<br>
+} <br>
+
 
 ### Resultado Esperado 
 Status code **400**
