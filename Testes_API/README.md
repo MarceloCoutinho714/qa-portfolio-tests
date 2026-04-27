@@ -17,7 +17,7 @@ Os testes simulam cenários reais de consumo de APIs, garantindo que os serviço
 
 ##  Tipos de Testes Realizados
 
-- Testes de status code (200, 400, 401, 404, etc.)  
+- Testes de status code (200, 201, 400, 401, 404, etc.)  
 - Validação de payload (request/response)  
 - Testes de autenticação e autorização  
 - Testes de regras de negócio  
