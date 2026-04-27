@@ -1,6 +1,6 @@
 ## Fluxo Alternativo
 
-### Test Case - POST - Não Colocar Nome
+### TC - POST - Não Colocar Nome
 **ID:** API_POST_PROD_002
 
 **Título:** Validar erro ao cadastrar produto sem nome
@@ -30,7 +30,7 @@ Sistema retornou a mensagem de “ nome é obrigatório “ e cadastro não foi 
 
 **Status:** Pass <br><br>
 
-### Test Case - POST - Não Colocar Preço
+### TC - POST - Não Colocar Preço
 **ID:** API_POST_PROD_003
 
 **Título:** Validar erro ao cadastrar produto sem preço
@@ -59,7 +59,7 @@ Sistema retornou a mensagem de “ preço é obrigatório “ e cadastro não fo
 
 **Status:** Pass <br><br>
 
-### Test Case - POST - Não Colocar Descrição
+### TC - POST - Não Colocar Descrição
 **ID:** API_POST_PROD_004
 
 **Título:** Validar erro ao cadastrar produto sem descrição
@@ -88,7 +88,7 @@ Sistema retornou a mensagem de “ descrição é obrigatória “ e cadastro n�
 
 **Status:** Pass <br><br>
 
-### Test Case - POST - Não Colocar Quantidade
+### TC - POST - Não Colocar Quantidade
 **ID:** API_POST_PROD_005
 
 **Título:** Validar erro ao cadastrar produto sem quantidade
