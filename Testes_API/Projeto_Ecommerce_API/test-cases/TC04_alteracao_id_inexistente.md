@@ -16,6 +16,14 @@ O sistema não deve permitir a alteração de produtos inexistentes.
 ### Passos
 1. Enviar request PUT com um ID inexistente.
 
+### input (body)
+{<br>
+"title": "TV 4K LG ",<br>
+"price": 3000,<br>
+"description": " Tv ",<br>
+"Id": 12**5166@$&&@156,<br>
+}<br>
+
 ### Resultado Esperado 
 Status code **404**
 
