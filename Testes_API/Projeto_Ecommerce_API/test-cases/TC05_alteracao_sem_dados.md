@@ -17,6 +17,15 @@ estiverem preenchidos.
 ### Passos
 1. Enviar request PUT sem o campo nome.
 
+### Input (body)
+{<br>
+"title": "  ",<br>
+"price": 5000 ,<br>
+"description": " Descrição ",<br>
+"quantity": 35,<br>
+"Id": 13,<br>
+}<br>
+
 ### Resultado Esperado 
 Status code **400**
 
@@ -48,6 +57,15 @@ estiverem preenchidos.
 
 ### Passos
 1. Enviar request PUT sem o campo preço.
+
+### Input (body)
+{<br>
+"title": "Tv 4K LG ",<br>
+"price":  ,<br>
+"description": " TV ",<br>
+"quantity": 35,<br>
+"Id": 13,<br>
+}<br>
 
 ### Resultado Esperado 
 Status code **400**
@@ -81,6 +99,16 @@ estiverem preenchidos.
 ### Passos
 1. Enviar request PUT sem o campo descrição.
 
+### Input (body)
+{<br>
+"title": "Tv 4K LG ",<br>
+"price": 2500 ,<br>
+"description": "  ",<br>
+"quantity": 35,<br>
+"Id": 13,<br>
+}<br>
+
+
 ### Resultado Esperado 
 Status code **400**
 
@@ -113,6 +141,15 @@ estiverem preenchidos.
 
 ### Passos
 1. Enviar request PUT sem o campo quantidade.
+
+### Input (body)
+{<br>
+"title": "Tv 4K LG ",<br>
+"price": 2500 ,<br>
+"description": " TV ",<br>
+"quantity": ,<br>
+"Id": 13,<br>
+}<br>
 
 ### Resultado Esperado 
 Status code **400**
