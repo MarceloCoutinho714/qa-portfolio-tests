@@ -124,7 +124,7 @@ com o cadastro. <br>
 ## Evidências <br>
 
 **Erro** 
-![Ausência de mensgem de erro por e-mail inválido](Evidências/TC01_REGISTRATION/Ausencia-de-Informacao.png) <br><br>
+![Ausência de mensgem de erro por e-mail inválido](Evidências/TC01_REGISTRATION/Ausencia-de-Informacao-Erro.png) <br><br>
 
 
 
