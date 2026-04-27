@@ -109,6 +109,7 @@ permitidas. <br>
 
 **BUG**
 ![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](Evidências/TC01_REGISTRATION/Cadastro-de-Usuario-com-Numeros.png) <br><br>
+![Prova da criação do cadastro aprovada pelo sistema](Evidências/TC01_REGISTRATION/Criacao-Aprovada-pelo-Sistema-BUG.PNG) <br><br>
 
 
 **TC_009.** Inserir e-mail inválido no campo "E-mail" <br>
