@@ -93,6 +93,9 @@ sucesso. <br>
 
 **Status: PASS** <br><br>
 
+## Evidências <br>
+![Carrinho funcionando com sucesso]()
+
 Fluxos Alternativo <br><br>
 
 Validação do Carrinho <br><br>
