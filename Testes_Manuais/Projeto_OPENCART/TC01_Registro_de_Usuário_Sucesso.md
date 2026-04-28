@@ -2,7 +2,8 @@
 
 Ambiente: Web/Edge/Windows
 
-Pré-condição: Usuário acessar página inicial da Opencart
+Pré-condição: Usuário acessar página inicial da Opencart<br>
+
 Passos:
 1. Clicar em minha conta 
 2. Clicar em cadastrar
