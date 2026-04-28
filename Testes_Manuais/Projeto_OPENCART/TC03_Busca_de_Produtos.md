@@ -59,7 +59,7 @@ Fluxo Alternativo <br><br>
 
 **Status: PASS** <br><br>
 
-**TC_005.** Diferenciação entre maiúsculas e minúsculas
+**TC_005.** Diferenciação entre Maiúsculas e minúsculas
 
 **Resultado Esperado:** O sistema deve retornar os mesmos resultados independentemente do uso de letras maiúsculas ou minúsculas.<br>
 
