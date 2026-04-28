@@ -4,10 +4,14 @@ Ambiente: Web/Edge/Windows
 
 Pré-condição:  Usuário acessar página inicial da Opencart. <br>
 
+**Test Data**<br>
+Pesquisa: "Iphone"
+
 Passos:
 1. Clicar no campo de pesquisa 
-2. Digitar título específico
+2. Digitar título específico conforme Test Data
 3. Clicar em pesquisar <br><br><br>
+
 **Regra de Negócio**
 
 O sistema deve retornar produtos cujo nome ou descrição esteja relacionado ao termo digitado 
