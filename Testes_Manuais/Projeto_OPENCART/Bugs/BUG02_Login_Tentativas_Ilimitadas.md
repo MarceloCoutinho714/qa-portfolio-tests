@@ -1,61 +1,50 @@
 **Origem:** TC02 - Login de Usuário 
 
-Bug ID: BUG01_Login_Senha
+**Bug ID:** BUG02_Login_Tentativas_Ilimitadas
 
-Título: Sistema permite tentativas ilimitadas de login com senha incorreta.
+Título: Sistema permite tentativas ilimitadas de login com senha incorreta. <br>
+Tipo: BUG <br>
+Categoria: Segurança / Funcional <br>
+Ambiente:  Web / Navegador Edge / Windows <br>
+Tipo de teste: Teste Manual / Funcional <br><br>
 
-Tipo: BUG 
+**Ambiente**
 
-Categoria: Segurança / Funcional
+Ambiente: Sistema público de E-commerce <br>
+Data do teste: 28/04/2026 <br><br>
 
-Ambiente:  Web / Navegador Edge / Windows
+**Pré-condição** <br>
 
-Tipo de teste: Teste Manual / Funcional
+Usuário possuir conta previamente cadastrada e acessar a página de login.<br><br>
 
-Ambiente
+**Passos para Reproduzir**
 
-Ambiente: Sistema público de E-commerce
+1. Acessar a página de login<br>
+2. Inserir e-mail válido previamente cadastrado <br>
+3. Inserir senha incorreta<br>
+4. Clicar em “Entrar“<br>
+5. Repetir o processo de 2 à 5 vezes consecutivas<br>
 
-Data do teste: 28/04/2026
-
-Pré-condição
-
-Usuário possuir conta previamente cadastrada e acessar a página de login.
-
-Passos para Reproduzir
-
-Acessar a página de login
-
-Inserir e-mail válido previamente cadastrado 
-
-Inserir senha incorreta
-
-Clicar em “Entrar“
-
-Repetir o processo de 2 à 5 vezes consecutivas
-
-Resultado Esperado
+**Resultado Esperado**
 
 O sistema deve limitar o número de tentativas consecutivas de login inválidas (ex: 5 tentativas), bloqueando temporariamente o acesso ou exigindo verificação adicional.
 
-Resultado Obtido
+**Resultado Obtido**
 
 O sistema permite tentativas ilimitadas de login com senha incorreta, sem qualquer bloqueio ou mecanismo de proteção.
 
-Observação
+**Observação**
 
 Durante a execução do teste, foram realizadas múltiplas tentativas consecutivas de login com senha incorreta, sem que o sistema aplicasse qualquer tipo de bloqueio ou limitação.
 
 Devido à indisponibilidade atual do ambiente, não foi possível capturar evidências visuais adicionais.
 
-Impacto
+**Impacto**
 
 A ausência de limitação de tentativas de login pode expor o sistema a ataques de força bruta, aumentando o risco de comprometimento de contas de usuários.
 
-Severidade
-
+**Severidade**<br>
 Alta
 
-Prioridade
-
+**Prioridade**<br>
 Alta
