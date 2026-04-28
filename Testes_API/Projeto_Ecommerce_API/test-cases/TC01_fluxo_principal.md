@@ -220,3 +220,6 @@ Produto deletado conforme esperado
 
 ### Cadastro de Produto com Sucesso
 ![Cadastro de produto realizado com sucesso.](../evidencias/post_produtos_sucesso.png) <br><br>
+
+### Deletar Produto com Sucesso
+![Produto deletado com sucesso.](../evidencias/delete_produtos_sucesso.png) <br><br>
