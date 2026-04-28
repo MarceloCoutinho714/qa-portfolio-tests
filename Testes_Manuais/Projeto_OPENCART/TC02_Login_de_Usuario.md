@@ -1,4 +1,4 @@
-## Feature: TC02 Login de Usuário
+## Feature: TC02 - Login de Usuário
 
 Ambiente: Web/Edge/Windows
 
@@ -6,8 +6,12 @@ Pré-condição: Usuário acessar área de login da Opencart. <br>
 
 Passos:
 1. Acessar site da Opencart
-2.  Clicar em minha conta e clicar em entrar.
-3.  Informar e-mail e senha válidos previamente cadastrados. <br><br><br>
+2.  Clicar em minha conta
+3.  clicar em entrar.
+4.  Informar e-mail válido previamente cadastrado no campo "E-mail"
+5.  Informar senha válida no campo "Senha"
+6.  
+
 **Regra de Negócio**
 
 O sistema deve permitir o acesso à conta apenas quando o usuário informar credenciais válidas 
