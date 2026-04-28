@@ -4,12 +4,16 @@ Ambiente: Web/Edge/Windows
 
 Pré-condição: Usuário acessar área de login da Opencart. <br>
 
+### Test Data
+E-mail válido: vitoria@gmail.com <br>
+Senha válida: Entrar123* 
+
 Passos:
 1.  Acessar site da Opencart
 2.  Clicar em minha conta
 3.  Clicar em entrar
-4.  Informar e-mail válido previamente cadastrado no campo "E-mail" (ex: vitoria@gmail.com)
-5.  Informar senha válida no campo "Senha" (ex: Entrar123*)
+4.  Informar e-mail válido previamente cadastrado no campo "E-mail" conforme Test Data
+5.  Informar senha válida no campo "Senha" conforme Test Data
 6.  Clicar em "Entrar"
 
 **Regra de Negócio**
@@ -86,7 +90,7 @@ tentativas) <br>
 
 **Impacto:** A ausência desse controle aumenta significativamente o risco de ataques de força bruta.
 
-**Status: FAIL** <br>
+**Status: BUG** <br>
 
 **Severidade** <br>
 **Alta**
