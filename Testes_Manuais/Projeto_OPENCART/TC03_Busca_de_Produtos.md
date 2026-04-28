@@ -48,7 +48,8 @@ Fluxo Alternativo <br><br>
 
 **Status: PASS** <br><br>
 
-![Busca de produto especifico feita com secesso!](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/) <br><br>
+### Evidência
+![Busca com campos vazios.](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_002_Busca_Campo_Vazio.png) <br><br>
 
 **TC_003.** Busca por termo inexistente (ex: XYZ123 )
 
@@ -58,6 +59,9 @@ Fluxo Alternativo <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Busca com termo inexistente.](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_003_Busca_Termo_Inexistente.png) <br><br>
+
 **TC_004.** Busca por caracteres especiais 
 
 **Resultado Esperado:** O sistema não deve retornar resultados para caracteres inválidos e pode exibir mensagem informativa. <br>
@@ -66,6 +70,9 @@ Fluxo Alternativo <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Busca com caracteres especiais.](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_004_Busca_Caracteres_Especiais.png) <br><br>
+
 **TC_005.** Diferenciação entre Maiúsculas e minúsculas
 
 **Resultado Esperado:** O sistema deve retornar os mesmos resultados independentemente do uso de letras maiúsculas ou minúsculas.<br>
@@ -73,6 +80,9 @@ Fluxo Alternativo <br><br>
 **Resultado Obtido:** O sistema retornou os mesmos resultados para "iphone" e "IPHONE". <br>
 
 **Status: PASS** <br><br>
+
+### Evidência
+![Diferença entre maiúscula e minúscula.](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_005_Busca_Diferenciacao_Maiuscula.png) <br><br>
 
 **TC_006.** Espaços extras 
 
