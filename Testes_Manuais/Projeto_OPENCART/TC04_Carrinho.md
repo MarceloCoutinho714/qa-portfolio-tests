@@ -5,9 +5,10 @@ Ambiente: Web/Edge/Windows
 Pré-condição: Usuário acessar página inicial da Opencart. <br>
 
 **Test Data**
-Produto: iPhone
-Quantidade Inicial: 1
-Quantidade Alterada: 3
+
+Produto: iPhone <br>
+Quantidade Inicial: 1 <br>
+Quantidade Alterada: 3 <br>
 
 Passos:
 1. Acessar site Opencart. 
