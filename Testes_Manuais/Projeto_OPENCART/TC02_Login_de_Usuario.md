@@ -5,12 +5,14 @@ Ambiente: Web/Edge/Windows
 Pré-condição: Usuário acessar área de login da Opencart. <br>
 
 Passos:
-1. Acessar site da Opencart
+1.  Acessar site da Opencart
 2.  Clicar em minha conta
-3.  clicar em entrar.
-4.  Informar e-mail válido previamente cadastrado no campo "E-mail"
-5.  Informar senha válida no campo "Senha"
-6.  
+3.  clicar em entrar
+4.  Informar e-mail válido previamente cadastrado no campo "E-mail" (ex: vitoria@gmail.com)
+5.  Informar senha válida no campo "Senha" (ex: Entrar123*)
+6.  Marcar o checkbox "Política de Privacidade"
+7.  Marcar o checkbox "Sou Humano"
+9.  Clicar em "Entrar"
 
 **Regra de Negócio**
 
