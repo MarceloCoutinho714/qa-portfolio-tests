@@ -1,4 +1,4 @@
-## Feature: TC_REGISTRATION_001 - Cadastro de Usuário com Credenciáis válidas
+## Feature: TC01 - Verificar se o usuário consegue se registrar com sucesso usando dados válidos
 
 Ambiente: Web/Edge/Windows
 
