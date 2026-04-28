@@ -2,11 +2,17 @@
 
 Ambiente: Web/Edge/Windows
 
-Pré-condição:  Usuário acessar página inicial da Opencart
+Pré-condição: Usuário acessar página inicial da Opencart
 Passos:
 1. Clicar em minha conta 
-2. Clicar em cadastrar 
-3. Preencher dados válidos solicitados nos campos obrigatórios <br><br><br>
+2. Clicar em cadastrar
+3. Inserir um nome válido no campo "Primeiro Nome"
+4. Inserir um sobrenome válido no campo “Sobrenome”
+5. Inserir um email válido (ex: marcos_qa@gmail.com)
+6. Inserir uma senha válida (mínimo 6 caracteres)
+7. Confirmar a senha no campo “Confirmar Senha”
+8. Marcar o checkbox “Política de Privacidade”
+9. Clicar no botão “Continue” <br><br><br>
 **Regra de Negócio**
 
 O sistema deve permitir a criação de uma conta apenas quando todos os campos obrigatórios 
@@ -16,9 +22,9 @@ regras de validação definidas para cada campo. <br><br>
 Testes Funcionais - Fluxo Principal <br><br>
 
 **TC_001.** Inserir nome válido no campo "Nome" <br><br>
-**Resultado esperado:** Sistema aceita o nome e permite continuar o cadastro. <br>
+**Resultado esperado:** Sistema redireciona para página "Minha Conta" e exibe mensagem "Sua conta foi criada!" <br>
 
-**Resultado Obtido:** Sistema aprovou o cadastro. <br>
+**Resultado Obtido:** Sistema aprovou o cadastro redirecionando usuário a página "Minha Conta" <br>
 
 **Status: PASS** <br><br>
 
