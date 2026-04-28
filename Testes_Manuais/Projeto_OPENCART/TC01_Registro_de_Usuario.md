@@ -1,4 +1,4 @@
-## Feature: TC01 - Verificar se o usuário consegue se registrar com sucesso usando dados válidos
+## Feature: TC01 - Cadastro de Usuário
 
 Ambiente: Web/Edge/Windows
 
