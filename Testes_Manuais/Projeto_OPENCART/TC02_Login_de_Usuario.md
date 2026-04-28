@@ -90,7 +90,7 @@ tentativas) <br>
 
 **Impacto:** A ausência desse controle aumenta significativamente o risco de ataques de força bruta.
 
-**Status: BUG** <br>
+**Status: Fail** <br>
 
 **Severidade** <br>
 **Alta**
