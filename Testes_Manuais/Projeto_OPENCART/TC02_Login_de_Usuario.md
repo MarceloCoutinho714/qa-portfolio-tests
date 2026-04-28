@@ -1,4 +1,4 @@
-## Feature: TC02 - Login de Usuário
+## Feature: Login de Usuário
 
 Ambiente: Web/Edge/Windows
 
