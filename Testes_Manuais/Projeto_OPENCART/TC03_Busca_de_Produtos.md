@@ -21,10 +21,9 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **TC_001.** Buscar produto pelo nome específico <br>
 
-**Resultado Esperado:** O sistema deve exibir uma lista de produtos relacionados ao termo 
-pesquisado. <br>
+**Resultado Esperado:** O sistema deve exibir uma lista de produtos cujo nome ou descrição contenha o termo "Iphone", apresentando informações como nome, preço e imagem do produto.<br>
 
-**Resultado Obtido:** O sistema exibiu produtos relacionados ao termo pesquisado. <br>
+**Resultado Obtido:** O sistema exibiu produtos relacionados ao termo pesquisado "iPhone" com descrição e preço. <br>
 
 **Status: PASS** <br><br>
 
