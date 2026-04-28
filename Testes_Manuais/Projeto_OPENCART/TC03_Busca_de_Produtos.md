@@ -1,4 +1,4 @@
-## Feature: TC_SEARCH_001 - Pesquisa por produtos
+## Feature: Pesquisa por produtos
 
 Ambiente: Web/Edge/Windows
 
