@@ -1,4 +1,4 @@
-## Feature: TC01 - Cadastro de Usuário
+## Feature: Cadastro de Usuário
 
 Ambiente: Web/Edge/Windows
 
