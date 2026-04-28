@@ -1,4 +1,4 @@
-## Feature: TC_CART_001 - Gerenciamento de Carrinho de Compras 
+## Feature: Gerenciamento de Carrinho de Compras 
 
 Ambiente: Web/Edge/Windows
 
