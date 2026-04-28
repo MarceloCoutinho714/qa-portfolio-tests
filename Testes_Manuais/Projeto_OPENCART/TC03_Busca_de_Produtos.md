@@ -23,7 +23,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Resultado Esperado:** O sistema deve exibir uma lista de produtos cujo nome ou descrição contenha o termo "Iphone", apresentando informações como nome, preço e imagem do produto.<br>
 
-**Resultado Obtido:** O sistema exibiu produtos relacionados ao termo pesquisado "iPhone" com descrição e preço. <br>
+**Resultado Obtido:** O sistema exibiu produtos relacionados ao termo pesquisado "iPhone" com imagem, descrição e preço. <br>
 
 **Status: PASS** <br><br>
 
