@@ -82,7 +82,14 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Diferença entre maiúscula e minúscula.](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_005_Busca_Diferenciacao_Maiuscula.png) <br><br>
+**Maiúsculas**<br><br>
+
+![Digitar todo o termo em maiúsculo.](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_005_Busca_Diferenciacao_Maiuscula.png) <br><br><br>
+
+### Evidência
+**Minúsculas**<br><br>
+
+![Digitar todo o termo em minúsculo.](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_006_Busca_Diferenciacao_Minuscula.png) <br><br>
 
 **TC_006.** Espaços extras 
 
