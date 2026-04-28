@@ -37,7 +37,6 @@ O sistema permite tentativas ilimitadas de login com senha incorreta, sem qualqu
 
 Durante a execução do teste, foram realizadas múltiplas tentativas consecutivas de login com senha incorreta, sem que o sistema aplicasse qualquer tipo de bloqueio ou limitação.
 
-Devido à indisponibilidade atual do ambiente, não foi possível capturar evidências visuais adicionais.
 
 **Impacto**
 
@@ -50,17 +49,24 @@ Alta
 Alta
 
 **Evidências**<br>
-Tentativa_1
 
-Tentativa_2
+Tentativa_1<br>
 
-Tentativa_3
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC01_REGISTRATION/TC02_LOGIN/Tentativa_de_senha_1.png)<br>
+Tentativa_2<br>
 
-Tentativa_4
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC01_REGISTRATION/TC02_LOGIN/Tentativa_de_senha_2.png)<br>
+Tentativa_3<br>
 
-Tentativa_5
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC01_REGISTRATION/TC02_LOGIN/Tentativa_de_senha_3.png)<br>
+Tentativa_4<br>
 
-Tentativa_6
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC01_REGISTRATION/TC02_LOGIN/Tentativa_de_senha_4.png)<br>
+Tentativa_5<br>
 
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC01_REGISTRATION/TC02_LOGIN/Tentativa_de_senha_5.png)<br>
+Tentativa_6<br>
+
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC01_REGISTRATION/TC02_LOGIN/Tentativa_de_senha_6.png)<br>
 
 
