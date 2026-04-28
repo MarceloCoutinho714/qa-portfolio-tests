@@ -4,6 +4,11 @@ Ambiente: Web/Edge/Windows
 
 Pré-condição: Usuário acessar página inicial da Opencart. <br>
 
+**Test Data**
+Produto: iPhone
+Quantidade Inicial: 1
+Quantidade Alterada: 3
+
 Passos:
 1. Acessar site Opencart. 
 2. Clicar em adicionar ao meu carrinho em um produto específico 
@@ -17,7 +22,7 @@ sejam mantidos no carrinho antes da finalização da compra. <br><br>
 Testes Funcionais - Fluxo Principal <br><br>
 
 **TC_001.**  Adicionar produto ao carrinho <br><br>
-**Resultado Esperado:** : Ao clicar em "Adicionar ao carrinho", o sistema deve incluir o produto no carrinho do usuário e exibir mensagem "Produto adicioinado ao carrinho". <br>
+**Resultado Esperado:** O sistema deve incluir o produto no carrinho, atualizar o ícone/contador do carrinho e exibir mensagem de sucesso confirmando a adição do item. <br>
 
 **Resultado Obtido:** Sistema adicionou o produto ao carrinho com sucesso e apresentou mensagem "Sucesso: Você adicionou o iPhone ao seu carrinho de compras!". <br>
 
@@ -48,6 +53,8 @@ Testes Funcionais - Fluxo Principal <br><br>
 redirecionar o usuário para a página de finalização da compra e solicitar dados de endereço e pagamento. <br>
 
 **Resultado Obtido:** N/A - O site de teste não permite prosseguir para o checkout. <br>
+
+**Motivo:** Funcionalidade de checkout indisponível no ambiente de teste.
 
 **Status: BLOCKED** <br><br>
 
@@ -146,3 +153,4 @@ adicionar ou remover produtos. <br>
 
 ## Evidência <br>
 ![Carrinho funcionando com sucesso]() <br><br>
+
