@@ -35,7 +35,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência 
 
-![Busca de produto especifico feita com secesso!](../evidencias/TC03_SEARCH_001_Busca_sucesso.png)
+![Busca de produto especifico feita com secesso!](../evidencias/TC03_SEARCH_001_Busca_sucesso.png) <br><br>
 
 
 Fluxo Alternativo <br><br>
