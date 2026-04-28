@@ -35,7 +35,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência 
 
-![Busca de produto especifico feita com secesso!](../evidencias/TC03_SEARCH_001_Busca_sucesso.png) <br><br>
+![Busca de produto especifico feita com secesso!](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_001_Busca_sucesso.png) <br><br>
 
 
 Fluxo Alternativo <br><br>
@@ -47,6 +47,8 @@ Fluxo Alternativo <br><br>
 **Resultado Obtido:** O sistema não retornou resultados para o campo vazio e apresentou mensagem "Não existe nenhum produto que atenda aos critérios de busca." <br>
 
 **Status: PASS** <br><br>
+
+![Busca de produto especifico feita com secesso!](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/) <br><br>
 
 **TC_003.** Busca por termo inexistente (ex: XYZ123 )
 
