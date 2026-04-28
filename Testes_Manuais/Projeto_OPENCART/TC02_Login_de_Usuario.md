@@ -10,9 +10,7 @@ Passos:
 3.  Clicar em entrar
 4.  Informar e-mail válido previamente cadastrado no campo "E-mail" (ex: vitoria@gmail.com)
 5.  Informar senha válida no campo "Senha" (ex: Entrar123*)
-6.  Marcar o checkbox "Política de Privacidade"
-7.  Marcar o checkbox "Sou Humano"
-9.  Clicar em "Entrar"
+6.  Clicar em "Entrar"
 
 **Regra de Negócio**
 
@@ -24,7 +22,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **TC_001.** Realizar login com credenciais válidas (e-mail e senha cadastrados) <br>
 
-**Resultado Esperado:** Sistema deve aceitar e autenticar o usuário e permitir acesso à conta sem exibir nenhuma mensagem de erro. <br>
+**Resultado Esperado:** O sistema deve autenticar o usuário com credenciais válidas, redirecionar para a página "Minha Conta" e exibir elementos que indiquem que o usuário está logado (ex: opção "Logout").<br>
 
 **Resultado Obtido:** Sistema autenticou o usuário com sucesso, redirecionando para a página "Minha Conta". <br>
 
@@ -47,10 +45,9 @@ são inválidos. <br>
 
 **TC_003.** Inserir senha inválida no campo senha <br>
 
-**Resultado Esperado:** Sistema deve autenticar o login, deve exibir mensagem de erro informando que o e-mail ou senha 
-são inválidos. <br>
+**Resultado Esperado:** O sistema não deve autenticar o usuário e deve exibir mensagem de erro informando que o e-mail ou senha são inválidos.<br>
 
-**Resultado Obtido:** Sistema não autenticou o login e exibiu mensagem "não há correspondência para e-mail ou senha". <br>
+**Resultado Obtido:** Sistema não autenticou o usuário e exibiu mensagem "não há correspondência para e-mail ou senha". <br>
 
 **Status: PASS** <br><br>
 
@@ -81,14 +78,13 @@ Teste de Segurança / Regra de Proteção de Conta <br><br>
 **TC_006.** Verificar limite de tentativas de login com senha incorreta (proteção contra múltiplas 
 tentativas) <br>
 
-**Resultado Esperado:** Após 5 tentativas consecutivas de login com senha incorreta, o sistema 
-deve bloquear temporariamente a conta e notificar o usuário por e-mail sobre a atividade 
-suspeita e perguntar se foi o mesmo quem efetuou as tentativas. <br>
+**Resultado Esperado:** O sistema deve limitar o número de tentativas consecutivas de login com credenciais inválidas (ex: 5 tentativas), bloqueando temporariamente a conta ou exigindo verificação adicional.
+<br>
 
-**Resultado Obtido:** Sistema não limita a quantidade de tentativas de login com senha incorreta, 
-permitindo tentativas ilimitadas. <br>
+**Resultado Obtido:** O sistema permite tentativas ilimitadas de login com credenciais inválidas, sem qualquer bloqueio ou mecanismo de proteção.
+<br>
 
-**Obs:** Com a ausência desse bloqueio temporário o usuário corre alto risco de ter sua conta invadida.
+**Impacto:** A ausência desse controle aumenta significativamente o risco de ataques de força bruta.
 
 **Status: FAIL** <br>
 
