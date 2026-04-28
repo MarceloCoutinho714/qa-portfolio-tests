@@ -16,7 +16,7 @@ Pesquisa com variação: iphone / IPHONE<br>
 Passos:
 1. Clicar no campo de pesquisa 
 2. Digitar termo conforme Test Data
-3. Clicar em "pesquisar" <br><br><br>
+3. Clicar em "pesquisar" <br><br>
 
 **Regra de Negócio**
 
