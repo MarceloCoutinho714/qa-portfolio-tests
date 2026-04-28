@@ -22,37 +22,42 @@ regras de validação definidas para cada campo. <br><br>
 Testes Funcionais - Fluxo Principal <br><br>
 
 **TC_001.** Inserir nome válido no campo "Nome" <br><br>
-**Resultado esperado:** Sistema redireciona para página "Minha Conta" e exibe mensagem "Sua conta foi criada!" <br>
+**Resultado esperado:** O sistema deve aceitar o nome inserido, não exibir mensagens de erro e permitir a continuidade do preenchimento do formulário de cadastro. <br>
 
-**Resultado Obtido:** Sistema aprovou o cadastro redirecionando usuário a página "Minha Conta" <br>
+**Resultado Obtido:** O sistema aceitou o nome inserido sem apresentar mensagens de erro e permitiu a continuidade do cadastro.<br>
 
 **Status: PASS** <br><br>
 
 **TC_002.** Inserir sobrenome válido no campo "Sobrenome" <br><br>
 
-**Resultado esperado:** Sistema aceita o sobrenome e permite continuar o cadastro. <br>
+**Resultado esperado:** O sistema deve aceitar o sobrenome inserido, não exibir mensagens de erro e permitir a continuidade do cadastro.<br>
 
-**Resultado Obtido:** Sistema aprovou o cadastro.<br>
+**Resultado Obtido:** O sistema aceitou o sobrenome inserido sem apresentar mensagens de erro e permitiu a continuidade do cadastro.<br>
 
 **Status: PASS** <br><br>
 
 
 **TC_003.** Inserir e-mail válido no campo "E-mail" <br>
 
-**Resultado esperado:** Sistema aceita e-mail válido e permite continuar o cadastro. <br>
+**Resultado esperado:** O sistema deve aceitar o e-mail inserido no formato válido, não exibir mensagens de erro e permitir a continuidade do cadastro.<br>
 
-**Resultado Obtido:** Sistema aprovou o cadastro. <br>
+**Resultado Obtido:** O sistema aceitou o e-mail inserido sem apresentar mensagens de erro e permitiu a continuidade do cadastro. <br>
 
 **Status: PASS** <br><br>
 
 
 **TC_004.** Inserir senha com caracteres válidos <br>
 
-**Resultado esperado:** Sistema aceita senha válida e conclui o cadastro. <br>
+**Resultado esperado:** O sistema deve aceitar a senha inserida conforme os critérios mínimos definidos, não exibir mensagens de erro e permitir a conclusão do cadastro. <br>
 
-**Resultado Obtido:** Sistema aprovou o cadastro. <br>
+**Resultado Obtido:** O sistema aceitou a senha inserida sem apresentar mensagens de erro e permitiu a conclusão do cadastro. <br>
 
 **Status: PASS** <br><br>
+
+### Resultado Final do Fluxo <br>
+**Resultado esperado:** O sistema deve validar todos os campos obrigatórios, criar a conta com sucesso, redirecionar o usuário para a página "Minha Conta" e exibir a mensagem "Sua conta foi criada!". O usuário deve permanecer autenticado no sistema. <br>
+
+**Resultado obtido:** O sistema validou os campos corretamente, criou a conta com sucesso, redirecionou o usuário para a página "Minha Conta" e exibiu a mensagem de confirmação. O usuário permaneceu logado após o cadastro.<br>
 
 ## Evidências <br>
 
@@ -67,30 +72,27 @@ Fluxo Alternativo <br><br>
 
 **TC_005.** Deixar o campo "Nome" em branco <br>
 
-**Resultado esperado:** Sistema deve exibir mensagem informando que o campo é obrigatório. <br>
+**Resultado esperado:** O sistema deve impedir a continuidade do cadastro e exibir uma mensagem clara informando que o campo é obrigatório. <br>
 
-**Resultado Obtido:** Sistema exibiu mensagem solicitando preenchimento do campo 
-obrigatório. <br>
+**Resultado Obtido:** O sistema bloqueou a continuidade do cadastro e exibiu mensagem solicitando o preenchimento do campo obrigatório.<br>
 
 **Status: PASS** <br><br>
 
 
 **TC_006.** Deixar o campo "Sobrenome" em branco <br>
 
-**Resultado esperado:** Sistema deve exibir mensagem informando que o campo é obrigatório. <br>
+**Resultado esperado:** O sistema deve impedir a continuidade do cadastro e exibir uma mensagem clara informando que o campo é obrigatório. <br>
 
-**Resultado Obtido:**  Sistema exibiu mensagem solicitando preenchimento do campo 
-obrigatório. <br>
+**Resultado Obtido:** O sistema bloqueou a continuidade do cadastro e exibiu mensagem solicitando o preenchimento do campo obrigatório.<br>
 
 **Status: PASS** <br><br>
 
 
 **TC_007.** Deixar o campo "Senha" em branco <br>
 
-**Resultado esperado:** Sistema deve exibir mensagem informando que o campo é obrigatório. <br>
+**Resultado esperado:** O sistema deve impedir a continuidade do cadastro e exibir uma mensagem clara informando que o campo é obrigatório. <br>
 
-**Resultado Obtido:**  Sistema exibiu mensagem solicitando preenchimento do campo 
-obrigatório. <br>
+**Resultado Obtido:**  O sistema bloqueou a continuidade do cadastro e exibiu mensagem solicitando o preenchimento do campo obrigatório.<br>
 
 **Status: PASS** <br><br>
 
@@ -98,12 +100,11 @@ obrigatório. <br>
 Validação de Campos <br><br>
 
 
-**TC_008.** Inserir números e símbolos nos campos "Nome" e "Sobrenome" <br>
+**TC_008.** Inserir números nos campo "Nome" <br>
 
-**Resultado esperado:** Sistema deve exibir mensagem informando que apenas letras são 
-permitidas. <br>
+**Resultado esperado:** O sistema não deve permitir a inserção de números ou símbolos nos campos "Nome" e "Sobrenome" e deve exibir uma mensagem informando que apenas caracteres alfabéticos são permitidos.<br>
 
-**Resultado Obtido:**  Sistema permitiu a criação de cadastro utilizando números e símbolos. <br>
+**Resultado Obtido:** O sistema permitiu a inserção de números nos campos "Nome" e "Sobrenome" e aprovou a criação do cadastro sem exibir mensagens de validação.<br>
 
 **Status: BUG** <br>
 
@@ -122,10 +123,9 @@ permitidas. <br>
 
 **TC_009.** Inserir e-mail inválido no campo "E-mail" <br>
 
-**Resultado esperado:** O sistema deve exibir uma mensagem de erro informando que o e-mail 
-inserido é inválido e solicitar a inserção de um e-mail válido. <br>
+**Resultado esperado:** O sistema deve impedir a criação do cadastro e exibir uma mensagem de erro informando que o e-mail inserido é inválido.<br>
 
-**Resultado Obtido:**  Sistema não exibiu mensagem de erro e não concluiu o cadastro. <br>
+**Resultado Obtido:**  O sistema não concluiu o cadastro, porém não exibiu nenhuma mensagem de erro informando o motivo da falha.<br>
 
 **OBS:** Foi observado que, ao inserir um e-mail inválido no campo "E-mail", o sistema não 
 apresenta nenhuma mensagem de validação ao usuário. A ausência de feedback pode gerar 
@@ -144,9 +144,10 @@ com o cadastro. <br>
 
 **TC_010.** Inserir senha com apenas 1 caractere (ex: A ou 1) <br>
 
-**Resultado esperado:** Sistema não deve permitir a criação do cadastro e deve exibir mensagem informando requisitos mínimos de senha. <br>
+**Resultado esperado:** O sistema deve impedir a criação do cadastro e exibir mensagem informando os requisitos mínimos de senha.
+<br>
 
-**Resultado Obtido:** Sistema não aprovou a criação do cadastro sem os requisitos mínimos. <br>
+**Resultado Obtido:** O sistema bloqueou a criação do cadastro ao identificar que a senha não atende aos requisitos mínimos.<br>
 
 **Status: PASS** <br><br>
 
