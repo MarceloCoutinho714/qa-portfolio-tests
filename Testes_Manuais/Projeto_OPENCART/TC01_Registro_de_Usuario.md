@@ -4,13 +4,20 @@ Ambiente: Web/Edge/Windows
 
 Pré-condição: Usuário acessar página inicial da Opencart<br>
 
+### Test Data
+Nome: Fernando (Texto alfabético)    <br>
+Sobrenome: Oliveira (Texto alfabético)  <br>
+E-mail: fernandoteste@gmail.com (Formato Válido)<br> 
+Senha:  Entrar1234* (mín. 8 caracteres, com maiúscula, número e símbolo)  <br>
+
+
 Passos:
 1. Clicar em minha conta 
 2. Clicar em cadastrar
-3. Inserir um nome válido no campo "Primeiro Nome"
-4. Inserir um sobrenome válido no campo “Sobrenome”
-5. Inserir um email válido (ex: marcos_qa@gmail.com)
-6. Inserir uma senha válida (mínimo 6 caracteres)
+3. Inserir um nome válido no campo "Primeiro Nome" conforme Test Data
+4. Inserir um sobrenome válido no campo “Sobrenome” conforme Test Data
+5. Inserir um email válido conforme Test Data
+6. Inserir uma senha válida conforme Test Data
 7. Confirmar a senha no campo “Confirmar Senha”
 8. Marcar o checkbox “Política de Privacidade”
 9. Clicar no botão “Continue” <br><br><br>
