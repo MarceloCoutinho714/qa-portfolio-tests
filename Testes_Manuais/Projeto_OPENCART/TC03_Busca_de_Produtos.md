@@ -5,7 +5,13 @@ Ambiente: Web/Edge/Windows
 Pré-condição:  Usuário acessar página inicial da Opencart. <br>
 
 **Test Data**<br>
-Pesquisa: "Iphone"
+
+Pesquisa válida: Iphone<br>
+Pesquisa inexistente: XYZ123<br>
+Pesquisa com caracteres especiais: @#$%<br>
+Pesquisa com espaços: "   "<br>
+Pesquisa com variação: iphone / IPHONE<br>
+
 
 Passos:
 1. Clicar no campo de pesquisa 
