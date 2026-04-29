@@ -57,6 +57,9 @@ são inválidos. <br>
 **Resultado Obtido:** Sistema não autenticou o usuário e exibiu mensagem "não há correspondência para e-mail ou senha". <br>
 
 **Status: PASS** <br><br>
+### Evidência
+![Senha inválido](../Evidências/TC02_LOGIN/TC02_LOGIN_009_Senha_Invalida.png)
+
 
 Validação de campos <br><br>
 
@@ -69,6 +72,8 @@ vazio e deve exibir mensagem informando que os dados são inválidos ou obrigat�
 de erro informando que não há correspondência para e-mail ou senha impedindo o acesso. <br>
 
 **Status: PASS** <br><br>
+### Evidência
+![E-mail em branco](../Evidências/TC02_LOGIN/TC02_LOGIN_010_E-mail_em_Branco.png)
 
 **TC_005.** Tentar realizar login com campo senha vazio <br>
 
@@ -79,6 +84,8 @@ vazio e deve exibir mensagem informando que os dados são inválidos ou obrigat�
 de erro informando que não há correspondência para e-mail ou senha impedindo o acesso.<br>
 
 **Status: PASS** <br><br>
+### Evidência
+![Senha em branco](../Evidências/TC02_LOGIN/TC02_LOGIN_011_Senha_em_Branco.png)
 
 Teste de Segurança / Regra de Proteção de Conta <br><br>
 
