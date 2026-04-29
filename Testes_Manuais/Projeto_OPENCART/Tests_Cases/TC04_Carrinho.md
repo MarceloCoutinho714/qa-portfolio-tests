@@ -28,12 +28,13 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Resultado Obtido:** O sistema adicionou o produto ao carrinho, atualizou o contador e exibiu a mensagem: "Sucesso: Você adicionou o iPhone ao seu carrinho de compras!". <br>
 
+**Status: PASS** <br><br>
+
 ### Evidência
 **Mensagem de Produto Adicionado** <br><br>
 
-![Produto adicionado ao carrinho com sucesso.](Evidências/TC01_REGISTRATION/TC04_CART/TC04_CART_001_Adicionado_Mensagem_Sucesso.png)<br><br>
+![Produto adicionado ao carrinho com sucesso.](../Evidências/TC04_CART/TC04_CART_001_Adicionado_Mensagem_Sucesso.png)<br><br>
 
-**Status: PASS** <br><br>
 
 **TC_002.** Visualizar produto no carrinho <br><br>
 
@@ -46,7 +47,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 ### Evidência
 **Confirmação de produto adicionado**<br><br>
 
-![Produto adicionado ao carrinho com sucesso.](Evidências/TC01_REGISTRATION/TC04_CART/TC04_CART_002_Adicionado_Sucesso.png)<br><br>
+![Produto aparecce no carrinho com sucesso](../Evidências/TC04_CART/TC04_CART_002_Adicionado_Sucesso.png)<br><br>
 
 
 **TC_003.**  Prosseguir para checkout <br>
@@ -68,7 +69,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Produto removido do carrinho com sucesso.](Evidências/TC01_REGISTRATION/TC04_CART/TC04_CART_003_Removido_Sucesso.png)<br><br>
+![Produto removido do carrinho com sucesso.](../Evidências/TC04_CART/TC04_CART_003_Removido_Sucesso.png)<br><br>
 
 **Status: PASS** <br><br>
 
@@ -83,7 +84,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Produto removido do carrinho com sucesso.](Evidências/TC01_REGISTRATION/TC04_CART/TC04_CART_004_Alterado_Sucesso.png)<br><br>
+![Quantidade alterada com sucesso.](../Evidências/TC04_CART/TC04_CART_004_Alterado_Sucesso.png)<br><br>
 
 
 **TC_006.** Carrinho vazio após remoção de item <br>
@@ -96,7 +97,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Produto removido do carrinho com sucesso.](Evidências/TC01_REGISTRATION/TC04_CART/TC04_CART_005_Carrinho_vazio_Sucesso.png)<br><br>
+![Carrinho vazio com sucesso](../Evidências/TC04_CART/TC04_CART_005_Carrinho_vazio_Sucesso.png)<br><br>
 
 
 **TC_007.** Remover um produto quando há múltiplos itens no carrinho <br>
@@ -109,7 +110,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Produto removido do carrinho com sucesso.](Evidências/TC01_REGISTRATION/TC04_CART/TC04_CART_009_Produtos_Atualizados_Sucesso.png)<br><br>
+![Carrinho atualizado com sucesso](../Evidências/TC04_CART/TC04_CART_009_Produtos_Atualizados_Sucesso.png)<br><br>
 
 
 **TC_008.** Adicionar múltiplos produtos ao carrinho <br>
@@ -122,7 +123,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Produto removido do carrinho com sucesso.](Evidências/TC01_REGISTRATION/TC04_CART/TC04_CART_006_Multiplos_Produtos_Adicionados_Sucesso.png)<br><br>
+![Múltiplos produtos adicionados com sucesso](../Evidências/TC04_CART/TC04_CART_006_Multiplos_Produtos_Adicionados_Sucesso.png)<br><br>
 
 Fluxos Alternativo - Validação de Carrinho <br><br>
 
@@ -137,7 +138,7 @@ Fluxos Alternativo - Validação de Carrinho <br><br>
 
 ### Evidência
 
-![Produto removido do carrinho com sucesso.](Evidências/TC01_REGISTRATION/TC04_CART/TC04_CART_007_Atualizacao_Preco_Sucesso.png)<br><br>
+![Preço atualizado com sucesso](../Evidências/TC04_CART/TC04_CART_007_Atualizacao_Preco_Sucesso.png)<br><br>
 
 
 **TC_010.** Verificar persistência do carrinho após atualizar ou reabrir a página <br>
@@ -149,5 +150,5 @@ Fluxos Alternativo - Validação de Carrinho <br><br>
 **Status: PASS** <br><br>
 
 ## Evidência <br>
-![Carrinho funcionando com sucesso](Evidências/TC01_REGISTRATION/TC04_CART/TC04_CART_008_Persistencia_do_Carrinho_Sucesso.png) <br><br>
+![Carrinho apresenta persistência com sucesso](../Evidências/TC04_CART/TC04_CART_008_Persistencia_do_Carrinho_Sucesso.png) <br><br>
 
