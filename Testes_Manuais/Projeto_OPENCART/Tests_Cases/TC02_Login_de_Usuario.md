@@ -48,7 +48,7 @@ são inválidos. <br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![E-mail inválido](../Evidências/TC02_LOGIN/TC02_LOGIN_008_E-mail_invalido.png)
+![E-mail inválido](../Evidências/TC02_LOGIN/TC02_LOGIN_008_E-mail_invalido.png) <br><br>
 
 **TC_003.** Inserir senha inválida no campo senha <br>
 
@@ -58,7 +58,7 @@ são inválidos. <br>
 
 **Status: PASS** <br><br>
 ### Evidência
-![Senha inválido](../Evidências/TC02_LOGIN/TC02_LOGIN_009_Senha_Invalida.png)
+![Senha inválido](../Evidências/TC02_LOGIN/TC02_LOGIN_009_Senha_Invalida.png) <br><br>
 
 
 Validação de campos <br><br>
@@ -73,7 +73,7 @@ de erro informando que não há correspondência para e-mail ou senha impedindo 
 
 **Status: PASS** <br><br>
 ### Evidência
-![E-mail em branco](../Evidências/TC02_LOGIN/TC02_LOGIN_010_E-mail_em_Branco.png)
+![E-mail em branco](../Evidências/TC02_LOGIN/TC02_LOGIN_010_E-mail_em_Branco.png) <br><br>
 
 **TC_005.** Tentar realizar login com campo senha vazio <br>
 
@@ -85,7 +85,7 @@ de erro informando que não há correspondência para e-mail ou senha impedindo 
 
 **Status: PASS** <br><br>
 ### Evidência
-![Senha em branco](../Evidências/TC02_LOGIN/TC02_LOGIN_011_Senha_em_Branco.png)
+![Senha em branco](../Evidências/TC02_LOGIN/TC02_LOGIN_011_Senha_em_Branco.png) <br><br>
 
 Teste de Segurança / Regra de Proteção de Conta <br><br>
 
