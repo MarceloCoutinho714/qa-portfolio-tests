@@ -75,7 +75,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 ### Resultado Final do Fluxo <br>
 **Resultado esperado:** O sistema deve validar todos os campos obrigatórios, criar a conta com sucesso, redirecionar o usuário para a página "Minha Conta" e exibir a mensagem "Sua conta foi criada!". O usuário deve permanecer autenticado no sistema. <br>
 
-**Resultado obtido:** O sistema validou os campos corretamente, criou a conta com sucesso, redirecionou o usuário para a página "Minha Conta" e exibiu a mensagem de confirmação. O usuário permaneceu logado após o cadastro.<br>
+**Resultado obtido:** O sistema validou os campos corretamente, criou a conta com sucesso, redirecionou o usuário para a página "Minha Conta" e exibiu a mensagem de confirmação. O usuário permaneceu logado após o cadastro.<br><br>
 
 
 Fluxo Alternativo <br><br>
