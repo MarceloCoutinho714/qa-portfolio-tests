@@ -55,7 +55,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Resultado Obtido:** N/A – Funcionalidade de checkout indisponível no ambiente de teste <br>
 
-**Status: BLOCKED** <br><br>
+**Status: BLOCKED** <br>
 
 **Motivo:** Funcionalidade não disponível no ambiente. <br><br>
 
