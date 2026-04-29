@@ -11,9 +11,10 @@ Quantidade Inicial: 1 <br>
 Quantidade Alterada: 3 <br>
 
 Passos:
-1. Acessar site Opencart. 
-2. Clicar em adicionar ao meu carrinho em um produto específico 
-3. Clicar em **Meu Carrinho** <br><br><br>
+1. Acessar o site Opencart
+2. Selecionar um produto
+3. Clicar em "Adicionar ao carrinho"
+4. Acessar "Meu Carrinho" <br><br><br>
 **Regra de Negócio**
 
 O sistema deve permitir que o usuário adicione produtos ao carrinho, visualize os itens 
@@ -23,9 +24,9 @@ sejam mantidos no carrinho antes da finalização da compra. <br><br>
 Testes Funcionais - Fluxo Principal <br><br>
 
 **TC_001.**  Adicionar produto ao carrinho <br><br>
-**Resultado Esperado:** O sistema deve incluir o produto no carrinho, atualizar o ícone/contador do carrinho e exibir mensagem de sucesso confirmando a adição do item. <br>
+**Resultado Esperado:** O sistema deve adicionar o produto ao carrinho, atualizar o contador de itens e exibir mensagem de sucesso confirmando a ação. <br>
 
-**Resultado Obtido:** Sistema adicionou o produto ao carrinho com sucesso e apresentou mensagem "Sucesso: Você adicionou o iPhone ao seu carrinho de compras!". <br>
+**Resultado Obtido:** O sistema adicionou o produto ao carrinho, atualizou o contador e exibiu a mensagem: "Sucesso: Você adicionou o iPhone ao seu carrinho de compras!". <br>
 
 ### Evidência
 **Mensagem de Adicionado** <br><br>
@@ -36,9 +37,9 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **TC_002.** Visualizar produto no carrinho <br><br>
 
-**Resultado Esperado:** Ao acessar o carrinho, o sistema deve exibir o produto previamente adicionado no carrinho dando opções de alterar a quantidade e excluir. <br>
+**Resultado Esperado:** O sistema deve exibir o produto adicionado no carrinho, apresentando informações como nome, preço e quantidade, além de permitir alteração ou remoção. <br>
 
-**Resultado Obtido:** Produto exibido corretamente no carrinho dando opções ao usuário de alterar quantidade e excluir. <br>
+**Resultado Obtido:** O produto foi exibido corretamente no carrinho, com opções de alterar quantidade e remover.<br>
 
 **Status: PASS** <br><br>
 
@@ -50,21 +51,20 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **TC_003.**  Prosseguir para checkout <br>
 
-**Resultado Esperado:** Ao clicar em "Confirmar compra" ou "Checkout", o sistema deve 
-redirecionar o usuário para a página de finalização da compra e solicitar dados de endereço e pagamento. <br>
+**Resultado Esperado:** O sistema deve redirecionar o usuário para a página de checkout, solicitando dados de endereço e pagamento.<br>
 
-**Resultado Obtido:** N/A - O site de teste não permite prosseguir para o checkout. <br>
-
-**Motivo:** Funcionalidade de checkout indisponível no ambiente de teste.
+**Resultado Obtido:** N/A – Funcionalidade de checkout indisponível no ambiente de teste <br>
 
 **Status: BLOCKED** <br><br>
+
+**Motivo:** Funcionalidade não disponível no ambiente. <br><br>
 
 
 **TC_004.** Remover produto do carrinho <br>
 
-**Resultado Esperado:** O sistema deve remover o produto selecionado do carrinho e apresentar mensagem "Produto removido com sucesso". <br>
+**Resultado Esperado:** O sistema deve remover o produto selecionado do carrinho e exibir mensagem de confirmação. <br>
 
-**Resultado Obtido:** Sistema remove produto com sucesso e apresenta mensagem "Sucesso: Você removeu um item do seu carrinho de compras!" <br>
+**Resultado Obtido:** O sistema removeu o produto com sucesso e exibiu a mensagem: "Sucesso: Você removeu um item do seu carrinho de compras!". <br>
 
 ### Evidência
 
@@ -75,9 +75,9 @@ redirecionar o usuário para a página de finalização da compra e solicitar da
 
 **TC_005.** Alterar quantidade de produto no carrinho <br>
 
-**Resultado Esperado:**  O sistema deve permitir alterar a quantidade do produto e atualizar o carrinho corretamente informando mensagem "Produto alterado com sucesso" <br>
+**Resultado Esperado:** O sistema deve permitir alterar a quantidade do produto e atualizar o carrinho, recalculando valores e exibindo mensagem de confirmação. <br>
 
-**Resultado Obtido:**  Sistema permitiu a alteração da quantidade com sucesso e apresentou mensagem "Sucesso: Você modificou seu carrinho de compras!" <br>
+**Resultado Obtido:** O sistema atualizou a quantidade corretamente e exibiu a mensagem: "Sucesso: Você modificou seu carrinho de compras!". <br>
 
 **Status: PASS** <br><br>
 
@@ -88,9 +88,9 @@ redirecionar o usuário para a página de finalização da compra e solicitar da
 
 **TC_006.** Carrinho vazio após remoção de item <br>
 
-**Resultado Esperado:** Quando todos os itens do carrinho forem excluidos o carrinho deve ficar vazio e exibir mensagem "Carrinho de compras vazio". <br>
+**Resultado Esperado:** Ao remover todos os itens, o sistema deve exibir mensagem indicando que o carrinho está vazio. <br>
 
-**Resultado Obtido:** Carrinho ficou vazio após a remoção do produto e apresentou mensagem "Seu carrinho de compras está vazio!" <br>
+**Resultado Obtido:** O carrinho ficou vazio e exibiu a mensagem: "Seu carrinho de compras está vazio!". <br>
 
 **Status: PASS** <br><br>
 
@@ -101,10 +101,9 @@ redirecionar o usuário para a página de finalização da compra e solicitar da
 
 **TC_007.** Remover um produto quando há múltiplos itens no carrinho <br>
 
-**Resultado Esperado:**  Ao remover um dos produtos, o sistema deve atualizar o carrinho 
-exibindo apenas os itens restantes e exibir mensagem "Item removido do carrinho com sucesso".<br>
+**Resultado Esperado:** O sistema deve remover apenas o item selecionado e manter os demais produtos no carrinho.<br>
 
-**Resultado Obtido:**  Sistema removeu corretamente o produto selecionado e atualizou os itens restantes apresentando mensagem "Sucesso: Você removeu um item do seu carrinho de compras!" <br>
+**Resultado Obtido:** O sistema removeu corretamente o item selecionado e manteve os demais produtos no carrinho. <br>
 
 **Status: PASS** <br><br>
 
@@ -115,8 +114,7 @@ exibindo apenas os itens restantes e exibir mensagem "Item removido do carrinho 
 
 **TC_008.** Adicionar múltiplos produtos ao carrinho <br>
 
-**Resultado Esperado:** O sistema deve permitir adicionar mais de um produto diferente ao 
-carrinho. <br>
+**Resultado Esperado:** O sistema deve permitir adicionar diferentes produtos ao carrinho simultaneamente. <br>
 
 **Resultado Obtido:** O sistema permitiu adicionar múltiplos produtos distintos ao carrinho com sucesso. <br>
 
@@ -126,14 +124,12 @@ carrinho. <br>
 
 ![Produto removido do carrinho com sucesso.]()<br><br>
 
-Fluxos Alternativo <br><br>
+Fluxos Alternativo - Validação de Carrinho <br><br>
 
-Validação do Carrinho <br><br>
 
 **TC_009.** Atualização de preço ao adicionar ou remover produtos <br>
 
-**Resultado Esperado:** O valor total do carrinho deve ser atualizado automaticamente ao 
-adicionar ou remover produtos. <br>
+**Resultado Esperado:** O valor total do carrinho deve ser atualizado automaticamente ao adicionar, remover ou alterar produtos. <br>
 
 **Resultado Obtido:** O sistema atualizou corretamente o valor total após alterações no carrinho. <br>
 
@@ -146,9 +142,9 @@ adicionar ou remover produtos. <br>
 
 **TC_010.** Verificar persistência do carrinho após atualizar ou reabrir a página <br>
 
-**Resultado Esperado:** : O sistema deve manter os produtos previamente adicionados ao carrinho mesmo após o usuário atualizar a página ou fechar e abrir o site novamente dentro da mesma sessão. <br>
+**Resultado Esperado:** O sistema deve manter os produtos no carrinho após atualização da página ou reabertura do site durante a mesma sessão.<br>
 
-**Resultado Obtido:** Após atualizar a página e também após fechar e abrir novamente o site, os produtos permaneceram no carrinho corretamente. <br>
+**Resultado Obtido:** Os produtos permaneceram no carrinho após atualização e reabertura do site. <br>
 
 **Status: PASS** <br><br>
 
