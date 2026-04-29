@@ -147,6 +147,8 @@ Essa inconsistência pode impactar diretamente o cálculo de frete, emissão de 
 
 Recomenda-se identificar quais produtos apresentam o problema e validar possíveis diferenças em atributos como peso cadastrado, tipo de produto ou regras específicas aplicadas. <br>
 
+**Bug relacionado:** BUG03_Peso_Carrinho_Não_Atualiza
+
 **Severidade:** <br>
 Alta <br>
 
