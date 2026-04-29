@@ -48,7 +48,7 @@ são inválidos. <br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![E-mail inválido]((../Evidências/TC02_LOGIN/TC02_LOGIN_008_E-mail_invalido.png)
+![E-mail inválido](../Evidências/TC02_LOGIN/TC02_LOGIN_008_E-mail_invalido.png)
 
 **TC_003.** Inserir senha inválida no campo senha <br>
 
