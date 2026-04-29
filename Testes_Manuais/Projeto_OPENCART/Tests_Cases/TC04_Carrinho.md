@@ -113,7 +113,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 ![Itens adicionados](../Evidências/TC04_CART/TC04_CART_009_Produtos_Atualizados_Sucesso.png)<br><br>
 
 **Depois** <br>
-![Carrinho atualizado com sucesso](../Evidências/TC04_CART/TC04_CART_010_Atualizacao_produtos_sucesso.png)<br><br>
+![Carrinho atualizado com sucesso](../Evidências/TC04_CART/TC04_CART_012_Um_Produto_Removido_Sucesso.png)<br><br>
 
 
 **TC_008.** Adicionar múltiplos produtos ao carrinho <br>
@@ -158,7 +158,7 @@ Alta <br><br>
 ![Preço atual da soma dos produtos](../Evidências/TC04_CART/TC04_CART_007_Atualizacao_Preco_Sucesso.png)<br><br>
 
 **Depois**
-![Preço atualizado conforme um produto é adicionado ou removido](../Evidências/TC04_CART/TC04_CART_011_Atualizacao_produtos_preco_sucesso.png)<br><br>
+![Preço atualizado conforme um produto é adicionado ou removido, peso apresenta inconsistência](../Evidências/TC04_CART/TC04_CART_010_Atualizacao_produtos_Fail.png)<br><br>
 
 
 **TC_010.** Verificar persistência do carrinho após atualizar ou reabrir a página <br>
