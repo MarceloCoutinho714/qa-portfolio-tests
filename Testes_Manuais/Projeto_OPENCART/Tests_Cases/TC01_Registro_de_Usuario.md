@@ -70,7 +70,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Senha em formato válido](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_012_Senha_Valida.png) 
+![Senha em formato válido](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_012_Senha_Valida.png) <br><br>
 
 
 Fluxo Alternativo <br><br>
