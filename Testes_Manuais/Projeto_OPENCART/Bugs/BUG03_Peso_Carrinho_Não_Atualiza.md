@@ -55,8 +55,13 @@ Alta <br><br>
 Alta <br><br>
 
 ### Evidências
+**Antes** <br>
 
-![Falha em atualizar peso]()<br><br>
+![Falha em atualizar peso](../Evidências/TC04_CART/TC04_CART_007_Atualizacao_Preco_Sucesso.png)<br><br>
+**Depois**<br>
+
+![Falha em atualizar peso](../Evidências/TC04_CART/TC04_CART_010_Atualizacao_produtos_Fail.png)<br><br>
+
 
 
 
