@@ -32,9 +32,9 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Status: PASS** <br><br>
 
-## Evidência <br>
+### Evidência <br>
 
-![Login com Sucesso](Evidências/TC01_REGISTRATION/TC02_LOGIN/Sucesso.png) <br><br>
+![Login com Sucesso](../Evidências/TC02_LOGIN/TC02_LOGIN_001_Sucesso.png) <br><br>
 
 Fluxo Alternativo <br><br>
 
@@ -47,6 +47,9 @@ são inválidos. <br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![E-mail inválido](../Evidências/TC02_LOGIN/TC02_LOGIN_008_E-mail_invalido.png) <br><br>
+
 **TC_003.** Inserir senha inválida no campo senha <br>
 
 **Resultado Esperado:** O sistema não deve autenticar o usuário e deve exibir mensagem de erro informando que o e-mail ou senha são inválidos.<br>
@@ -54,6 +57,9 @@ são inválidos. <br>
 **Resultado Obtido:** Sistema não autenticou o usuário e exibiu mensagem "não há correspondência para e-mail ou senha". <br>
 
 **Status: PASS** <br><br>
+### Evidência
+![Senha inválido](../Evidências/TC02_LOGIN/TC02_LOGIN_009_Senha_Invalida.png) <br><br>
+
 
 Validação de campos <br><br>
 
@@ -66,6 +72,8 @@ vazio e deve exibir mensagem informando que os dados são inválidos ou obrigat�
 de erro informando que não há correspondência para e-mail ou senha impedindo o acesso. <br>
 
 **Status: PASS** <br><br>
+### Evidência
+![E-mail em branco](../Evidências/TC02_LOGIN/TC02_LOGIN_010_E-mail_em_Branco.png) <br><br>
 
 **TC_005.** Tentar realizar login com campo senha vazio <br>
 
@@ -76,6 +84,8 @@ vazio e deve exibir mensagem informando que os dados são inválidos ou obrigat�
 de erro informando que não há correspondência para e-mail ou senha impedindo o acesso.<br>
 
 **Status: PASS** <br><br>
+### Evidência
+![Senha em branco](../Evidências/TC02_LOGIN/TC02_LOGIN_011_Senha_em_Branco.png) <br><br>
 
 Teste de Segurança / Regra de Proteção de Conta <br><br>
 

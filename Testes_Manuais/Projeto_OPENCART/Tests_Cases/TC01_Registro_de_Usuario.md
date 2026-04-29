@@ -5,10 +5,10 @@ Ambiente: Web/Edge/Windows
 Pré-condição: Usuário acessar página inicial da Opencart<br>
 
 ### Test Data
-Nome: Fernando (Texto alfabético)    <br>
-Sobrenome: Oliveira (Texto alfabético)  <br>
+Nome: Fernando (Formato válido Texto alfabético)    <br>
+Sobrenome: Oliveira (Formato válido Texto alfabético)  <br>
 E-mail: fernandoteste@gmail.com (Formato Válido)<br> 
-Senha:  Entrar1234* (mín. 8 caracteres, com maiúscula, número e símbolo)  <br>
+Senha: Entrar1234* (mín. 4 caracteres, com maiúscula, número e símbolo)  <br>
 
 
 Passos:
@@ -36,6 +36,9 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Nome válido](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_001_Nome_Valido.png)
+
 **TC_002.** Inserir sobrenome válido no campo "Sobrenome" <br><br>
 
 **Resultado esperado:** O sistema deve aceitar o sobrenome inserido, não exibir mensagens de erro e permitir a continuidade do cadastro.<br>
@@ -44,6 +47,8 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Sobrenome válido](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_002_Sobrenome_Valido.png)
 
 **TC_003.** Inserir e-mail válido no campo "E-mail" <br>
 
@@ -53,6 +58,8 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![E-mail válido](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_003_E-mail_Valido.png)
 
 **TC_004.** Inserir senha com caracteres válidos <br>
 
@@ -62,17 +69,8 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Status: PASS** <br><br>
 
-### Resultado Final do Fluxo <br>
-**Resultado esperado:** O sistema deve validar todos os campos obrigatórios, criar a conta com sucesso, redirecionar o usuário para a página "Minha Conta" e exibir a mensagem "Sua conta foi criada!". O usuário deve permanecer autenticado no sistema. <br>
-
-**Resultado obtido:** O sistema validou os campos corretamente, criou a conta com sucesso, redirecionou o usuário para a página "Minha Conta" e exibiu a mensagem de confirmação. O usuário permaneceu logado após o cadastro.<br>
-
-## Evidências <br>
-
-Evidências coletadas durante a execução do teste: <br>
-
- **Sucesso**
-![Cadastro realizado com sucesso](Evidências/TC01_REGISTRATION/Cadastro-com-Sucesso.png) <br><br>
+### Evidência
+![Senha em formato válido](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_012_Senha_Valida.png) <br><br>
 
 
 Fluxo Alternativo <br><br>
@@ -86,6 +84,8 @@ Fluxo Alternativo <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Campo nome em branco](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_011_Nome_Ausente.png)
 
 **TC_006.** Deixar o campo "Sobrenome" em branco <br>
 
@@ -95,6 +95,8 @@ Fluxo Alternativo <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Campo sobrenome em branco](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_010_Sobrenome_Ausente.png)
 
 **TC_007.** Deixar o campo "Senha" em branco <br>
 
@@ -104,6 +106,8 @@ Fluxo Alternativo <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Campo senha em branco](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_009_Senha_ausente.png)
 
 Validação de Campos <br><br>
 
@@ -114,19 +118,19 @@ Validação de Campos <br><br>
 
 **Resultado Obtido:** O sistema permitiu a inserção de números nos campos "Nome" e "Sobrenome" e aprovou a criação do cadastro sem exibir mensagens de validação.<br>
 
-**Status: BUG** <br>
+**Status: Fail** <br>
+
+**Bug relacionado:** BUG01_Registro_Nome.md
 
 **Severidade:** Média <br>
 
 **Prioridade:** Média <br><br>
 
-## Evidência <br>
+### Evidência <br>
 
-**BUG** <br><br>
-**Cadastro com Númeors** <br>
-![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](Evidências/TC01_REGISTRATION/Cadastro-de-Usuario-com-Numeros-BUG.png) <br><br>
+![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_007_Cadastro-de-Usuario-com-Numeros-BUG.png) <br><br>
 **Conta Criada com Números no lugar do nome** <br><br>
-![Prova da criação do cadastro aprovada pelo sistema](Evidências/TC01_REGISTRATION/Criacao-Aprovada-pelo-Sistema-BUG.png) <br><br>
+![Prova da criação do cadastro aprovada pelo sistema](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_006_Criacao-Aprovada-pelo-Sistema-BUG.png) <br><br>
 
 
 **TC_009.** Inserir e-mail inválido no campo "E-mail" <br>
@@ -143,10 +147,8 @@ com o cadastro. <br>
 
 **Status: FAIL** <br><br>
 
-## Evidências <br>
-
-**Erro** 
-![Ausência de mensgem de erro por e-mail inválido](Evidências/TC01_REGISTRATION/Ausencia-de-Informacao-Erro.png) <br><br>
+### Evidências <br>
+![E-mail inválido](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_013_Ausencia_de_infomacao_fail.png) <br><br>
 
 
 
@@ -155,7 +157,9 @@ com o cadastro. <br>
 **Resultado esperado:** O sistema deve impedir a criação do cadastro e exibir mensagem informando os requisitos mínimos de senha.
 <br>
 
-**Resultado Obtido:** O sistema bloqueou a criação do cadastro ao identificar que a senha não atende aos requisitos mínimos.<br>
+**Resultado Obtido:** O sistema bloqueou a criação do cadastro ao identificar que a senha não atende aos requisitos mínimos e apresentou mensagem "A senha deve ter entre 4 e 20 caracteres!".<br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Senha com apenas um caractere](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_008_Senha_Invalida.png)
