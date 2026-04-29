@@ -140,8 +140,11 @@ Fluxos Alternativo - Validação de Carrinho <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
+**Antes**<br>
+![Preço atual da soma dos produtos](../Evidências/TC04_CART/TC04_CART_007_Atualizacao_Preco_Sucesso.png)<br><br>
 
-![Preço atualizado com sucesso](../Evidências/TC04_CART/TC04_CART_007_Atualizacao_Preco_Sucesso.png)<br><br>
+**Depois**
+![Preço atualizado conforme um produto é adicionado ou removido](../Evidências/TC04_CART/TC04_CART_011_Atualizacao_produtos_preco_sucesso.png)<br><br>
 
 
 **TC_010.** Verificar persistência do carrinho após atualizar ou reabrir a página <br>
