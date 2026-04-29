@@ -129,7 +129,7 @@ Validação de Campos <br><br>
 
 **Prioridade:** Média <br><br>
 
-## Evidência <br>
+### Evidência <br>
 
 **BUG** <br><br>
 **Cadastro com Númeors** <br>
@@ -152,7 +152,7 @@ com o cadastro. <br>
 
 **Status: FAIL** <br><br>
 
-## Evidências <br>
+### Evidências <br>
 
 **Erro** 
 ![Ausência de mensgem de erro por e-mail inválido](Evidências/TC01_REGISTRATION/Ausencia-de-Informacao-Erro.png) <br><br>
