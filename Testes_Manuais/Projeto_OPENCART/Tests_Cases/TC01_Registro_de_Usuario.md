@@ -132,7 +132,6 @@ Validação de Campos <br><br>
 
 ### Evidência <br>
 
-**BUG** <br><br>
 ![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_007_Cadastro-de-Usuario-com-Numeros-BUG.png) <br><br>
 **Conta Criada com Números no lugar do nome** <br><br>
 ![Prova da criação do cadastro aprovada pelo sistema](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_006_Criacao-Aprovada-pelo-Sistema-BUG.png) <br><br>
