@@ -1,4 +1,4 @@
-### ID: BUG-Nome-001 
+### ID: BUG01_Criação_Aprovada_Pelo_Sistema
 Título: Sistema permite cadastro com números e símbolos nos campos "Nome" e "Sobrenome" <br><br>
 
 Tipo: BUG Funcional <br>
