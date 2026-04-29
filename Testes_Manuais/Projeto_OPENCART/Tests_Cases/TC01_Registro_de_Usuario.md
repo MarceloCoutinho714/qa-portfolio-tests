@@ -77,13 +77,6 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Resultado obtido:** O sistema validou os campos corretamente, criou a conta com sucesso, redirecionou o usuário para a página "Minha Conta" e exibiu a mensagem de confirmação. O usuário permaneceu logado após o cadastro.<br>
 
-## Evidências <br>
-
-Evidências coletadas durante a execução do teste: <br>
-
- **Sucesso**
-![Cadastro realizado com sucesso](Evidências/TC01_REGISTRATION/Cadastro-com-Sucesso.png) <br><br>
-
 
 Fluxo Alternativo <br><br>
 
