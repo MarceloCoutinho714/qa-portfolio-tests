@@ -36,6 +36,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
 ![Nome válido]()
 
 **TC_002.** Inserir sobrenome válido no campo "Sobrenome" <br><br>
@@ -46,6 +47,8 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Nome válido]()
 
 **TC_003.** Inserir e-mail válido no campo "E-mail" <br>
 
@@ -55,6 +58,8 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Nome válido]()
 
 **TC_004.** Inserir senha com caracteres válidos <br>
 
@@ -63,6 +68,9 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Resultado Obtido:** O sistema aceitou a senha inserida sem apresentar mensagens de erro e permitiu a conclusão do cadastro. <br>
 
 **Status: PASS** <br><br>
+
+### Evidência
+![Nome válido]() 
 
 ### Resultado Final do Fluxo <br>
 **Resultado esperado:** O sistema deve validar todos os campos obrigatórios, criar a conta com sucesso, redirecionar o usuário para a página "Minha Conta" e exibir a mensagem "Sua conta foi criada!". O usuário deve permanecer autenticado no sistema. <br>
@@ -88,6 +96,8 @@ Fluxo Alternativo <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Nome válido]()
 
 **TC_006.** Deixar o campo "Sobrenome" em branco <br>
 
@@ -97,6 +107,8 @@ Fluxo Alternativo <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Nome válido]()
 
 **TC_007.** Deixar o campo "Senha" em branco <br>
 
@@ -106,6 +118,8 @@ Fluxo Alternativo <br><br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Nome válido]()
 
 Validação de Campos <br><br>
 
@@ -161,3 +175,5 @@ com o cadastro. <br>
 
 **Status: PASS** <br><br>
 
+### Evidência
+![Nome válido]()
