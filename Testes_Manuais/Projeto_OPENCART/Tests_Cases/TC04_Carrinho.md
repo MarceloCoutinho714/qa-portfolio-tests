@@ -108,9 +108,12 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Status: PASS** <br><br>
 
-### Evidência
+### Evidência 
+**Antes** <br>
+![Itens adicionados](../Evidências/TC04_CART/TC04_CART_009_Produtos_Atualizados_Sucesso.png)<br><br>
 
-![Carrinho atualizado com sucesso](../Evidências/TC04_CART/TC04_CART_009_Produtos_Atualizados_Sucesso.png)<br><br>
+**Depois** <br>
+![Carrinho atualizado com sucesso](../Evidências/TC04_CART/TC04_CART_010_Atualizacao_produtos_sucesso.png)<br><br>
 
 
 **TC_008.** Adicionar múltiplos produtos ao carrinho <br>
