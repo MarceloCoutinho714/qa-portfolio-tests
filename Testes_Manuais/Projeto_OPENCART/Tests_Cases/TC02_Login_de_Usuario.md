@@ -32,9 +32,9 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Status: PASS** <br><br>
 
-## Evidência <br>
+### Evidência <br>
 
-![Login com Sucesso](Evidências/TC01_REGISTRATION/TC02_LOGIN/Sucesso.png) <br><br>
+![Login com Sucesso](../Evidências/TC02_LOGIN/TC02_LOGIN_001_Sucesso.png) <br><br>
 
 Fluxo Alternativo <br><br>
 
@@ -46,6 +46,9 @@ são inválidos. <br>
 **Resultado Obtido:** Sistema não autenticou o login e exibiu mensagem "não há correspondência para e-mail ou senha", impedindo acesso a conta. <br>
 
 **Status: PASS** <br><br>
+
+### Evidência
+![E-mail inválido]((../Evidências/TC02_LOGIN/TC02_LOGIN_008_E-mail_invalido.png)
 
 **TC_003.** Inserir senha inválida no campo senha <br>
 
