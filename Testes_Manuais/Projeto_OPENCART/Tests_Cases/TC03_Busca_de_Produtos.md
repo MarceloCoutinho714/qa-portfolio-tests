@@ -35,7 +35,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência 
 
-![Busca de produto especifico feita com secesso!](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_001_Busca_sucesso.png) <br><br>
+![Busca de produto especifico feita com secesso!](../Evidências/TC03_SEARCH/TC03_SEARCH_001_Busca_sucesso.png) <br><br>
 
 
 Fluxo Alternativo <br><br>
@@ -49,7 +49,7 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Busca com campos vazios.](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_002_Busca_Campo_Vazio.png) <br><br>
+![Busca com campos vazios.](../Evidências/TC03_SEARCH/TC03_SEARCH_002_Busca_Campo_Vazio.png) <br><br>
 
 **TC_003.** Busca por termo inexistente (ex: XYZ123 )
 
@@ -60,7 +60,7 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Busca com termo inexistente.](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_003_Busca_Termo_Inexistente.png) <br><br>
+![Busca com termo inexistente.](../Evidências/TC03_SEARCH/TC03_SEARCH_003_Busca_Termo_Inexistente.png) <br><br>
 
 **TC_004.** Busca por caracteres especiais 
 
@@ -71,7 +71,7 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Busca com caracteres especiais.](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_004_Busca_Caracteres_Especiais.png) <br><br>
+![Busca com caracteres especiais.](../Evidências/TC03_SEARCH/TC03_SEARCH_004_Busca_Caracteres_Especiais.png) <br><br>
 
 **TC_005.** Diferenciação entre Maiúsculas e minúsculas
 
@@ -84,12 +84,12 @@ Fluxo Alternativo <br><br>
 ### Evidência
 **Maiúsculas**<br><br>
 
-![Digitar todo o termo em maiúsculo.](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_005_Busca_Diferenciacao_Maiuscula.png) <br><br><br>
+![Digitar todo o termo em maiúsculo.](../Evidências/TC03_SEARCH/TC03_SEARCH_005_Busca_Diferenciacao_Maiuscula.png) <br><br><br>
 
 ### Evidência
 **Minúsculas**<br><br>
 
-![Digitar todo o termo em minúsculo.](Evidências/TC01_REGISTRATION/TC03_SEARCH_PRODUTOS/TC03_SEARCH_006_Busca_Diferenciacao_Minuscula.png) <br><br>
+![Digitar todo o termo em minúsculo.](../Evidências/TC03_SEARCH/TC03_SEARCH_006_Busca_Diferenciacao_Minuscula.png) <br><br>
 
 **TC_006.** Espaços extras 
 
