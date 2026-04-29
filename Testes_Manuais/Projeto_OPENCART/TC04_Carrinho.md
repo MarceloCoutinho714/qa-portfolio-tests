@@ -101,9 +101,9 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **TC_007.** Remover um produto quando há múltiplos itens no carrinho <br>
 
-**Resultado Esperado:** O sistema deve remover apenas o item selecionado e manter os demais produtos no carrinho, atualizando o contador e os preços.<br>
+**Resultado Esperado:** O sistema deve remover apenas o item selecionado e manter os demais produtos no carrinho, atualizando o contador e preços.<br>
 
-**Resultado Obtido:** O sistema removeu corretamente o item selecionado, manteve os demais produtos no carrinho e atualizou o contador e preços com sucesso. <br>
+**Resultado Obtido:** O sistema removeu corretamente o item selecionado, manteve os demais produtos no carrinho atualizando o contador e preços com sucesso. <br>
 
 **Status: PASS** <br><br>
 
