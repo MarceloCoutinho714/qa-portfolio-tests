@@ -118,7 +118,9 @@ Validação de Campos <br><br>
 
 **Resultado Obtido:** O sistema permitiu a inserção de números nos campos "Nome" e "Sobrenome" e aprovou a criação do cadastro sem exibir mensagens de validação.<br>
 
-**Status: BUG** <br>
+**Status: Fail** <br>
+
+**Bug relacionado:** BUG01_Registro_Nome.md
 
 **Severidade:** Média <br>
 
