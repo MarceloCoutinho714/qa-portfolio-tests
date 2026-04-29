@@ -36,6 +36,8 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Status: PASS** <br><br>
 
+![Nome válido]()
+
 **TC_002.** Inserir sobrenome válido no campo "Sobrenome" <br><br>
 
 **Resultado esperado:** O sistema deve aceitar o sobrenome inserido, não exibir mensagens de erro e permitir a continuidade do cadastro.<br>
