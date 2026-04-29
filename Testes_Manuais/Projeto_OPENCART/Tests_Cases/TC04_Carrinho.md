@@ -131,13 +131,27 @@ Testes Funcionais - Fluxo Principal <br><br>
 Fluxos Alternativo - Validação de Carrinho <br><br>
 
 
-**TC_009.** Atualização de preço ao adicionar ou remover produtos <br>
+**TC_009.** Atualização de preço, peso e quantidade ao adicionar ou remover produtos <br>
 
-**Resultado Esperado:** O valor total do carrinho deve ser atualizado automaticamente ao adicionar, remover ou alterar produtos. <br>
+**Resultado Esperado:** O sistema deve atualizar automaticamente o valor total, a quantidade de itens e o peso total do carrinho sempre que um produto for adicionado, removido ou tiver sua quantidade alterada. <br>
 
-**Resultado Obtido:** O sistema atualizou corretamente o valor total após alterações no carrinho. <br>
+**Resultado Obtido:** O sistema atualiza corretamente o valor total e a quantidade de itens. No entanto, foi identificado que, para **alguns produtos**, o peso total do carrinho não é atualizado após alterações. <br>
 
-**Status: PASS** <br><br>
+O comportamento não ocorre de forma consistente para todos os itens, indicando possível falha associada a produtos específicos ou regras de cálculo.
+
+Essa inconsistência pode impactar diretamente o cálculo de frete, emissão de nota fiscal e processos logísticos, especialmente em cenários onde o peso influencia restrições de transporte (ex: transporte aéreo).<br>
+
+**Status: Fail** <br>
+
+**Observação:** <br>
+
+Recomenda-se identificar quais produtos apresentam o problema e validar possíveis diferenças em atributos como peso cadastrado, tipo de produto ou regras específicas aplicadas. <br>
+
+**Severidade:** <br>
+Alta <br>
+
+**Prioridade:** <br>
+Alta <br><br>
 
 ### Evidência
 **Antes**<br>
