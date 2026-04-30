@@ -157,7 +157,7 @@ Alta <br><br>
 
 ### Evidência
 **Antes**<br>
-![Preço atual da soma dos produtos](../Evidências/TC04_CART/Erro/TC04_CART_009_Produtos_Atualizados_Sucesso.png)<br><br>
+![Preço atual da soma dos produtos](../Evidências/TC04_CART/Sucesso/TC04_CART_009_Produtos_Atualizados_Sucesso.png)<br><br>
 
 **Depois**
 ![Preço atualizado conforme um produto é adicionado ou removido, peso apresenta inconsistência](../Evidências/TC04_CART/Erro/TC04_CART_010_Peso_Não_Atualizado_Fail.png)<br><br>
