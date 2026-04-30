@@ -160,7 +160,7 @@ Alta <br><br>
 ![Preço atual da soma dos produtos](../Evidências/TC04_CART/TC04_CART_007_Atualizacao_Preco_Sucesso.png)<br><br>
 
 **Depois**
-![Preço atualizado conforme um produto é adicionado ou removido, peso apresenta inconsistência](../Evidências/TC04_CART/TC04_CART_010_Atualizacao_produtos_Fail.png)<br><br>
+![Preço atualizado conforme um produto é adicionado ou removido, peso apresenta inconsistência](../Evidências/TC04_CART/TC04_CART_010_Peso_Não_Atualizado_Fail.png)<br><br>
 
 
 **TC_010.** Verificar persistência do carrinho após atualizar ou reabrir a página <br>
