@@ -37,7 +37,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Nome válido](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_001_Nome_Valido.png)
+![Nome válido](../Evidências/TC01_REGISTRATION/Sucesso/TC01_REGISTRATION_001_Nome_Valido.png)
 
 **TC_002.** Inserir sobrenome válido no campo "Sobrenome" <br><br>
 
@@ -48,7 +48,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Sobrenome válido](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_002_Sobrenome_Valido.png)
+![Sobrenome válido](../Evidências/TC01_REGISTRATION/Sucesso/TC01_REGISTRATION_002_Sobrenome_Valido.png)
 
 **TC_003.** Inserir e-mail válido no campo "E-mail" <br>
 
@@ -59,7 +59,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![E-mail válido](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_003_E-mail_Valido.png)
+![E-mail válido](../Evidências/TC01_REGISTRATION/Sucesso/TC01_REGISTRATION_003_E-mail_Valido.png)
 
 **TC_004.** Inserir senha com caracteres válidos <br>
 
@@ -70,7 +70,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Senha em formato válido](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_012_Senha_Valida.png) <br><br>
+![Senha em formato válido](../Evidências/TC01_REGISTRATION/Sucesso/TC01_REGISTRATION_012_Senha_Valida.png) <br><br>
 
 
 Fluxo Alternativo <br><br>
