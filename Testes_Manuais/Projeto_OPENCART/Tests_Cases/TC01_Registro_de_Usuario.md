@@ -85,7 +85,7 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Campo nome em branco](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_011_Nome_Ausente.png)
+![Campo nome em branco](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_011_Nome_Ausente.png)
 
 **TC_006.** Deixar o campo "Sobrenome" em branco <br>
 
@@ -96,7 +96,7 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Campo sobrenome em branco](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_010_Sobrenome_Ausente.png)
+![Campo sobrenome em branco](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_010_Sobrenome_Ausente.png)
 
 **TC_007.** Deixar o campo "Senha" em branco <br>
 
@@ -107,7 +107,7 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Campo senha em branco](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_009_Senha_ausente.png)
+![Campo senha em branco](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_009_Senha_ausente.png)
 
 Validação de Campos <br><br>
 
@@ -128,9 +128,9 @@ Validação de Campos <br><br>
 
 ### Evidência <br>
 
-![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_007_Cadastro-de-Usuario-com-Numeros-BUG.png) <br><br>
+![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_007_Cadastro-de-Usuario-com-Numeros-BUG.png) <br><br>
 **Conta Criada com Números no lugar do nome** <br><br>
-![Prova da criação do cadastro aprovada pelo sistema](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_006_Criacao-Aprovada-pelo-Sistema-BUG.png) <br><br>
+![Prova da criação do cadastro aprovada pelo sistema](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_006_Criacao-Aprovada-pelo-Sistema-BUG.png) <br><br>
 
 
 **TC_009.** Inserir e-mail inválido no campo "E-mail" <br>
@@ -148,7 +148,7 @@ com o cadastro. <br>
 **Status: FAIL** <br><br>
 
 ### Evidências <br>
-![E-mail inválido](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_013_Ausencia_de_infomacao_fail.png) <br><br>
+![E-mail inválido](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_013_Ausencia_de_infomacao_fail.png) <br><br>
 
 
 
@@ -162,4 +162,4 @@ com o cadastro. <br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Senha com apenas um caractere](../Evidências/TC01_REGISTRATION/TC01_REGISTRATION_008_Senha_Invalida.png)
+![Senha com apenas um caractere](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_008_Senha_Invalida.png)
