@@ -100,7 +100,7 @@ estiverem preenchidos com dados válidos e no formato esperado.
 { <br>
 “name” : “ Nicole ”, <br>
 “e-mail” “ nicole@gmail.com ”, <br>
-“password” : “”, <br>
+“password” : “  ”, <br>
 } <br>
 
 ### Resultado Esperado 
@@ -111,11 +111,18 @@ O sistema não deve permitir o cadastro
 Deve exibir uma mensagem de erro informando que o campo **Senha é obrigatório.**
 
 ### Resultado Obtido
-Status code **400** 
+Status code **201 - Created** 
 
-Mensagem de erro exibida: **“Senha não pode ficar em branco”.**
 
-**Status:** Pass <br><br>
+**Status:** Fail <br><br>
+
+**Severidade**<br>
+Alta <br>
+
+**Prioridade** <br>
+Alta <br>
+
+**Bug Relacionado:** BUG02_POST_Usuario_sem_senha_sistema_aprovou_o_cadastro_bug.md
 ## Evidência
 ![Tentativa de POST com ausência de senha]()<br><br>
 
