@@ -27,10 +27,10 @@ O sistema deve permitir a criação de usuários quando os dados obrigatórios f
 
 ### Input (body)
 {<br>
-“name” : “ Nicole ”,<br>
-“e-mail” “nicole@gmail.com”,<br>
-“password” :  “1234”,<br>
-"Admin": "true"<br>
+“name” : “ Fulano da Silva ”,<br>
+“e-mail” “novousuario@qa.com”,<br>
+“password” :  “teste”,<br>
+"Admin": "true" ou "false" <br>
 }<br>
 
 
@@ -68,11 +68,11 @@ O sistema deve autenticar o usuário quando as credenciais forem válidas. <br>
 
 ### Passos
 
-1. Enviar request POST com login e senha válidos <br>
+1. Enviar request POST com e-mail e senha válidos <br>
 
 ### Input (body)
 {<br>
-“e-mail” “nicole@gmail.com”,<br>
+“e-mail”: “nicole@gmail.com”,<br>
 “password” :  “1234”,<br>
 }<br>
 
@@ -167,10 +167,10 @@ informados corretamente.
 
 ### Input (body)
 {<br>
-"title": "TV 4K LG ",<br>
-"price": 3000,<br>
-"description": "Televisor ",<br>
-"quantity" : 50 ,<br>
+"title": "Teclado DELL L250",<br>
+"price": 120,<br>
+"description": "Teclado silencioso",<br>
+"quantity" : 100 ,<br>
 }<br>
 
 ### Resultado Esperado
