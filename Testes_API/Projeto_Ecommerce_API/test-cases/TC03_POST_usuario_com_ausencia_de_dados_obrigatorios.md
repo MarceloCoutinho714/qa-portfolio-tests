@@ -116,13 +116,15 @@ Status code **201 - Created**
 
 **Status:** Fail <br><br>
 
+**Bug Relacionado:** BUG02_POST_Usuario_sem_senha_sistema_aprovou_o_cadastro_bug.md <br>
+
 **Severidade**<br>
 Alta <br>
 
 **Prioridade** <br>
 Alta <br>
 
-**Bug Relacionado:** BUG02_POST_Usuario_sem_senha_sistema_aprovou_o_cadastro_bug.md
+
 ## Evidência
 ![Tentativa de POST com ausência de senha]()<br><br>
 
