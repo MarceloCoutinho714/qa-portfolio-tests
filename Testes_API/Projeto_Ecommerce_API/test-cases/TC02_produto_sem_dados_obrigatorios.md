@@ -22,7 +22,6 @@ O sistema não deve permitir o cadastro de produtos sem informar os campos obrig
 "price": 100,<br>
 "description": "A description",<br>
 "quantity": 58,<br>
-"id": 23665475,<br>
 } <br>
 
 ### Resultado Esperado 
