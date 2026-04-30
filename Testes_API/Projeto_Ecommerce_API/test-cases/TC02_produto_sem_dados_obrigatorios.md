@@ -39,7 +39,7 @@ Sistema retornou a mensagem de “ nome é obrigatório “ e cadastro não foi 
 **Status:** Pass <br><br>
 
 ## Evidências
-![POST Tentativa de cadastro de porduto sem nome](../evidencias/erro/TC02_POST_002_Produto-sem_nome.png)<br><br>
+![POST Tentativa de cadastro de porduto sem nome](../evidencias/Erro/TC02_POST_002_Produto-sem_nome.png)<br><br>
 
 ### TC02 - POST - Não Colocar Preço
 **ID:** API_POST_PROD_003
