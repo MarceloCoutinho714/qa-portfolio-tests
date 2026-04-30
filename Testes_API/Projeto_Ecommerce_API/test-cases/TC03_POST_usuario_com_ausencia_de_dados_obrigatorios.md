@@ -169,11 +169,22 @@ Cadastro criado com sucesso
 
 ID gerado 
 
-**Status:** Fail 
+**Status:** Fail <br>
 
 ### Observação
 O sistema não valida corretamente o tipo de dado do campo nome, permitindo caracteres 
-inválidos, **ver com o time se tal comportamento é aceitável.**
+inválidos, **ver com o time se tal comportamento é aceitável.** <br>
+
+**Bug relacionado:**      <br>
+
+**Severidade** <br>
+Média <br>
+
+**Prioridade** <br>
+Média <br>
+
+## Evidência
+![Cadastro aprovado com números no campo nome]()<br><br>
 
 ### TC - POST- Cadastro com E-mail em Formato Inválido
 **ID:**  API_POST_USER_005
