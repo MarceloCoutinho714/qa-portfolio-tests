@@ -33,7 +33,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 ### Evidência
 **Mensagem de Produto Adicionado** <br><br>
 
-![Produto adicionado ao carrinho com sucesso.](../Evidências/TC04_CART/TC04_CART_001_Adicionado_Mensagem_Sucesso.png)<br><br>
+![Produto adicionado ao carrinho com sucesso.](../Evidências/TC04_CART/Sucesso/TC04_CART_001_Adicionado_Mensagem_Sucesso.png)<br><br>
 
 
 **TC_002.** Visualizar produto no carrinho <br><br>
@@ -47,7 +47,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 ### Evidência
 **Confirmação de produto adicionado**<br><br>
 
-![Produto aparecce no carrinho com sucesso](../Evidências/TC04_CART/TC04_CART_002_Adicionado_Sucesso.png)<br><br>
+![Produto aparecce no carrinho com sucesso](../Evidências/TC04_CART/Sucesso/TC04_CART_002_Adicionado_Sucesso.png)<br><br>
 
 
 **TC_003.**  Prosseguir para checkout <br>
@@ -69,7 +69,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Produto removido do carrinho com sucesso.](../Evidências/TC04_CART/TC04_CART_003_Removido_Sucesso.png)<br><br>
+![Produto removido do carrinho com sucesso.](../Evidências/TC04_CART/Sucesso/TC04_CART_003_Removido_Sucesso.png)<br><br>
 
 **Status: PASS** <br><br>
 
@@ -84,7 +84,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Quantidade alterada com sucesso.](../Evidências/TC04_CART/TC04_CART_004_Alterado_Sucesso.png)<br><br>
+![Quantidade alterada com sucesso.](../Evidências/TC04_CART/Sucesso/TC04_CART_004_Alterado_Sucesso.png)<br><br>
 
 
 **TC_006.** Carrinho vazio após remoção de item <br>
@@ -97,7 +97,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Carrinho vazio com sucesso](../Evidências/TC04_CART/TC04_CART_005_Carrinho_vazio_Sucesso.png)<br><br>
+![Carrinho vazio com sucesso](../Evidências/TC04_CART/Sucesso/TC04_CART_005_Carrinho_vazio_Sucesso.png)<br><br>
 
 
 **TC_007.** Remover um produto quando há múltiplos itens no carrinho <br>
@@ -110,10 +110,10 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência 
 **Antes** <br>
-![Itens adicionados](../Evidências/TC04_CART/TC04_CART_009_Produtos_Atualizados_Sucesso.png)<br><br>
+![Itens adicionados](../Evidências/TC04_CART/Sucesso/TC04_CART_009_Produtos_Atualizados_Sucesso.png)<br><br>
 
 **Depois** <br>
-![Carrinho atualizado com sucesso](../Evidências/TC04_CART/TC04_CART_012_Um_Produto_Removido_Sucesso.png)<br><br>
+![Carrinho atualizado com sucesso após item ter sido removido](../Evidências/TC04_CART/Sucesso/TC04_CART_012_Um_Produto_Removido_Sucesso.png)<br><br>
 
 
 **TC_008.** Adicionar múltiplos produtos ao carrinho <br>
@@ -126,7 +126,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Múltiplos produtos adicionados com sucesso](../Evidências/TC04_CART/TC04_CART_006_Multiplos_Produtos_Adicionados_Sucesso.png)<br><br>
+![Múltiplos produtos adicionados com sucesso](../Evidências/TC04_CART/Sucesso/TC04_CART_006_Multiplos_Produtos_Adicionados_Sucesso.png)<br><br>
 
 Fluxos Alternativo - Validação de Carrinho <br><br>
 
@@ -157,10 +157,10 @@ Alta <br><br>
 
 ### Evidência
 **Antes**<br>
-![Preço atual da soma dos produtos](../Evidências/TC04_CART/TC04_CART_007_Atualizacao_Preco_Sucesso.png)<br><br>
+![Preço atual da soma dos produtos](../Evidências/TC04_CART/Erro/TC04_CART_007_Atualizacao_Preco_Sucesso.png)<br><br>
 
 **Depois**
-![Preço atualizado conforme um produto é adicionado ou removido, peso apresenta inconsistência](../Evidências/TC04_CART/TC04_CART_010_Peso_Não_Atualizado_Fail.png)<br><br>
+![Preço atualizado conforme um produto é adicionado ou removido, peso apresenta inconsistência](../Evidências/TC04_CART/Erro/TC04_CART_010_Peso_Não_Atualizado_Fail.png)<br><br>
 
 
 **TC_010.** Verificar persistência do carrinho após atualizar ou reabrir a página <br>
@@ -172,5 +172,5 @@ Alta <br><br>
 **Status: PASS** <br><br>
 
 ## Evidência <br>
-![Carrinho apresenta persistência com sucesso](../Evidências/TC04_CART/TC04_CART_008_Persistencia_do_Carrinho_Sucesso.png) <br><br>
+![Carrinho apresenta persistência com sucesso](../Evidências/TC04_CART/Erro/TC04_CART_008_Persistencia_do_Carrinho_Sucesso.png) <br><br>
 
