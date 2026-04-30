@@ -38,13 +38,13 @@ Também foram testados cenários de erro e validação, como:
 
 ## Estrutura do Projeto
 
- Testes_API <br>
- └── Projeto_Ecommerce_API<br>
-    └──  bugs<br>
+ Testes_API/ <br>
+ └── Projeto_Ecommerce_API/<br>
+    └──  bugs/<br>
     
     ├── BUG01_put_produto_atualizacao.md<br>
     
-  └──  evidencias<br>
+  └──  evidencias/<br>
     
     └── sucesso<br>
     ├──  delete_produtos_sucesso.png<br>
@@ -57,7 +57,7 @@ Também foram testados cenários de erro e validação, como:
     ├──  put_produto_duplicado.png<br>
     ├──  put_produto_dados_ausentes.png<br>
     
- └── test-cases<br>
+ └── test-cases/<br>
   
     ├──  TC01_fluxo_principal.md<br>
     ├──  TC02_produto_sem_dados.md<br>
