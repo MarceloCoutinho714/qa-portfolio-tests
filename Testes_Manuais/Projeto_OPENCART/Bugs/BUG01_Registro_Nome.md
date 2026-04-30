@@ -1,6 +1,6 @@
 ### ID do Bug: BUG01_Criação_Aprovada_Pelo_Sistema
-Título: Sistema permite cadastro com números nos campos "Nome" e "Sobrenome" <br><br>
 
+Título: Sistema permite cadastro com números nos campos "Nome" e "Sobrenome" <br>
 Tipo: BUG Funcional <br>
 Ferramenta usada: Teste Manual (Navegador) <br>
 Módulo: Cadastro de Usuário <br>
