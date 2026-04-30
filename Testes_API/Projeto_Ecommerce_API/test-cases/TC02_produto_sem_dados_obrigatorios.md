@@ -1,6 +1,6 @@
 ## Fluxo Alternativo
 
-### TC - POST - Não Colocar Nome
+### TC01 - POST - Não Colocar Nome
 **ID:** API_POST_PROD_002
 
 **Título:** Validar erro ao cadastrar produto sem nome
@@ -39,7 +39,10 @@ Sistema retornou a mensagem de “ nome é obrigatório “ e cadastro não foi 
 
 **Status:** Pass <br><br>
 
-### TC - POST - Não Colocar Preço
+## Evidências
+![POST Tentativa de cadastro de porduto sem nome]()<br><br>
+
+### TC02 - POST - Não Colocar Preço
 **ID:** API_POST_PROD_003
 
 **Título:** Validar erro ao cadastrar produto sem preço
@@ -60,7 +63,6 @@ O sistema não deve permitir o cadastro de produtos sem informar os campos obrig
 "price":   ,<br>
 "description": "Teclado",<br>
 "quantity": 58,<br>
-"id": 23665475,<br>
 } <br>
 
 ### Resultado Esperado 
@@ -77,7 +79,10 @@ Sistema retornou a mensagem de “ preço é obrigatório “ e cadastro não fo
 
 **Status:** Pass <br><br>
 
-### TC - POST - Não Colocar Descrição
+## Evidência
+![POST Tentativa de cadastrar produto sem o preço]()<br><br>
+
+### TC03 - POST - Não Colocar Descrição
 **ID:** API_POST_PROD_004
 
 **Título:** Validar erro ao cadastrar produto sem descrição
@@ -98,7 +103,6 @@ O sistema não deve permitir o cadastro de produtos sem informar os campos obrig
 "price": 250,<br>
 "description": "   ",<br>
 "quantity": 58,<br>
-"id": 23665475,<br>
 } <br>
 
 ### Resultado Esperado 
@@ -114,8 +118,10 @@ Status code **400**
 Sistema retornou a mensagem de “ descrição é obrigatória “ e cadastro não foi realizado
 
 **Status:** Pass <br><br>
+## Evidência
+![POST Tentativa de cadastrar produto sem a descrição]()<br><br>
 
-### TC - POST - Não Colocar Quantidade
+### TC04 - POST - Não Colocar Quantidade
 **ID:** API_POST_PROD_005
 
 **Título:** Validar erro ao cadastrar produto sem quantidade
@@ -136,7 +142,6 @@ O sistema não deve permitir o cadastro de produtos sem informar os campos obrig
 "price": 250,<br>
 "description": " Teclado ",<br>
 "quantity":  ,<br>
-"id": 23665475,<br>
 } <br>
 
 
@@ -153,3 +158,5 @@ Status code **400**
 Sistema retornou a mensagem de “ quantidade é obrigatória “ e cadastro não foi realizado
 
 **Status:** Pass <br><br>
+## Evidência
+![POST Tentativa de cadastrar produto sem a quantidade]()<br><br>
