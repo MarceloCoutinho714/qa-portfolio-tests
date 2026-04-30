@@ -1,4 +1,4 @@
-#  Testes de API - Projeto E-commerce API
+#  Testes de API - Projeto SERVEREST E-commerce
 
 ##  Descrição
 Este projeto contém testes de API realizados em um sistema de e-commerce, com foco na validação dos principais fluxos de usuário e operações de CRUD.
