@@ -49,8 +49,21 @@ Os testes foram realizados nos seguintes módulos:
 
 Testes_Manuais/ <br>
  └── Projeto_OPENCART/<br>
-      ├── TC.01_REGISTRATION/<br>
-      ├── TC.02_LOGIN/<br>
-      ├── TC.03_SEARCH/<br>
-      ├── TC.04_CART/<br>
-      └── README.md<br>
+      ├── TC01_REGISTRATION/<br>
+      ├── TC02_LOGIN/<br>
+      ├── TC03_SEARCH/<br>
+      ├── TC04_CART/<br>
+      └── README.md<br><br>
+      
+   └──Evidências/<br>
+      ├── TC01_REGISTRATION/<br>
+      ├── TC02_LOGIN/<br>
+      ├── TC03_SEARCH/<br>
+      ├── TC04_CART/<br>
+      └── README.md<br><br>
+      
+   └──Bugs/<br>      
+      ├── BUG01_Registro_Nome.md <br>
+      ├── BUG02_Login_Tentativas_Ilimitadas.md <br>
+      ├── BUG03_Peso_Carrinho_Não_Atualiza.md <br>
+      └── README.md<br><br>
