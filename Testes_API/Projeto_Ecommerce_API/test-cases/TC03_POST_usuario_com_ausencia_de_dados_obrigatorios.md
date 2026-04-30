@@ -38,6 +38,8 @@ Status code **400**
 Mensagem de erro obtida **“Nome é obrigatório”.**
 
 **Status:** Pass <br><br>
+## Evidência
+![Tentativa de POST de usuário sem o nome]()<br><br>
 
 ### TC - POST - Cadastrar Usuário sem Informar E-mail 
 **ID:** API_POST_USER_002
@@ -75,6 +77,8 @@ Status code **400**
 Mensagem de erro exibida **“E-mail não pode ficar em branco”**
 
 **Status:** Pass <br><br>
+## Evidência
+![Tentativa POST de usuário sem e-mail]()<br><br>
 
 ### TC - POST - Cadastrar Usuário sem Informar Senha
 **ID:**  API_POST_USER_003
@@ -112,6 +116,8 @@ Status code **400**
 Mensagem de erro exibida: **“Senha não pode ficar em branco”.**
 
 **Status:** Pass <br><br>
+## Evidência
+![Tentativa de POST com ausência de senha]()<br><br>
 
 ### TC - POST - Cadastro Informando Números no Campo Nome
 **ID:**  API_POST_USER_004
