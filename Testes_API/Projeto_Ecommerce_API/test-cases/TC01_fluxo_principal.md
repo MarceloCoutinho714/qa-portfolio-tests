@@ -7,7 +7,7 @@
 
 **Fluxo Principal** <br><br>
 
-### TC - POST- Criar Usuário <br>
+### TC01- POST- Criar Usuário <br>
 
 **ID:** API_POST_USER_001 <br>
 
@@ -46,9 +46,14 @@ Status code **201**
 
 Usuário criado com sucesso 
 
-**Status:** Pass <br>
+**Status:** Pass <br><br>
 
-### TC - POST - Login
+## Evidência <br>
+### Cadastro com Sucesso
+![Cadastro realizado com sucesso.](../evidencias/Sucesso/post_usuario_sucesso.png) <br><br>
+
+
+### TC02 - POST - Login
 
 **ID:** API_POST_LOGIN_001 <br>
 
@@ -83,7 +88,11 @@ Token de autenticação gerado com sucesso
 
 **Status:** Pass <br><br>
 
-### TC - GET - Lista de produtos
+## Evidência
+### Login com Sucesso
+![Login realizado com sucesso.](../evidencias/Sucesso/post_login_sucesso.png) <br><br>
+
+### TC03 - GET - Lista de produtos
 
 **ID:** API_GET_PROD_001
 
@@ -126,9 +135,13 @@ Status code **200**
 
 Lista retornada corretamente.
 
-**Status:** Pass
+**Status:** Pass <br><br>
 
-### TC - POST - Cadastrar Produto
+## Evidência <br>
+### Listagem de Produtos com Sucesso
+![Listagem de Produtos com Sucesso.](../evidencias/Sucesso/get_produtos_sucesso.png) <br><br>
+
+### TC04 - POST - Cadastrar Produto
 
 **ID:** API_POST_PROD_001
 
@@ -174,9 +187,13 @@ Status code **201**
 
 Produto cadastrado conforme esperado.
 
-**Status:** Pass
+**Status:** Pass <br><br>
 
-### TC - DELETE - Deletar Produto
+## Evidência
+### Cadastro de Produto com Sucesso
+![Cadastro de produto realizado com sucesso.](../evidencias/Sucesso/post_produtos_sucesso.png) <br><br>
+
+### TC05 - DELETE - Deletar Produto
 **ID:** API_DEL_PROD_001
 
 **Título:** Validar exclusão de produto existente
@@ -211,15 +228,11 @@ Produto deletado conforme esperado
 
 **Status:** Pass <br><br>
 
-## Evidências <br>
-### Cadastro com Sucesso
-![Cadastro realizado com sucesso.](../evidencias/post_usuario_sucesso.png) <br><br>
-
-### Login com Sucesso
-![Login realizado com sucesso.](../evidencias/post_login_sucesso.png) <br><br>
-
-### Cadastro de Produto com Sucesso
-![Cadastro de produto realizado com sucesso.](../evidencias/post_produtos_sucesso.png) <br><br>
-
+## Evidência
 ### Deletar Produto com Sucesso
-![Produto deletado com sucesso.](../evidencias/delete_produtos_sucesso.png) <br><br>
+![Produto deletado com sucesso.](../evidencias/Sucesso/delete_produtos_sucesso.png) <br><br>
+
+
+
+
+
