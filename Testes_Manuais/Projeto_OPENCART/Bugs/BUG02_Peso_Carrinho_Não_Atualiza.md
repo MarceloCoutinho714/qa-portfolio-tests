@@ -1,5 +1,5 @@
 **Origem:** TC04_Carrinho.md
-### ID do Bug: BUG02_Peso_Carrinho_Não_Atualiza
+### ID do Bug: BUG02_Peso_de_Itens_do_Carrinho_Não_Atualiza
 
 Título: Carrinho não atualiza o peso total ao adicionar ou remover produtos <br><br>
 
