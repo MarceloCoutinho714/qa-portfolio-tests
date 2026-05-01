@@ -1,6 +1,6 @@
 ## Fluxo Alternativo
 
-### TC - PUT - Não Colocar Nome
+### TC01 - PUT - Não Colocar Nome
 **ID:** API_PUT_PROD_001
 
 **Título:**  Validar erro ao alterar produto sem informar o nome
@@ -36,12 +36,14 @@ Produto não deve ser alterado
 ### Resultado Obtido
 Status code **400**
 
-Sistema retornou a mensagem de **“ nome é obrigatório “** e alteração não foi realizada
-
+Sistema retornou a mensagem de **“ nome não pode ficar em branco“** e alteração não foi realizada
 
 **Status:** PASS <br><br>
 
-### TC - PUT - Não Colocar Preço
+### Evidência 
+![Tentativa de alterar produto sem informar o nome dele](../evidencias/Erro/TC05_PUT_001_Produto_sem_nome.png)<br><br>
+
+### TC02 - PUT - Não Colocar Preço
 **ID:** API_PUT_PROD_002
 
 **Título:**  Validar erro ao alterar produto sem informar o preço
