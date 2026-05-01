@@ -41,9 +41,9 @@ Em alguns casos, o comportamento ocorre apenas com determinados itens, indicando
 
 A inconsistência no cálculo do peso total pode impactar diretamente:
 
-Cálculo de frete
-Emissão de nota fiscal
-Processos logísticos
+Cálculo de frete <br>
+Emissão de nota fiscal <br>
+Processos logísticos <br>
 
 Esse problema é especialmente crítico em cenários onde o peso influencia regras de transporte, como no transporte aéreo. <br><br>
 
