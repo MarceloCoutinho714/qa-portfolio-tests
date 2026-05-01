@@ -56,7 +56,7 @@ Alta <br>
 ### Evidências
 **Antes** <br>
 
-![Peso total dos produtos adicionados](../Evidências/TC04_CART/Erro/TC04_CART_007_Atualizacao_Preco_Sucesso.png)<br><br>
+![Peso total dos produtos adicionados](../Evidências/TC04_CART/Erro/TC04_CART_009_Produtos_Atualizados_Sucesso.png)<br><br>
 **Depois**<br>
 
 ![Falha em atualizar peso](../Evidências/TC04_CART/Erro/TC04_CART_010_Peso_Não_Atualizado_Fail.png)<br><br>
