@@ -35,7 +35,7 @@ Deve exibir uma mensagem de erro informando que o campo **Nome é obrigatório.*
 ### Resultado Obtido
 Status code **400**
 
-Mensagem de erro obtida **“Nome é obrigatório”.**
+Mensagem de erro obtida **“Nome não pode ficar em branco”.**
 
 **Status:** Pass <br><br>
 ## Evidência
