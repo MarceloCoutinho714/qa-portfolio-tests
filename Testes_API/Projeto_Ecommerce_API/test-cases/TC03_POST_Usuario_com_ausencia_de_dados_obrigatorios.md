@@ -49,6 +49,7 @@ Média<br>
 
 
 ## Evidência
+**Campo nome vazio**<br><br>
 ![Tentativa de POST de usuário sem o nome](../evidencias/Erro/TC03_POST_001_Usuario_sem_nome.png)<br><br>
 
 ### TC02 - POST - Cadastrar Usuário sem Informar E-mail 
