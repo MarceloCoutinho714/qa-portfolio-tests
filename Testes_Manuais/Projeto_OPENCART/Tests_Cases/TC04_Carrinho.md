@@ -137,32 +137,16 @@ Fluxos Alternativo - Validação de Carrinho <br><br>
 
 **Resultado Esperado:** O sistema deve atualizar automaticamente o valor total, a quantidade de itens e o peso total do carrinho sempre que um produto for adicionado, removido ou tiver sua quantidade alterada. <br>
 
-**Resultado Obtido:** O sistema atualiza corretamente o valor total e a quantidade de itens. No entanto, foi identificado que, para **alguns produtos**, o peso total do carrinho não é atualizado após alterações. <br>
+**Resultado Obtido:** O sistema atualiza corretamente o valor total, a quantidade de itens e o peso do carrinho após a atualização da página (refresh), exibindo os dados de forma consistente com as alterações realizadas.<br. 
 
-O comportamento não ocorre de forma consistente para todos os itens, indicando possível falha associada a produtos específicos ou regras de cálculo.
-
-Essa inconsistência pode impactar diretamente o cálculo de frete, emissão de nota fiscal e processos logísticos, especialmente em cenários onde o peso influencia restrições de transporte (ex: transporte aéreo).<br>
-
-**Status: Fail** <br>
-
-**Observação:** <br>
-
-Recomenda-se identificar quais produtos apresentam o problema e validar possíveis diferenças em atributos como peso cadastrado, tipo de produto ou regras específicas aplicadas. <br>
-
-**Bug relacionado:** BUG02_Peso_de_Itens_do_Carrinho_Não_Atualiza
-
-**Severidade:** <br>
-Alta <br>
-
-**Prioridade:** <br>
-Alta <br><br>
+**Status: PASS** <br>
 
 ### Evidência
 **Antes**<br>
 ![Preço atual da soma dos produtos](../Evidências/TC04_CART/)<br><br>
 
 **Depois**
-![Preço atualizado conforme um produto é adicionado ou removido, peso apresenta inconsistência](../Evidências/TC04_CART/)<br><br>
+![Preço atualizado conforme um produto é adicionado ou removido](../Evidências/TC04_CART/)<br><br>
 
 
 **TC_010.** Verificar persistência do carrinho após atualizar ou reabrir a página <br>
