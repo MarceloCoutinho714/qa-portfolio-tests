@@ -37,7 +37,14 @@ Status code **400**
 
 Mensagem de erro obtida **“Nome não pode ficar em branco”.**
 
-**Status:** Pass <br><br>
+**Status:** Fail <br>
+**Bug relacionado:** <br>
+**Severidade**<br>
+Média<br>
+**Prioridade**<br>
+Média<br>
+
+
 ## Evidência
 ![Tentativa de POST de usuário sem o nome](../evidencias/Erro/TC03_POST_001_Usuario_sem_nome.png)<br><br>
 
