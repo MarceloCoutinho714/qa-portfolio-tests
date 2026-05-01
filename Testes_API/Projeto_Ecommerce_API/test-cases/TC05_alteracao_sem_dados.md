@@ -15,7 +15,7 @@ O sistema deve permitir a alteração de produtos apenas quando os campos obriga
 estiverem preenchidos.
 
 ### Passos
-1. Enviar request PUT sem o campo nome.
+1. Enviar request PUT para endpoint /produtos {id} sem o campo nome.
 
 ### Input (body)
 {<br>
@@ -23,7 +23,6 @@ estiverem preenchidos.
 "price": 5000 ,<br>
 "description": " Descrição ",<br>
 "quantity": 35,<br>
-"Id": 13,<br>
 }<br>
 
 ### Resultado Esperado 
