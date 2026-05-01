@@ -53,15 +53,15 @@ Alta <br><br>
 
 **Prioridade**
 
-Alta <br><br>
+Alta <br>
 
 ### Evidências
 **Antes** <br>
 
-![Falha em atualizar peso](../Evidências/TC04_CART/TC04_CART_007_Atualizacao_Preco_Sucesso.png)<br><br>
+![Peso total dos produtos adicionados](../Evidências/TC04_CART/Erro/TC04_CART_007_Atualizacao_Preco_Sucesso.png)<br><br>
 **Depois**<br>
 
-![Falha em atualizar peso](../Evidências/TC04_CART/TC04_CART_010_Atualizacao_produtos_Fail.png)<br><br>
+![Falha em atualizar peso](../Evidências/TC04_CART/Erro/TC04_CART_010_Peso_Não_Atualizado_Fail.png)<br><br>
 
 
 
