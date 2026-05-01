@@ -67,11 +67,13 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Resultado Obtido:** O sistema removeu o produto com sucesso e exibiu a mensagem: "Sucesso: Você removeu um item do seu carrinho de compras!". <br>
 
+**Status: PASS** <br><br>
+
 ### Evidência
 
 ![Produto removido do carrinho com sucesso.](../Evidências/TC04_CART/Sucesso/TC04_CART_003_Removido_Sucesso.png)<br><br>
 
-**Status: PASS** <br><br>
+
 
 
 **TC_005.** Alterar quantidade de produto no carrinho <br>
