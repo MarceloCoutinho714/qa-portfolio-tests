@@ -33,9 +33,11 @@ O sistema não deve permitir o cadastro
 Deve exibir uma mensagem de erro informando que o campo **Nome é obrigatório.**
 
 ### Resultado Obtido
-Status code **400**
+O sistema apresentou comportamento inconsistente na validação do campo nome <br>
 
-Mensagem de erro obtida **“Nome não pode ficar em branco”.**
+Quando o campo é enviado vazio (""), o cadastro é corretamente rejeitado com Status Code 400 <br>
+
+Porém, quando o campo é preenchido apenas com espaços (" "), o sistema permite o cadastro e retorna Status Code 201
 
 **Status:** Fail <br>
 
