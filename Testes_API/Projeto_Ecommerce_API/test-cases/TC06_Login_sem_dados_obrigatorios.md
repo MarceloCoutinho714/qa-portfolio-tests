@@ -1,6 +1,6 @@
 ## Fluxo Alternativo
 
-### TC - POST - Login com e-mail em formato inválido
+### TC01 - POST - Login com e-mail em formato inválido
 **ID:** API_POST_LOGIN_001
 
 **Título:**  Validar login com e-mail em formato inválido
@@ -51,8 +51,10 @@ Login não realizado
 Mensagem exibida: **“E-mail deve ser um e-mail válido”**
 
 **Status:** PASS <br><br>
+### Evidência
+![Tentativa de login com e-mail em formato inválido]()<br><br>
 
-### TC -  POST - Login com senha inválida
+### TC02 -  POST - Login com senha inválida
 **ID:** API_POST_LOGIN_002
 
 **Título:**   Validar login com senha em formato inválido
@@ -76,29 +78,30 @@ apropriado.
 
 ### Input (body)
 {<br>
-“name” : “ Nicole ”,<br>
-“e-mail” “nicole@gmail.com”,<br>
+“e-mail” “nicole@qa.com”,<br>
 “password” :  “00000”,<br>
 }<br>
 
 ### Resultado Esperado 
-Status code **400**
+Status code **401**
 
 O sistema não deve permitir o login
 
 Deve exibir mensagem de credenciais inválidas
 
 ### Resultado Obtido
-Status code **400**
+Status code **401**
 
 Login não realizado
 
 Mensagem exibida: “E-mail ou senha inválidos”
 
 **Status:** PASS <br><br>
+### Evidência
+![Tentativa de login com senha em formato inválido]()<br><br>
 
 
-### TC - POST - Login sem preencher o campo e-mail
+### TC03 - POST - Login sem preencher o campo e-mail
 **ID:**  API_POST_LOGIN_003
 
 **Título:** Validar login sem preenchimento do e-mail
@@ -122,8 +125,7 @@ apropriado.
 
 ### Input (body)
 {<br>
-“name” : “ Nicole ”,<br>
-“e-mail” “   ”,<br>
+“e-mail” “”,<br>
 “password” :  “1234”,<br>
 }<br>
 
@@ -144,15 +146,17 @@ Login não realizado
 Mensagem exibida: **“E-mail não pode ficar em branco”**
 
 **Status:** PASS <br><br>
+### Evidência
+![Tentativa de login com e-mail em branco]()<br><br>
 
-### TC - POST - Login sem preencher o campo senha
+### TC04 - POST - Login sem preencher o campo senha
 **ID:**  API_POST_LOGIN_004
 
-**Título:**  Validar login sem preenchimento da senha
+**Título:** Validar login sem preenchimento da senha
 
 **Método:** POST
 
-**Endpoint:**  /login
+**Endpoint:** /login
 
 ### Regra de Negócio 
 
@@ -169,9 +173,8 @@ apropriado.
 
 ### Input (body)
 {<br>
-“name” : “ Nicole ”,<br>
-“e-mail” “ nicole@gmail.com ”,<br>
-“password” :  “  ”,<br>
+“e-mail” “ nicole@qa.com ”,<br>
+“password” :  “”,<br>
 }<br>
 
 ### Resultado Esperado 
@@ -191,6 +194,8 @@ Login não realizado
 Mensagem exibida: **“Senha não pode ficar em branco”**
 
 **Status:** PASS <br><br>
+### Evidência
+![Tentativa de login com senha em branco]()<br><br>
 
 
 
