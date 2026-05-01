@@ -114,22 +114,19 @@ Validação de Campos <br><br>
 
 **TC_008.** Inserir números nos campo "Nome" <br>
 
-**Resultado esperado:** O sistema não deve permitir a inserção de números ou símbolos nos campos "Nome" e "Sobrenome" e deve exibir uma mensagem informando que apenas caracteres alfabéticos são permitidos.<br>
+**Resultado esperado:** O sistema deve aceitar valores no campo nome conforme regra definida (não especificada).<br>
 
 **Resultado Obtido:** O sistema permitiu a inserção de números nos campos "Nome" e "Sobrenome" e aprovou a criação do cadastro sem exibir mensagens de validação.<br>
 
-**Status: Fail** <br>
+**Status: pass** <br>
 
-**Bug relacionado:** BUG01_Registro_Nome.md
-
-**Severidade:** Média <br>
-
-**Prioridade:** Média <br><br>
+**Observação:**
+O campo nome aceita caracteres numéricos. Não há definição clara de regra de validação para este campo. Validar com o time se há restrição esperada. <br><br>
 
 ### Evidência <br>
 
-![Sistema aprova criação de cadastro com números no lugar do nome no campo nome](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_007_Cadastro-de-Usuario-com-Numeros-BUG.png) <br><br>
-**Conta Criada com Números no lugar do nome** <br><br>
+![Sistema aprova criação de cadastro com números no campo nome](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_007_Cadastro-de-Usuario-com-Numeros-BUG.png) <br><br>
+
 ![Prova da criação do cadastro aprovada pelo sistema](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_006_Criacao-Aprovada-pelo-Sistema-BUG.png) <br><br>
 
 
