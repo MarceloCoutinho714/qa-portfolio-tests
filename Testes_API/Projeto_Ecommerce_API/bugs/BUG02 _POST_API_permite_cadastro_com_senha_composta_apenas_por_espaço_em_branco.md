@@ -1,5 +1,5 @@
 **Origem:** TC03_POST_Usuario_com_ausencia_de_dados_obrigatorios.md
-### ID do Bug: BUG02_POST_API_permite_cadastro_com_senha_composta_apenas_por_espaço_em_branco <br>
+### ID do Bug: POST_API_permite_cadastro_com_senha_composta_apenas_por_espaço_em_branco <br>
 
 Título: POST em /usuarios permite cadastro com senha composta apenas por espaço em branco. <br><br>
 
