@@ -19,7 +19,7 @@ estiverem preenchidos com dados válidos e no formato esperado.
 
 ### Input (body)
 { <br>
-“name” : “   ”, <br>
+“name” : “”, <br>
 “e-mail” “nicole@gmail.com”, <br>
 “password” :  “1234”, <br>
 } <br>
