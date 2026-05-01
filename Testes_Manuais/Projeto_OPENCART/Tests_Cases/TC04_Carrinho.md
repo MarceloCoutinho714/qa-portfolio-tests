@@ -134,7 +134,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 **Resultado Esperado:** O sistema deve alertar o usuário quando um produto estiver fora de estoque, indicando indisponibilidade ou quantidade insuficiente. <br>
 
-**Resultado Obtido:** O sistema permitiu a adição do produto ao carrinho e exibiu um aviso informando que o item não está disponível na quantidade desejada, sinalizando o produto com "***". <br>
+**Resultado Obtido:** O sistema permitiu a adição do produto ao carrinho e exibiu um aviso informando que o item não está disponível, sinalizando o produto com "***". <br>
 
 **Status: PASS** <br><br>
 
