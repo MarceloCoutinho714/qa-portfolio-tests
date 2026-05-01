@@ -48,7 +48,7 @@ Comportamento em desacordo com a regra de negócio e com o padrão REST.
 
 **Status:** Fail <br>
 
-**Bug relacionado:** 
+**Bug relacionado:** BUG01_PUT_faz_papel_de_POST_criando_um_novo_produto_aprovando_id_inexistente
 
 **Severidade:** <br>
 Média <br>
