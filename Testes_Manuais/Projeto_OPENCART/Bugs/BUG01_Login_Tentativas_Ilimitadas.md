@@ -1,6 +1,6 @@
 **Origem:** TC02 - Login_de_Usuário.md
 
-### Bug ID: BUG02_Login_Tentativas_Ilimitadas
+### Bug ID: BUG01_Login_Tentativas_Ilimitadas
 
 Título: Sistema permite tentativas ilimitadas de login com senha incorreta. <br>
 Tipo: BUG <br>
