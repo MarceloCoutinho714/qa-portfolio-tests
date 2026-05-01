@@ -137,7 +137,7 @@ Fluxos Alternativo - Validação de Carrinho <br><br>
 
 **Resultado Esperado:** O sistema deve atualizar automaticamente o valor total, a quantidade de itens e o peso total do carrinho sempre que um produto for adicionado, removido ou tiver sua quantidade alterada. <br>
 
-**Resultado Obtido:** O sistema atualiza corretamente o valor total, a quantidade de itens e o peso do carrinho após a atualização da página (refresh), exibindo os dados de forma consistente com as alterações realizadas.<br. 
+**Resultado Obtido:** O sistema atualiza corretamente o valor total, a quantidade de itens e o peso do carrinho após a atualização da página (refresh), exibindo os dados de forma consistente com as alterações realizadas.
 
 **Status: PASS** <br>
 
