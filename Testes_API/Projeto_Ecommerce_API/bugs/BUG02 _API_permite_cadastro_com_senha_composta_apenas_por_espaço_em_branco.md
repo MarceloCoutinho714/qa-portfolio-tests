@@ -61,4 +61,4 @@ Alta
 Alta <br><br>
 
 ### Evidência <br>
-![POST usuario aceita senha com espaço](../evidencias/erro/)<br>
+![POST usuario aceita senha com espaço](../evidencias/Erro/BUG02_POST_Usuario_senha_invalida_apenas_espacos_bug.png)<br>
