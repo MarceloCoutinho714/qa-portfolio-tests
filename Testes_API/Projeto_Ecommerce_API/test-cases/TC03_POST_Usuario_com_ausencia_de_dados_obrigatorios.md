@@ -41,7 +41,7 @@ Porém, quando o campo é preenchido apenas com espaços (" "), o sistema permit
 
 **Status:** Fail <br>
 
-**Bug relacionado:** <br>
+**Bug relacionado:** BUG03_POST_API_permite_cadastro_com_nome_composto_apenas_por_espacos.md <br>
 
 **Severidade**<br>
 Média<br>
