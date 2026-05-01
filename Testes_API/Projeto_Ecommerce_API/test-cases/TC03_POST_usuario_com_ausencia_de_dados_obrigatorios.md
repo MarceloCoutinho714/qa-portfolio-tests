@@ -74,7 +74,7 @@ Deve exibir uma mensagem de erro informando que o campo **E-mail é obrigatório
 ### Resultado Obtido
 Status code **400**
 
-Mensagem de erro exibida **“E-mail não pode ficar em branco”**
+Mensagem de erro exibida **“E-mail deve ser um e-mail válido”**
 
 **Status:** Pass <br><br>
 ## Evidência
@@ -116,7 +116,7 @@ Usuário cadastrado com sucesso <br>
 
 **Status:** Fail <br><br>
 
-**Bug Relacionado:** BUG02 - API permite cadastro com senha composta apenas por espaço em branco.md <br>
+**Bug Relacionado:** BUG02_API_permite_cadastro_com_senha_composta_apenas_por_espaço_em_branco.md <br>
 
 **Severidade**<br>
 Alta <br>
