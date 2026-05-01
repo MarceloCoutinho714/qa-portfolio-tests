@@ -130,10 +130,21 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ![Múltiplos produtos adicionados com sucesso](../Evidências/TC04_CART/Sucesso/TC04_CART_006_Multiplos_Produtos_Adicionados_Sucesso.png)<br><br>
 
+**TC_009.** Adicionar produto fora de estoque ao carrinho <br>
+
+**Resultado Esperado:** O sistema deve alertar o usuário quando um produto estiver fora de estoque, indicando indisponibilidade ou quantidade insuficiente. <br>
+
+**Resultado Obtido:** O sistema permitiu a adição do produto ao carrinho e exibiu um aviso informando que o item não está disponível na quantidade desejada, sinalizando o produto com "***". <br>
+
+**Status: PASS** <br><br>
+
+### Evidência
+![Produto fora de estoque adicionado ao carrinho](../Evidências/TC04_CART/Erro/TC04_CART_014_Carrinho_adiciona_produtos_fora_de_estoque_mas_exibe_informacao.png)<br><br>
+
 Fluxos Alternativo - Validação de Carrinho <br><br>
 
 
-**TC_009.** Atualização de preço, peso e quantidade ao adicionar ou remover produtos <br>
+**TC_010.** Atualização de preço, peso e quantidade ao adicionar ou remover produtos <br>
 
 **Resultado Esperado:** O sistema deve atualizar automaticamente o valor total, a quantidade de itens e o peso total do carrinho sempre que um produto for adicionado, removido ou tiver sua quantidade alterada. <br>
 
@@ -149,7 +160,7 @@ Fluxos Alternativo - Validação de Carrinho <br><br>
 ![Preço atualizado conforme um produto é adicionado ou removido](../Evidências/TC04_CART/Sucesso/TC04_CART_007_Atualizacao_Preco_Sucesso_apos_remover_item.png)<br><br>
 
 
-**TC_010.** Verificar persistência do carrinho após atualizar ou reabrir a página <br>
+**TC_011.** Verificar persistência do carrinho após atualizar ou reabrir a página <br>
 
 **Resultado Esperado:** O sistema deve manter os produtos no carrinho após atualização da página ou reabertura do site durante a mesma sessão.<br>
 
