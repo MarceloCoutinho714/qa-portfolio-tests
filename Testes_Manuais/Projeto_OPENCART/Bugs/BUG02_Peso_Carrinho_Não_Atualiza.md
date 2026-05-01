@@ -1,4 +1,4 @@
-### ID do Bug: BUG03_Peso_Carrinho_Não_Atualiza
+### ID do Bug: BUG02_Peso_Carrinho_Não_Atualiza
 
 Título: Carrinho não atualiza o peso total ao adicionar ou remover produtos <br><br>
 
