@@ -114,7 +114,7 @@ Deve exibir uma mensagem de erro informando que o campo **Senha é obrigatório.
 Status code **201 - Created** <br>
 Usuário cadastrado com sucesso <br>
 
-**Status:** Fail <br><br>
+**Status:** Fail <br>
 
 **Bug Relacionado:** BUG02_API_permite_cadastro_com_senha_composta_apenas_por_espaço_em_branco.md <br>
 
