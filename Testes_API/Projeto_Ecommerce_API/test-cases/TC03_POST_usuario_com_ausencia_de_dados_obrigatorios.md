@@ -1,6 +1,6 @@
 ## Fluxo Alternativo
 
-### TC - POST - Cadastrar Usuário sem Informar Nome
+### TC01 - POST - Cadastrar Usuário sem Informar Nome
 **ID:** API_POST_USER_001
 
 **Título:** Validar cadastro sem preenchimento do campo nome
@@ -39,9 +39,9 @@ Mensagem de erro obtida **“Nome é obrigatório”.**
 
 **Status:** Pass <br><br>
 ## Evidência
-![Tentativa de POST de usuário sem o nome]()<br><br>
+![Tentativa de POST de usuário sem o nome](../evidencias/Erro/TC03_POST_001_Usuario_sem_nome.png)<br><br>
 
-### TC - POST - Cadastrar Usuário sem Informar E-mail 
+### TC02 - POST - Cadastrar Usuário sem Informar E-mail 
 **ID:** API_POST_USER_002
 
 **Título:**  Validar cadastro sem preenchimento do campo e-mail
@@ -78,9 +78,9 @@ Mensagem de erro exibida **“E-mail não pode ficar em branco”**
 
 **Status:** Pass <br><br>
 ## Evidência
-![Tentativa POST de usuário sem e-mail]()<br><br>
+![Tentativa POST de usuário sem e-mail](../evidencias/Erro/TC03_POST_002_Usuario_sem_e-mail.png)<br><br>
 
-### TC - POST - Cadastrar Usuário sem Informar Senha
+### TC03 - POST - Cadastrar Usuário sem Informar Senha
 **ID:**  API_POST_USER_003
 
 **Título:** Validar cadastro sem preenchimento do campo senha
@@ -100,7 +100,7 @@ estiverem preenchidos com dados válidos e no formato esperado.
 { <br>
 “name” : “ Nicole ”, <br>
 “e-mail” “ nicole@gmail.com ”, <br>
-“password” : “  ”, <br>
+“password” : “”, <br>
 } <br>
 
 ### Resultado Esperado 
@@ -111,12 +111,12 @@ O sistema não deve permitir o cadastro
 Deve exibir uma mensagem de erro informando que o campo **Senha é obrigatório.**
 
 ### Resultado Obtido
-Status code **201 - Created** 
-
+Status code **201 - Created** <br>
+Usuário cadastrado com sucesso <br>
 
 **Status:** Fail <br><br>
 
-**Bug Relacionado:** BUG02_POST_Usuario_sem_senha_sistema_aprovou_o_cadastro_bug.md <br>
+**Bug Relacionado:** BUG02 - API permite cadastro com senha composta apenas por espaço em branco.md <br>
 
 **Severidade**<br>
 Alta <br>
@@ -126,9 +126,9 @@ Alta <br>
 
 
 ## Evidência
-![Tentativa de POST com ausência de senha]()<br><br>
+![Tentativa de POST com ausência de senha](../evidencias/Erro/BUG02_POST_Usuario_senha_invalida_apenas_espacos_bug.png)<br><br>
 
-### TC - POST - Cadastro Informando Números no Campo Nome
+### TC04 - POST - Cadastro Informando Números no Campo Nome
 **ID:**  API_POST_USER_004
 
 **Título:** Validar cadastro com caracteres numéricos no campo nome
@@ -184,9 +184,9 @@ Média <br>
 Média <br>
 
 ## Evidência
-![Cadastro aprovado com números no campo nome]()<br><br>
+![Cadastro aprovado com números no campo nome](../evidencias/Erro/TC03_POST_003_Usuario_com_numeros_no_campo_nome.png)<br><br>
 
-### TC - POST- Cadastro com E-mail em Formato Inválido
+### TC05 - POST- Cadastro com E-mail em Formato Inválido
 **ID:**  API_POST_USER_005
 
 **Título:** Validar cadastro com e-mail em formato inválido
@@ -223,4 +223,7 @@ Status code **400**
 Mensagem de erro obtida: **“E-mail deve ser um e-mail válido”.**
 
 **Status:** Pass <br><br>
+
+## Evidência
+![Tentativa de cadastro de usuário com e-mail em formato inválido](../evidencias/Erro/TC03_POST_004_Usuario_com_e-mail_com_formato_invalido.png)
 
