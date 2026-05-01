@@ -175,8 +175,6 @@ ID gerado
 O sistema não valida corretamente o tipo de dado do campo nome, permitindo caracteres 
 inválidos, **ver com o time se tal comportamento é aceitável.** <br>
 
-**Bug relacionado:**      <br>
-
 **Severidade** <br>
 Média <br>
 
