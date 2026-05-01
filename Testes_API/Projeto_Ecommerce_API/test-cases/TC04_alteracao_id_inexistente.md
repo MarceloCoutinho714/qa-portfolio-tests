@@ -1,6 +1,6 @@
 ## Fluxo Alternativo
 
-### TC - PUT - Alterar Produto Com ID Inexistente
+### TC01 - PUT - Alterar Produto Com ID Inexistente
 **ID:** API_PUT_PROD_001
 
 **Título:** Validação de erro para Id inexistente
@@ -46,13 +46,17 @@ invés de bloquear a alteração de um recurso inexistente.
 
 Comportamento em desacordo com a regra de negócio e com o padrão REST.
 
-**Status:** BUG <br>
+**Status:** Fail <br>
+
+**Bug relacionado:** 
 
 **Severidade:** <br>
-Média
+Média <br>
+
+**Prioriade:** <br>
+Média <br>
 
 ## Evidência
-
-![PUT fez papel de POST e cria um produto](../evidencias/put_produto_cria_em_vez_de_atualizar_bug.png) <br>
+![PUT fez papel de POST e cria um produto](../evidencias/Erro/BUG01_PUT_produto_cria_em_vez_de_atualizar_bug.png) <br>
 
 
