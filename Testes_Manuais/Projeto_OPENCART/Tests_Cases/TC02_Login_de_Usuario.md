@@ -102,7 +102,7 @@ tentativas) <br>
 
 **Status: Fail** <br>
 
-**Bug relacionado:** BUG02_Login_Tentativas_Ilimitadas.md
+**Bug relacionado:** BUG01_Login_Tentativas_Ilimitadas.md
 
 **Severidade** <br>
 **Alta**
