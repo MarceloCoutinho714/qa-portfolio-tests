@@ -15,7 +15,7 @@ O sistema deve permitir a alteração de produtos apenas quando os campos obriga
 estiverem preenchidos.
 
 ### Passos
-1. Enviar request PUT para endpoint /produtos {id} sem o campo nome.
+1. Enviar request PUT para endpoint /produtos {id} sem o nome.
 
 ### Input (body)
 {<br>
@@ -57,15 +57,14 @@ O sistema deve permitir a alteração de produtos apenas quando os campos obriga
 estiverem preenchidos.
 
 ### Passos
-1. Enviar request PUT sem o campo preço.
+1. Enviar request PUT para endpoint /produtos {id} sem o preço.
 
 ### Input (body)
 {<br>
-"title": "Tv 4K LG ",<br>
+"title": "Tv Samsung 4K ",<br>
 "price":  ,<br>
 "description": " TV ",<br>
-"quantity": 35,<br>
-"Id": 13,<br>
+"quantity": 30,<br>
 }<br>
 
 ### Resultado Esperado 
@@ -78,10 +77,11 @@ Produto não deve ser alterado
 ### Resultado Obtido
 Status code **400**
 
-Sistema retornou a mensagem de **“ preço é obrigatório “** e alteração não foi realizada
-
+Alteração não foi realizada
 
 **Status:** PASS <br><br>
+### Evidência
+![Tentativa de alterar produto sem o preço]()<br><br>
 
 ### TC - PUT - Não Colocar Descrição
 **ID:**  API_PUT_PROD_003
