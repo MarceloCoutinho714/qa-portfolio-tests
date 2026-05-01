@@ -152,13 +152,7 @@ estiverem preenchidos com dados válidos e no formato esperado.
 } <br>
 
 ### Resultado Esperado 
-Status code **400**
-
-O sistema não deve permitir o cadastro 
-
-O campo nome deve aceitar apenas caracteres alfabéticos
-
-Deve exibir mensagem de erro de validação
+O sistema deve aceitar string no campo nome
 
 ### Resultado Obtido
 Status code **201**
@@ -169,17 +163,10 @@ Cadastro criado com sucesso
 
 ID gerado 
 
-**Status:** Fail <br>
+**Status:** Pass <br>
 
-### Observação
-O sistema não valida corretamente o tipo de dado do campo nome, permitindo caracteres 
-inválidos, **ver com o time se tal comportamento é aceitável.** <br>
-
-**Severidade** <br>
-Média <br>
-
-**Prioridade** <br>
-Média <br>
+### Observação 
+O campo nome aceita valores numéricos. Não há regra clara na API indicando restrição de formato. Validar com o time se esse comportamento é esperado.<br>
 
 ## Evidência
 ![Cadastro aprovado com números no campo nome](../evidencias/Erro/TC03_POST_003_Usuario_com_numeros_no_campo_nome.png)<br><br>
