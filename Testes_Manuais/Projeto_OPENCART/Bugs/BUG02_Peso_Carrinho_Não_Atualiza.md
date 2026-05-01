@@ -48,11 +48,9 @@ Processos logísticos <br>
 Esse problema é especialmente crítico em cenários onde o peso influencia regras de transporte, como no transporte aéreo. <br><br>
 
 **Severidade**
-
 Alta <br><br>
 
 **Prioridade**
-
 Alta <br>
 
 ### Evidências
