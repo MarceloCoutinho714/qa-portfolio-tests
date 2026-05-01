@@ -55,7 +55,7 @@ Média<br>
 ![Tentativa de POST de usuário sem o nome](../evidencias/Erro/TC03_POST_001_Usuario_sem_nome.png)<br><br>
 ## Evidência
 **Campo nome preenchido apenas com espaços**<br><br>
-![Tentativa de POST de usuário sem o nome](../evidencias/Erro/)<br><br>
+![Tentativa de POST de usuário sem o nome](../evidencias/Erro/BUG03_POST_Usuario_com_espacos_no_campo_nome_bug.png)<br><br>
 
 ### TC02 - POST - Cadastrar Usuário sem Informar E-mail 
 **ID:** API_POST_USER_002
