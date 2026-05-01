@@ -61,10 +61,10 @@ estiverem preenchidos.
 
 ### Input (body)
 {<br>
-"title": "Tv Samsung 4K ",<br>
+"title": "Fone LG sem fio ",<br>
 "price":  ,<br>
-"description": " TV ",<br>
-"quantity": 30,<br>
+"description": "Fone",<br>
+"quantity": 65,<br>
 }<br>
 
 ### Resultado Esperado 
@@ -102,10 +102,10 @@ estiverem preenchidos.
 
 ### Input (body)
 {<br>
-"title": "Tv 4K LG ",<br>
-"price": 2500 ,<br>
+"title": "Fone LG sem fio ",<br>
+"price": 500,<br>
 "description": "",<br>
-"quantity": 35,<br>
+"quantity": 65,<br>
 }<br>
 
 
@@ -144,8 +144,8 @@ estiverem preenchidos.
 
 ### Input (body)
 {<br>
-"title": "Fone LG sem dio",<br>
-"price": 500 ,<br>
+"title": "Fone LG sem fio ",<br>
+"price": 500,<br>
 "description": "Fone",<br>
 "quantity": ,<br>
 }<br>
