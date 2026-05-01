@@ -52,7 +52,7 @@ Mensagem exibida: **“E-mail deve ser um e-mail válido”**
 
 **Status:** PASS <br><br>
 ### Evidência
-![Tentativa de login com e-mail em formato inválido]()<br><br>
+![Tentativa de login com e-mail em formato inválido](../evidencias/Erro/TC06_POST_001_Login_com_e-mail_em_formato_invalido.png)<br><br>
 
 ### TC02 -  POST - Login com senha inválida
 **ID:** API_POST_LOGIN_002
@@ -98,7 +98,7 @@ Mensagem exibida: “E-mail ou senha inválidos”
 
 **Status:** PASS <br><br>
 ### Evidência
-![Tentativa de login com senha em formato inválido]()<br><br>
+![Tentativa de login com senha em formato inválido](../evidencias/Erro/TC06_POST_002_Login_com_senha_em_formato_invalido.png)<br><br>
 
 
 ### TC03 - POST - Login sem preencher o campo e-mail
@@ -147,7 +147,7 @@ Mensagem exibida: **“E-mail não pode ficar em branco”**
 
 **Status:** PASS <br><br>
 ### Evidência
-![Tentativa de login com e-mail em branco]()<br><br>
+![Tentativa de login com e-mail em branco](../evidencias/Erro/TC06_POST_003_Login_com_e-mail_em_branco.png)<br><br>
 
 ### TC04 - POST - Login sem preencher o campo senha
 **ID:**  API_POST_LOGIN_004
@@ -195,7 +195,7 @@ Mensagem exibida: **“Senha não pode ficar em branco”**
 
 **Status:** PASS <br><br>
 ### Evidência
-![Tentativa de login com senha em branco]()<br><br>
+![Tentativa de login com senha em branco](../evidencias/Erro/TC06_POST_004_Login_com_senha_em_branco.png)<br><br>
 
 
 
