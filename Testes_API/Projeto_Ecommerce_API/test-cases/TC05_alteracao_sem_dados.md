@@ -125,7 +125,7 @@ Sistema retornou a mensagem de **“ descrição é obrigatória “** e altera�
 ### Evidência
 ![Tentativa de alterar produto sem a descrição](../evidencias/Erro/TC05_PUT_002_Produto_sem_a_descricao.png)<br><br>
 
-### TC - PUT - Não Colocar Quantidade
+### TC04 - PUT - Não Colocar Quantidade
 **ID:**  API_PUT_PROD_004
 
 **Título:**  Validar erro ao alterar produto sem informar a quantidade
@@ -140,15 +140,14 @@ O sistema deve permitir a alteração de produtos apenas quando os campos obriga
 estiverem preenchidos.
 
 ### Passos
-1. Enviar request PUT sem o campo quantidade.
+1. Enviar request PUT para endpoint /produtos/{id} sem a quantidade.
 
 ### Input (body)
 {<br>
-"title": "Tv 4K LG ",<br>
-"price": 2500 ,<br>
-"description": " TV ",<br>
+"title": "Fone LG sem dio",<br>
+"price": 500 ,<br>
+"description": "Fone",<br>
 "quantity": ,<br>
-"Id": 13,<br>
 }<br>
 
 ### Resultado Esperado 
@@ -161,10 +160,11 @@ Produto não deve ser alterado
 ### Resultado Obtido
 Status code **400**
 
-Sistema retornou a mensagem de **“ quantidade é obrigatória “** e alteração não foi realizada
-
+Alteração não foi realizada
 
 **Status:** PASS <br><br>
+### Evidência
+![Tentativa de alterar produto sem a quantidade](../evidencias/Erro/TC05_PUT_003_Produto_sem_quantidade.png)<br><br>
 
 
 
