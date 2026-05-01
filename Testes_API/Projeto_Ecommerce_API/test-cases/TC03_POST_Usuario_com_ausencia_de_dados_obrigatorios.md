@@ -38,9 +38,12 @@ Status code **400**
 Mensagem de erro obtida **“Nome não pode ficar em branco”.**
 
 **Status:** Fail <br>
+
 **Bug relacionado:** <br>
+
 **Severidade**<br>
 Média<br>
+
 **Prioridade**<br>
 Média<br>
 
