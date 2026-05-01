@@ -143,10 +143,10 @@ Fluxos Alternativo - Validação de Carrinho <br><br>
 
 ### Evidência
 **Antes**<br>
-![Preço atual da soma dos produtos](../Evidências/TC04_CART/)<br><br>
+![Preço atual da soma dos produtos](../Evidências/TC04_CART/Sucesso/TC04_CART_013_Produtos_adicionados_preco_atualizado.png)<br><br>
 
-**Depois**
-![Preço atualizado conforme um produto é adicionado ou removido](../Evidências/TC04_CART/)<br><br>
+**Depois** <br>
+![Preço atualizado conforme um produto é adicionado ou removido](../Evidências/TC04_CART/Sucesso/TC04_CART_007_Atualizacao_Preco_Sucesso_apos_remover_item.png)<br><br>
 
 
 **TC_010.** Verificar persistência do carrinho após atualizar ou reabrir a página <br>
