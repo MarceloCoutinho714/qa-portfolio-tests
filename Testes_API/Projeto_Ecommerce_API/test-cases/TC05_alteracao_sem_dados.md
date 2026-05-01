@@ -83,7 +83,7 @@ Alteração não foi realizada
 ### Evidência
 ![Tentativa de alterar produto sem o preço](../evidencias/Erro/TC05_PUT_001_Produto_sem_preco.png)<br><br>
 
-### TC - PUT - Não Colocar Descrição
+### TC03 - PUT - Não Colocar Descrição
 **ID:**  API_PUT_PROD_003
 
 **Título:**  Validar erro ao alterar produto sem informar a descrição
@@ -98,15 +98,14 @@ O sistema deve permitir a alteração de produtos apenas quando os campos obriga
 estiverem preenchidos.
 
 ### Passos
-1. Enviar request PUT sem o campo descrição.
+1. Enviar request PUT para endpoint /produtos/{id} sem a descrição.
 
 ### Input (body)
 {<br>
 "title": "Tv 4K LG ",<br>
 "price": 2500 ,<br>
-"description": "  ",<br>
+"description": "",<br>
 "quantity": 35,<br>
-"Id": 13,<br>
 }<br>
 
 
@@ -122,9 +121,9 @@ Status code **400**
 
 Sistema retornou a mensagem de **“ descrição é obrigatória “** e alteração não foi realizada
 
-
 **Status:** PASS <br><br>
-
+### Evidência
+![Tentativa de alterar produto sem a descrição](../evidencias/Erro/TC05_PUT_002_Produto_sem_a_descricao.png)<br><br>
 
 ### TC - PUT - Não Colocar Quantidade
 **ID:**  API_PUT_PROD_004
