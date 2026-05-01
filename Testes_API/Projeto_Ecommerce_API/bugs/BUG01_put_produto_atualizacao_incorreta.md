@@ -19,13 +19,13 @@ Nenhum produto existente com o ID informado na requisição. <br>
 
 ### Passos para Reproduzir 
 
-1. Criar um ID aleatório inexistente (não presente na base da API).
+1. Criar um ID aleatório inexistente (não presente na base da API).<br>
 
-2. Enviar uma requisição PUT para o endpoint /produtos/{id} utilizando esse ID inexistente.
+2. Enviar uma requisição PUT para o endpoint /produtos/{id} utilizando esse ID inexistente.<br>
 
-3. Informar dados válidos de produto no body da requisição.
+3. Informar dados válidos de produto no body da requisição.<br>
 
-4. Executar a request.
+4. Executar a request.<br>
 
 ### Resultado Esperado 
 
@@ -33,7 +33,7 @@ A API deveria retornar erro indicando que o recurso não existe.
 
 Status Code: **404**
 
-Sem criação de um novo produto.
+Sem criação de um novo produto. <br><br>
 
 ### Resultado Obtido
 
@@ -43,7 +43,7 @@ Status Code: **201 (Created)**
 
 Além disso, a API gerou um novo ID automaticamente, ignorando o ID informado na requisição.
 
-Isso indica quebra de contrato da API, pois o método PUT deveria atualizar um recurso existente e não criar um novo.
+Isso indica quebra de contrato da API, pois o método PUT deveria atualizar um recurso existente e não criar um novo.<br><br>
 
 ### Observação Adicional 
 
@@ -51,11 +51,11 @@ O teste foi realizado utilizando um ID gerado manualmente e de forma aleatória,
 
 Mesmo assim, o sistema criou um novo produto em vez de retornar erro apropriado.
 
-### Severidade
+**Severidade** <br>
 Média
 
-### Prioridade
-Média
+**Prioridade** <br>
+Média <br><br>
 
 ### Evidência <br>
 ![PUT faz papel de POST e cria um novo produto](../evidencias/put_produto_cria_em_vez_de_atualizar_bug.png)<br>
