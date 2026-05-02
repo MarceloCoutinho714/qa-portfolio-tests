@@ -26,42 +26,42 @@ Os testes documentados simulam cenários reais de aplicações web, com foco em 
 
 ##  Estrutura do Repositório
 
-Testes_Manuais/
-|------ TC01_Registro_de_Usuario.md
-|------ TC02_Login_de_Usuario.md
-|------ TC03_Busca_de_Produtos.md
-|------ TC04_Carrinho.md
+Testes_Manuais/ <br>
+|------ TC01_Registro_de_Usuario.md <br>
+|------ TC02_Login_de_Usuario.md <br>
+|------ TC03_Busca_de_Produtos.md <br>
+|------ TC04_Carrinho.md <br>
 
 ---
 
-Testes_API/
-│
-├── collections/
-│   └── ecommerce_api_collection.json
-│
-├── environments/
-│   └── {
-  "base_url": "https://serverest.dev"
-}
-│
-test-cases/
-├── usuarios/
-│   ├── TC01_Fluxo_Login.md
-│   ├── TC03_POST_Usuario.md
-│   └── TC06_Login_sem_dados.md
-│
-└── produtos/
-    ├── TC02_POST_Produto.md
-    ├── TC04_PUT_Produto.md
-    └── TC05_PUT_Produto.md
-│
-├── bugs/
-│   └── 
-│
-├── evidencias/
-│   └── 
-│
-└── README.md
+Testes_API/ <br>
+
+├── collections/ <br>
+    └── Projeto_ServeRest_API.json <br>
+
+├── environments/ <br>
+    └── { <br>
+  "base_url": "https://serverest.dev" <br>
+}<br>
+
+test-cases/ <br>
+   ├── usuarios/ <br>
+   ├── TC01_Fluxo_Login.md <br>
+   ├── TC03_POST_Usuario.md <br>
+   └── TC06_Login_sem_dados.md <br>
+
+└── produtos/ <br>
+    ├── TC02_POST_Produto.md <br>
+    ├── TC04_PUT_Produto.md <br>
+    └── TC05_PUT_Produto.md <br>
+
+├── bugs/ <br>
+    └── 
+
+├── evidencias/ <br>
+    └── 
+
+└── README.md <br>
 
 ---
 
