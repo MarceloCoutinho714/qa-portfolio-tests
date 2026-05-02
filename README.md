@@ -26,15 +26,42 @@ Os testes documentados simulam cenários reais de aplicações web, com foco em 
 
 ##  Estrutura do Repositório
 
-manual-tests/
-|------ login-tests 
-|------ search-tests 
-|------ cart-tests
-|------ registration
+Testes_Manuais/
+|------ TC01_Registro_de_Usuario.md
+|------ TC02_Login_de_Usuario.md
+|------ TC03_Busca_de_Produtos.md
+|------ TC04_Carrinho.md
 
-api-tests/
-|------ collections 
-|------ environments
+---
+
+Testes_API/
+│
+├── collections/
+│   └── ecommerce_api_collection.json
+│
+├── environments/
+│   └── {
+  "base_url": "https://serverest.dev"
+}
+│
+test-cases/
+├── usuarios/
+│   ├── TC01_Fluxo_Login.md
+│   ├── TC03_POST_Usuario.md
+│   └── TC06_Login_sem_dados.md
+│
+└── produtos/
+    ├── TC02_POST_Produto.md
+    ├── TC04_PUT_Produto.md
+    └── TC05_PUT_Produto.md
+│
+├── bugs/
+│   └── 
+│
+├── evidencias/
+│   └── 
+│
+└── README.md
 
 ---
 
