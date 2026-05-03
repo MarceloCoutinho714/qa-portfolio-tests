@@ -46,14 +46,14 @@ Testes_API/ <br>
 
 test-cases/ <br>
    ├── usuarios/ <br>
-   ├── TC01_Fluxo_Login.md <br>
-   ├── TC03_POST_Usuario.md <br>
-   └── TC06_Login_sem_dados.md <br>
+   ├── TC01_Fluxo_Principal.md <br>
+   ├── TC03_POST_Usuario_com_ausencia_de_dados_obrigatorios.md <br>
+   └── TC06_POST_Login_sem_dados_obrigatorios.md <br>
 
 └── produtos/ <br>
-    ├── TC02_POST_Produto.md <br>
-    ├── TC04_PUT_Produto.md <br>
-    └── TC05_PUT_Produto.md <br>
+    ├── TC02_POST_Produto_com_ausencia_de_dados_obrigatorios.md <br>
+    ├── TC04_PUT_Alteracao_de_produto_com_id_inexistente.md <br>
+    └── TC05_PUT_Alteracao_de_produto_sem_dados_obrigatorios.md <br>
 
 ├── bugs/ <br>
     └── 
