@@ -39,7 +39,7 @@ Sistema retornou a mensagem de “ nome é obrigatório “ e cadastro não foi 
 **Status:** Pass <br><br>
 
 ## Evidência
-![POST Tentativa de cadastro de porduto sem nome](../evidencias/negativo/TC02_POST_002_Produto-sem_nome.png)<br><br>
+![POST Tentativa de cadastro de porduto sem nome](../../evidencias/negativo/TC02_POST_002_Produto_sem_nome.png)<br><br>
 
 ### TC02 - POST - Não Colocar Preço
 **ID:** API_POST_PROD_003
@@ -79,7 +79,7 @@ Sistema retornou a mensagem de “ preço é obrigatório “ e cadastro não fo
 **Status:** Pass <br><br>
 
 ## Evidência
-![POST Tentativa de cadastrar produto sem o preço](../evidencias/negativo/TC02_POST_001_Produto-sem_preco.png)<br><br>
+![POST Tentativa de cadastrar produto sem o preço](../../evidencias/negativo/TC02_POST_001_Produto_sem_preco.png)<br><br>
 
 ### TC03 - POST - Não Colocar Descrição
 **ID:** API_POST_PROD_004
@@ -118,7 +118,7 @@ Sistema retornou a mensagem de “ descrição é obrigatória “ e cadastro n�
 
 **Status:** Pass <br><br>
 ## Evidência
-![POST Tentativa de cadastrar produto sem a descrição](../evidencias/negativo/TC02_POST_003_Produto-sem_decricao.png)<br><br>
+![POST Tentativa de cadastrar produto sem a descrição](../../evidencias/negativo/TC02_POST_003_Produto_sem_decricao.png)<br><br>
 
 ### TC04 - POST - Não Colocar Quantidade
 **ID:** API_POST_PROD_005
@@ -158,4 +158,4 @@ Sistema retornou a mensagem de “ quantidade é obrigatória “ e cadastro nã
 
 **Status:** Pass <br><br>
 ## Evidência
-![POST Tentativa de cadastrar produto sem a quantidade](../evidencias/negativo/TC02_POST_004_Produto-sem_quantidade.png)<br><br>
+![POST Tentativa de cadastrar produto sem a quantidade](../../evidencias/negativo/TC02_POST_004_Produto_sem_quantidade.png)<br><br>
