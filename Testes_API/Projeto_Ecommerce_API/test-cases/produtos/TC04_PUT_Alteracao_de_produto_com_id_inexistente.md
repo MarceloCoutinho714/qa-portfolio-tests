@@ -57,6 +57,9 @@ Média <br>
 Média <br>
 
 ## Evidência
-![PUT fez papel de POST e cria um produto](../evidencias/Erro/BUG01_PUT_produto_cria_em_vez_de_atualizar_bug.png) <br>
+![PUT fez papel de POST e cria um produto](../evidencias/Erro/BUG01_PUT_produto_cria_em_vez_de_atualizar_bug.png) <br><br>
+
+**Bug identificado:** API permite PUT fazer papel de POST criando um novo produto ignorando ID inexistente.
+
 
 
