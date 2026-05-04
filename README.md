@@ -58,11 +58,11 @@ test-cases/ <br>
 ├── bugs/ <br>
     ├── BUG01_PUT_faz_papel_de_POST_criando_um_novo_produto_aprovando_id_inexistente.md <br>
     ├── BUG02 _POST_API_permite_cadastro_com_senha_composta_apenas_por_espaço_em_branco.md <br>
-    ├── BUG03_POST_API_permite_cadastro_com_nome_composto_apenas_por_espacos.md <br>
+    └── BUG03_POST_API_permite_cadastro_com_nome_composto_apenas_por_espacos.md <br>
     
 ├── evidencias/ <br>
-    ├── positivo/ # Fluxos válidos (testes que passaram)
-    ├── negativo/ # Fluxos inválidos e cenários com falha/bug
+    ├── positivo/ # Fluxos válidos (testes que passaram) <br>
+    └── negativo/ # Fluxos inválidos e cenários com falha/bug <br>
 
 └── README.md <br>
 
