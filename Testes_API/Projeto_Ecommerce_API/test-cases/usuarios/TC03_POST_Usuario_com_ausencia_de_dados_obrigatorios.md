@@ -37,7 +37,7 @@ O sistema apresentou comportamento inconsistente na validação do campo nome <b
 
 Quando o campo é enviado vazio (""), o cadastro é corretamente rejeitado com Status Code 400 <br>
 
-Porém, quando o campo é preenchido apenas com espaços (" "), o sistema permite o cadastro e retorna Status Code 201
+Porém, quando o campo é preenchido apenas com espaços (" "), o sistema permite o cadastro e retorna Status Code 201 <br><br>
 
 **Status:** Fail <br>
 
@@ -56,6 +56,8 @@ Média<br>
 ## Evidência
 **Campo nome preenchido apenas com espaços**<br><br>
 ![Tentativa de POST de usuário sem o nome](../evidencias/Erro/BUG03_POST_Usuario_com_espacos_no_campo_nome_bug.png)<br><br>
+
+**Bug identificado:** API permite cadastro de produto com campo "nome" contendo apenas espaços em branco, indicando ausência de validação de entrada para campos obrigatórios. <br><br>
 
 ### TC02 - POST - Cadastrar Usuário sem Informar E-mail 
 **ID:** API_POST_USER_002
@@ -143,6 +145,8 @@ Alta <br>
 
 ## Evidência
 ![Tentativa de POST com ausência de senha](../evidencias/Erro/BUG02_POST_Usuario_senha_invalida_apenas_espacos_bug.png)<br><br>
+
+**Bug identificado:** API permite cadastro de produto com campo "senha" contendo apenas espaços em branco, indicando ausência de validação de entrada para campos obrigatórios. <br><br>
 
 ### TC04 - POST - Cadastro Informando Números no Campo Nome
 **ID:**  API_POST_USER_004
