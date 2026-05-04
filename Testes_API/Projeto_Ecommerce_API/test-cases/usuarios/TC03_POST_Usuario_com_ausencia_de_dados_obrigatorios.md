@@ -52,10 +52,10 @@ Média<br>
 
 ## Evidência
 **Campo nome vazio**<br><br>
-![Tentativa de POST de usuário sem o nome](../evidencias/Erro/TC03_POST_001_Usuario_sem_nome.png)<br><br>
+![Tentativa de POST de usuário sem o nome](../../evidencias/negativo/TC03_POST_001_Usuario_sem_nome.png)<br><br>
 ## Evidência
 **Campo nome preenchido apenas com espaços**<br><br>
-![Tentativa de POST de usuário sem o nome](../evidencias/Erro/BUG03_POST_Usuario_com_espacos_no_campo_nome_bug.png)<br><br>
+![Tentativa de POST de usuário sem o nome](../../evidencias/negativo/BUG03_POST_Usuario_com_espacos_no_campo_nome_bug.png)<br><br>
 
 **Bug identificado:** API permite cadastro de produto com campo "nome" contendo apenas espaços em branco, indicando ausência de validação de entrada para campos obrigatórios. <br><br>
 
@@ -96,7 +96,7 @@ Mensagem de erro exibida **“E-mail deve ser um e-mail válido”**
 
 **Status:** Pass <br><br>
 ## Evidência
-![Tentativa POST de usuário sem e-mail](../evidencias/Erro/TC03_POST_002_Usuario_sem_e-mail.png)<br><br>
+![Tentativa POST de usuário sem e-mail](../../evidencias/negativo/TC03_POST_002_Usuario_sem_e-mail.png)<br><br>
 
 ### TC03 - POST - Cadastrar Usuário sem Informar Senha
 **ID:**  API_POST_USER_003
@@ -144,7 +144,7 @@ Alta <br>
 
 
 ## Evidência
-![Tentativa de POST com ausência de senha](../evidencias/Erro/BUG02_POST_Usuario_senha_invalida_apenas_espacos_bug.png)<br><br>
+![Tentativa de POST com ausência de senha](../../evidencias/negativo/BUG02_POST_Usuario_senha_invalida_apenas_espacos_bug.png)<br><br>
 
 **Bug identificado:** API permite cadastro de produto com campo "senha" contendo apenas espaços em branco, indicando ausência de validação de entrada para campos obrigatórios. <br><br>
 
@@ -189,7 +189,7 @@ ID gerado
 O campo nome aceita valores numéricos. Não há regra clara na API indicando restrição de formato. Validar com o time se esse comportamento é esperado.<br>
 
 ## Evidência
-![Cadastro aprovado com números no campo nome](../evidencias/Erro/TC03_POST_003_Usuario_com_numeros_no_campo_nome.png)<br><br>
+![Cadastro aprovado com números no campo nome](../../evidencias/negativo/TC03_POST_003_Usuario_com_numeros_no_campo_nome.png)<br><br>
 
 ### TC05 - POST- Cadastro com E-mail em Formato Inválido
 **ID:**  API_POST_USER_005
@@ -230,5 +230,5 @@ Mensagem de erro obtida: **“E-mail deve ser um e-mail válido”.**
 **Status:** Pass <br><br>
 
 ## Evidência
-![Tentativa de cadastro de usuário com e-mail em formato inválido](../evidencias/Erro/TC03_POST_004_Usuario_com_e-mail_com_formato_invalido.png)
+![Tentativa de cadastro de usuário com e-mail em formato inválido](../../evidencias/negativo/TC03_POST_004_Usuario_com_e-mail_com_formato_invalido.png)
 
