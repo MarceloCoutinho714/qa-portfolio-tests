@@ -40,7 +40,7 @@ Sistema retornou a mensagem de **“ nome não pode ficar em branco“** e alter
 **Status:** PASS <br><br>
 
 ### Evidência 
-![Tentativa de alterar produto sem informar o nome dele](../evidencias/Erro/TC05_PUT_001_Produto_sem_nome.png)<br><br>
+![Tentativa de alterar produto sem informar o nome dele](../../evidencias/negativo/TC05_PUT_001_Produto_sem_nome.png)<br><br>
 
 ### TC02 - PUT - Não Colocar Preço
 **ID:** API_PUT_PROD_002
@@ -81,7 +81,7 @@ Alteração não foi realizada
 
 **Status:** PASS <br><br>
 ### Evidência
-![Tentativa de alterar produto sem o preço](../evidencias/Erro/TC05_PUT_001_Produto_sem_preco.png)<br><br>
+![Tentativa de alterar produto sem o preço](../../evidencias/negativo/TC05_PUT_001_Produto_sem_preco.png)<br><br>
 
 ### TC03 - PUT - Não Colocar Descrição
 **ID:**  API_PUT_PROD_003
@@ -123,7 +123,7 @@ Sistema retornou a mensagem de **“ descrição é obrigatória “** e altera�
 
 **Status:** PASS <br><br>
 ### Evidência
-![Tentativa de alterar produto sem a descrição](../evidencias/Erro/TC05_PUT_002_Produto_sem_a_descricao.png)<br><br>
+![Tentativa de alterar produto sem a descrição](../../evidencias/negativo/TC05_PUT_002_Produto_sem_a_descricao.png)<br><br>
 
 ### TC04 - PUT - Não Colocar Quantidade
 **ID:**  API_PUT_PROD_004
@@ -164,7 +164,7 @@ Alteração não foi realizada
 
 **Status:** PASS <br><br>
 ### Evidência
-![Tentativa de alterar produto sem a quantidade](../evidencias/Erro/TC05_PUT_003_Produto_sem_quantidade.png)<br><br>
+![Tentativa de alterar produto sem a quantidade](../../evidencias/negativo/TC05_PUT_003_Produto_sem_quantidade.png)<br><br>
 
 
 
