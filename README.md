@@ -26,12 +26,21 @@ Os testes documentados simulam cenários reais de aplicações web, com foco em 
 
 ##  Estrutura do Repositório
 
-Testes_Manuais/ <br>
-|------ TC01_Registro_de_Usuario.md <br>
-|------ TC02_Login_de_Usuario.md <br>
-|------ TC03_Busca_de_Produtos.md <br>
-|------ TC04_Carrinho.md <br>
+testes_manuais/ <br>
+├── TC01_Registro_de_Usuario.md <br>
+├── TC02_Login_de_Usuario.md <br>
+├── TC03_Busca_de_Produtos.md <br>
+└── TC04_Carrinho.md <br>
 
+bugs/<br>
+└── BUG01_Login_Tentativas_Ilimitadas.md <br>
+
+evidencias/ <br>
+ ├── positivo/ # Fluxos válidos (testes que passaram) <br>
+ └── negativo/ # Fluxos inválidos e cenários com falha/bug <br>
+
+└── README.md <br>
+ 
 ---
 
 Testes_API/ <br>
