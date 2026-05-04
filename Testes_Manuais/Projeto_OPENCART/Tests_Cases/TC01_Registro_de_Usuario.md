@@ -37,7 +37,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Nome válido](../Evidências/TC01_REGISTRATION/Sucesso/TC01_REGISTRATION_001_Nome_Valido.png)
+![Nome válido](../Evidências/TC01_REGISTRATION/positivo/TC01_REGISTRATION_001_Nome_Valido.png)
 
 **TC_002.** Inserir sobrenome válido no campo "Sobrenome" <br><br>
 
@@ -48,7 +48,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Sobrenome válido](../Evidências/TC01_REGISTRATION/Sucesso/TC01_REGISTRATION_002_Sobrenome_Valido.png)
+![Sobrenome válido](../Evidências/TC01_REGISTRATION/positivo/TC01_REGISTRATION_002_Sobrenome_Valido.png)
 
 **TC_003.** Inserir e-mail válido no campo "E-mail" <br>
 
@@ -59,7 +59,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![E-mail válido](../Evidências/TC01_REGISTRATION/Sucesso/TC01_REGISTRATION_003_E-mail_Valido.png)
+![E-mail válido](../Evidências/TC01_REGISTRATION/positivo/TC01_REGISTRATION_003_E-mail_Valido.png)
 
 **TC_004.** Inserir senha com caracteres válidos <br>
 
@@ -70,7 +70,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Senha em formato válido](../Evidências/TC01_REGISTRATION/Sucesso/TC01_REGISTRATION_012_Senha_Valida.png) <br><br>
+![Senha em formato válido](../Evidências/TC01_REGISTRATION/positivo/TC01_REGISTRATION_012_Senha_Valida.png) <br><br>
 
 
 Fluxo Alternativo <br><br>
@@ -85,7 +85,7 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Campo nome em branco](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_011_Nome_Ausente.png)
+![Campo nome em branco](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_011_Nome_Ausente.png)
 
 **TC_006.** Deixar o campo "Sobrenome" em branco <br>
 
@@ -96,7 +96,7 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Campo sobrenome em branco](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_010_Sobrenome_Ausente.png)
+![Campo sobrenome em branco](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_010_Sobrenome_Ausente.png)
 
 **TC_007.** Deixar o campo "Senha" em branco <br>
 
@@ -107,7 +107,7 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Campo senha em branco](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_009_Senha_ausente.png)
+![Campo senha em branco](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_009_Senha_ausente.png)
 
 Validação de Campos <br><br>
 
@@ -125,9 +125,9 @@ O campo nome aceita caracteres numéricos. Não há definição clara de regra d
 
 ### Evidência <br>
 
-![Sistema aprova criação de cadastro com números no campo nome](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_007_Cadastro-de-Usuario-com-Numeros-BUG.png) <br><br>
+![Sistema aprova criação de cadastro com números no campo nome](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_007_Cadastro-de-Usuario-com-Numeros-BUG.png) <br><br>
 
-![Prova da criação do cadastro aprovada pelo sistema](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_006_Criacao-Aprovada-pelo-Sistema-BUG.png) <br><br>
+![Prova da criação do cadastro aprovada pelo sistema](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_006_Criacao-Aprovada-pelo-Sistema-BUG.png) <br><br>
 
 
 **TC_009.** Inserir e-mail inválido no campo "E-mail" <br>
@@ -145,7 +145,7 @@ com o cadastro. <br>
 **Status: FAIL** <br><br>
 
 ### Evidências <br>
-![E-mail inválido](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_013_Ausencia_de_infomacao_fail.png) <br><br>
+![E-mail inválido](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_013_Ausencia_de_infomacao_fail.png) <br><br>
 
 
 
@@ -159,4 +159,4 @@ com o cadastro. <br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Senha com apenas um caractere](../Evidências/TC01_REGISTRATION/Erro/TC01_REGISTRATION_008_Senha_Invalida.png)
+![Senha com apenas um caractere](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_008_Senha_Invalida.png)
