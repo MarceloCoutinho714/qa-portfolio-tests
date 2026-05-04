@@ -110,4 +110,26 @@ tentativas) <br>
 **Prioridade** <br>
 **Alta**
 
+### Evidências<br>
+
+Tentativa_1<br>
+
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_002_Tentativa_1.png)<br>
+Tentativa_2<br>
+
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_003_Tentativa_2.png)<br>
+Tentativa_3<br>
+
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_004_Tentativa_3.png)<br>
+Tentativa_4<br>
+
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_005_Tentativa_4.png)<br>
+Tentativa_5<br>
+
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_006_Tentativa_5.png)<br>
+Tentativa_6<br>
+
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_007_Tentativa_6.png)<br><br>
+
+**Bud identificado:** Sistema permite tentativas ilimitadas de login com senha incorreta.
 
