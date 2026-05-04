@@ -59,4 +59,4 @@ Média
 Média <br><br>
 
 Evidência <br>
-![Cadastro com espaços no campo nome aceito pelo sistema](../evidencias/Erro/BUG03_POST_Usuario_com_espacos_no_campo_nome_bug.png)<br>
+![Cadastro com espaços no campo nome aceito pelo sistema](../evidencias/negativo/BUG03_POST_Usuario_com_espacos_no_campo_nome_bug.png)<br>
