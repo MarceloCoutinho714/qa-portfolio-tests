@@ -34,7 +34,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência <br>
 
-![Login com Sucesso](../Evidências/TC02_LOGIN/Sucesso/TC02_LOGIN_001_Sucesso.png) <br><br>
+![Login com Sucesso](../Evidências/TC02_LOGIN/positivo/TC02_LOGIN_001_Sucesso.png) <br><br>
 
 Fluxo Alternativo <br><br>
 
@@ -48,7 +48,7 @@ são inválidos. <br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![E-mail inválido](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_008_E-mail_invalido.png) <br><br>
+![E-mail inválido](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_008_E-mail_invalido.png) <br><br>
 
 **TC_003.** Inserir senha inválida no campo senha <br>
 
@@ -58,7 +58,7 @@ são inválidos. <br>
 
 **Status: PASS** <br><br>
 ### Evidência
-![Senha inválido](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_009_Senha_Invalida.png) <br><br>
+![Senha inválido](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_009_Senha_Invalida.png) <br><br>
 
 
 Validação de campos <br><br>
@@ -73,7 +73,7 @@ de erro informando que não há correspondência para e-mail ou senha impedindo 
 
 **Status: PASS** <br><br>
 ### Evidência
-![E-mail em branco](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_010_E-mail_em_Branco.png) <br><br>
+![E-mail em branco](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_010_E-mail_em_Branco.png) <br><br>
 
 **TC_005.** Tentar realizar login com campo senha vazio <br>
 
@@ -85,7 +85,7 @@ de erro informando que não há correspondência para e-mail ou senha impedindo 
 
 **Status: PASS** <br><br>
 ### Evidência
-![Senha em branco](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_011_Senha_em_Branco.png) <br><br>
+![Senha em branco](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_011_Senha_em_Branco.png) <br><br>
 
 Teste de Segurança / Regra de Proteção de Conta <br><br>
 
@@ -114,22 +114,22 @@ tentativas) <br>
 
 Tentativa_1<br>
 
-![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_002_Tentativa_1.png)<br>
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_002_Tentativa_1.png)<br>
 Tentativa_2<br>
 
-![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_003_Tentativa_2.png)<br>
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_003_Tentativa_2.png)<br>
 Tentativa_3<br>
 
-![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_004_Tentativa_3.png)<br>
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_004_Tentativa_3.png)<br>
 Tentativa_4<br>
 
-![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_005_Tentativa_4.png)<br>
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_005_Tentativa_4.png)<br>
 Tentativa_5<br>
 
-![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_006_Tentativa_5.png)<br>
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_006_Tentativa_5.png)<br>
 Tentativa_6<br>
 
-![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/Erro/TC02_LOGIN_007_Tentativa_6.png)<br><br>
+![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_007_Tentativa_6.png)<br><br>
 
 **Bud identificado:** Sistema permite tentativas ilimitadas de login com senha incorreta.
 
