@@ -43,7 +43,7 @@ evidencias/ <br>
  
 ---
 
-testes_API/ <br>
+testes_api/ <br>
 
 ├── collections/ <br>
     └── Projeto_ServeRest_API.json <br>
