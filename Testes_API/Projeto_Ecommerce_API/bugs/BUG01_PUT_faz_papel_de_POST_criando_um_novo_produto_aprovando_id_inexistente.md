@@ -59,7 +59,7 @@ Média
 Média <br><br>
 
 ### Evidência <br>
-![PUT faz papel de POST e cria um novo produto](../evidencias/Erro/BUG01_PUT_produto_cria_em_vez_de_atualizar_bug.png)<br>
+![PUT faz papel de POST e cria um novo produto](../evidencias/negativo/BUG01_PUT_produto_cria_em_vez_de_atualizar_bug.png)<br>
 
 
 
