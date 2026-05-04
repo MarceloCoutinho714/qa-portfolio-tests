@@ -61,7 +61,8 @@ test-cases/ <br>
     ├── BUG03_POST_API_permite_cadastro_com_nome_composto_apenas_por_espacos.md <br>
     
 ├── evidencias/ <br>
-    └── 
+    ├── positivo/ # Fluxos válidos (testes que passaram)
+    ├── negativo/ # Fluxos inválidos e cenários com falha/bug
 
 └── README.md <br>
 
