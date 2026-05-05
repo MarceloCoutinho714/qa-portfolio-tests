@@ -23,9 +23,9 @@ Passos:
 O sistema deve retornar produtos cujo nome ou descrição esteja relacionado ao termo digitado 
 pelo usuário no campo de pesquisa. <br><br>   
 
-Testes Funcionais - Fluxo Principal <br><br>
+**Testes Funcionais - Fluxo Principal** <br><br>
 
-**TC_001.** Buscar produto pelo nome específico <br>
+### **TC_001.** Buscar produto pelo nome específico <br>
 
 **Resultado Esperado:** O sistema deve exibir uma lista de produtos cujo nome ou descrição contenha o termo "Iphone", apresentando informações como nome, preço e imagem. <br>
 
@@ -35,12 +35,12 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência 
 
-![Busca de produto especifico feita com secesso!](../Evidências/TC03_SEARCH/positivo/TC03_SEARCH_001_Busca_sucesso.png) <br><br>
+![Busca de produto especifico feita com secesso!](../evidencias/tc03_search/positivo/tc03-search-busca-sucesso.png) <br><br>
 
 
-Fluxo Alternativo <br><br>
+**Fluxo Alternativo** <br><br>
 
-**TC_002.** Realizar busca com campo vazio 
+### **TC_002.** Realizar busca com campo vazio 
 
 **Resultado Esperado:** O sistema não deve retornar resultados e pode exibir mensagem informando que nenhum termo foi inserido.<br>
 
@@ -49,9 +49,9 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Busca com campos vazios.](../Evidências/TC03_SEARCH/negativo/TC03_SEARCH_002_Busca_Campo_Vazio.png) <br><br>
+![Busca com campos vazios.](../evidencias/tc03_search/negativo/tc03-search-busca-campo-vazio.png) <br><br>
 
-**TC_003.** Busca por termo inexistente (ex: XYZ123 )
+### **TC_003.** Busca por termo inexistente (ex: XYZ123 )
 
 **Resultado Esperado:** O sistema deve exibir mensagem informando que nenhum produto foi encontrado.<br>
 
@@ -60,9 +60,9 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Busca com termo inexistente.](../Evidências/TC03_SEARCH/negativo/TC03_SEARCH_003_Busca_Termo_Inexistente.png) <br><br>
+![Busca com termo inexistente.](../evidencias/tc03_search/negativo/tc03-search-busca-termo-inexistente.png) <br><br>
 
-**TC_004.** Busca por caracteres especiais 
+### **TC_004.** Busca por caracteres especiais 
 
 **Resultado Esperado:** O sistema não deve retornar resultados para caracteres inválidos e pode exibir mensagem informativa. <br>
 
@@ -71,9 +71,9 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Busca com caracteres especiais.](../Evidências/TC03_SEARCH/negativo/TC03_SEARCH_004_Busca_Caracteres_Especiais.png) <br><br>
+![Busca com caracteres especiais.](../evidencias/tc03_search/negativo/tc03-search-busca-caracteres-especiais.png) <br><br>
 
-**TC_005.** Diferenciação entre Maiúsculas e minúsculas
+### **TC_005.** Diferenciação entre Maiúsculas e minúsculas
 
 **Resultado Esperado:** O sistema deve retornar os mesmos resultados independentemente do uso de letras maiúsculas ou minúsculas.<br>
 
@@ -84,14 +84,14 @@ Fluxo Alternativo <br><br>
 ### Evidência
 **Maiúsculas**<br><br>
 
-![Digitar todo o termo em maiúsculo.](../Evidências/TC03_SEARCH/positivo/TC03_SEARCH_005_Busca_Diferenciacao_Maiuscula.png) <br><br><br>
+![Digitar todo o termo em maiúsculo.](../evidencias/tc03_search/positivo/tc03-search-busca-diferenciacao-maiuscula.png) <br><br><br>
 
 ### Evidência
 **Minúsculas**<br><br>
 
-![Digitar todo o termo em minúsculo.](../Evidências/TC03_SEARCH/positivo/TC03_SEARCH_006_Busca_Diferenciacao_Minuscula.png) <br><br>
+![Digitar todo o termo em minúsculo.](../evidencias/tc03_search/positivo/tc03-search-busca-diferenciacao-minuscula.png) <br><br>
 
-**TC_006.** Espaços extras 
+### **TC_006.** Espaços extras 
 
 **Resultado Esperado:** O sistema deve ignorar espaços extras antes ou depois do termo e retornar resultados normalmente. <br>
 
