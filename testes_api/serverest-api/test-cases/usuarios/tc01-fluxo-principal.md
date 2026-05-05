@@ -50,7 +50,7 @@ Usuário criado com sucesso
 
 ## Evidência <br>
 ### Cadastro com Sucesso
-![Cadastro de usuário realizado com sucesso.](../../evidencias/positivo/TC01_POST_usuario_sucesso.png) <br><br>
+![Cadastro de usuário realizado com sucesso.](../../evidencias/positivo/tc01-post-usuario-sucesso.png) <br><br>
 
 
 ### TC02 - POST - Login
@@ -90,7 +90,7 @@ Token de autenticação gerado com sucesso
 
 ## Evidência
 ### Login com Sucesso
-![Login realizado com sucesso.](../../evidencias/positivo/TC01_POST_login_sucesso.png) <br><br>
+![Login realizado com sucesso.](../../evidencias/positivo/tc01-post-login-sucesso.png) <br><br>
 
 ### TC03 - GET - Lista de produtos
 
@@ -139,7 +139,7 @@ Lista retornada corretamente.
 
 ## Evidência <br>
 ### Listagem de Produtos com Sucesso
-![Listagem de Produtos com Sucesso.](../../evidencias/positivo/TC01_GET_produtos_sucesso.png) <br><br>
+![Listagem de Produtos com Sucesso.](../../evidencias/positivo/tc01-get-produtos-sucesso.png) <br><br>
 
 ### TC04 - POST - Cadastrar Produto
 
@@ -191,7 +191,7 @@ Produto cadastrado conforme esperado.
 
 ## Evidência
 ### Cadastro de Produto com Sucesso
-![Cadastro de produto realizado com sucesso.](../../evidencias/positivo/TC01_POST_produto_cadastrado_sucesso.png) <br><br>
+![Cadastro de produto realizado com sucesso.](../../evidencias/positivo/tc01-post-produto-cadastrado-sucesso.png) <br><br>
 
 ### TC05 - DELETE - Deletar Produto
 **ID:** API_DEL_PROD_001
@@ -230,7 +230,7 @@ Produto deletado conforme esperado
 
 ## Evidência
 ### Deletar Produto com Sucesso
-![Produto deletado com sucesso.](../../evidencias/positivo/TC01_DELETE_produtos_sucesso.png) <br><br>
+![Produto deletado com sucesso.](../../evidencias/positivo/tc01-delete-produtos-sucesso.png) <br><br>
 
 
 
