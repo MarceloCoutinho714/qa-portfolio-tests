@@ -71,7 +71,7 @@ sejam mantidos no carrinho antes da finalização da compra. <br><br>
 
 ### Evidência
 
-![Produto removido do carrinho com sucesso.](../evidencias/tc04_cart/positivo/tc04-cart-um-produto-removido-sucesso.png)<br><br>
+![Produto removido do carrinho com sucesso.](../evidencias/tc04_cart/positivo/tc04-cart-produto-removido-com-sucesso-mensagem.png)<br><br>
 
 
 
