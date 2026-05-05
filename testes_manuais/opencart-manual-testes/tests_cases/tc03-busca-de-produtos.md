@@ -84,9 +84,8 @@ pelo usuário no campo de pesquisa. <br><br>
 ### Evidência
 **Maiúsculas**<br><br>
 
-![Digitar todo o termo em maiúsculo.](../evidencias/tc03_search/positivo/tc03-search-busca-diferenciacao-maiuscula.png) <br><br><br>
+![Digitar todo o termo em maiúsculo.](../evidencias/tc03_search/positivo/tc03-search-busca-diferenciacao-maiuscula.png) <br><br>
 
-### Evidência
 **Minúsculas**<br><br>
 
 ![Digitar todo o termo em minúsculo.](../evidencias/tc03_search/positivo/tc03-search-busca-diferenciacao-minuscula.png) <br><br>
