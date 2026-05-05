@@ -46,7 +46,7 @@ evidencias/ <br>
 testes_api/ <br>
 
 ├── collections/ <br>
-    └── Projeto_ServeRest_API.json <br>
+    └── serverest-api.json <br>
 
 ├── environments/ <br>
     └── { <br>
@@ -55,19 +55,19 @@ testes_api/ <br>
 
 test-cases/ <br>
    ├── usuarios/ <br>
-   ├── TC01_Fluxo_Principal.md <br>
-   ├── TC03_POST_Usuario_com_ausencia_de_dados_obrigatorios.md <br>
-   └── TC06_POST_Login_sem_dados_obrigatorios.md <br>
+   ├── tc01-fluxo-principal.md <br>
+   ├── tc03-post-usuario-com-ausencia-de-dados-obrigatorios.md <br>
+   └── tc06-post-login-sem-dados-obrigatorios.md <br>
 
 └── produtos/ <br>
-    ├── TC02_POST_Produto_com_ausencia_de_dados_obrigatorios.md <br>
-    ├── TC04_PUT_Alteracao_de_produto_com_id_inexistente.md <br>
-    └── TC05_PUT_Alteracao_de_produto_sem_dados_obrigatorios.md <br>
+    ├── tc02-post-produto-com-ausencia-de-dados-obrigatorios.md <br>
+    ├── tc04-put-alteracao-de-produto-com-id-inexistente.md <br>
+    └── tc05-put-alteracao-de-produto-sem-dados-obrigatorios.md <br>
 
 ├── bugs/ <br>
-    ├── BUG01_PUT_faz_papel_de_POST_criando_um_novo_produto_aprovando_id_inexistente.md <br>
-    ├── BUG02 _POST_API_permite_cadastro_com_senha_composta_apenas_por_espaço_em_branco.md <br>
-    └── BUG03_POST_API_permite_cadastro_com_nome_composto_apenas_por_espacos.md <br>
+    ├── bug01-put-faz-papel-de-post-criando-um-novo-produto-aprovando-id-inexistente.md <br>
+    ├── bug02-api-permite-cadastro-com-senha-composta-apenas-por-espacos-em-branco.md <br>
+    └── bug03-post-api-permite-cadastro-com-nome-composto-apenas-por-espacos.md <br>
     
 ├── evidencias/ <br>
     ├── positivo/ # Fluxos válidos (testes que passaram) <br>
