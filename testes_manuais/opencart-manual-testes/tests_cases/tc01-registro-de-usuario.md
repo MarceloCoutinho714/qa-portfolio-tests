@@ -29,7 +29,7 @@ regras de validação definidas para cada campo. <br><br>
 
 Testes Funcionais - Fluxo Principal <br><br>
 
-**TC_001.** Inserir nome válido no campo "Nome" <br><br>
+### **TC_001.** Inserir nome válido no campo "Nome" <br><br>
 **Resultado esperado:** O sistema deve aceitar o nome inserido, não exibir mensagens de erro e permitir a continuidade do preenchimento do formulário de cadastro. <br>
 
 **Resultado Obtido:** O sistema aceitou o nome inserido sem apresentar mensagens de erro e permitiu a continuidade do cadastro.<br>
@@ -37,9 +37,9 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Nome válido](../Evidências/TC01_REGISTRATION/positivo/TC01_REGISTRATION_001_Nome_Valido.png)
+![Nome válido](../evidencias/tc01_registration/positivo/tc01-registration-nome-valido.png)
 
-**TC_002.** Inserir sobrenome válido no campo "Sobrenome" <br><br>
+### **TC_002.** Inserir sobrenome válido no campo "Sobrenome" <br><br>
 
 **Resultado esperado:** O sistema deve aceitar o sobrenome inserido, não exibir mensagens de erro e permitir a continuidade do cadastro.<br>
 
@@ -48,9 +48,9 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Sobrenome válido](../Evidências/TC01_REGISTRATION/positivo/TC01_REGISTRATION_002_Sobrenome_Valido.png)
+![Sobrenome válido](../evidencias/tc01_registration/positivo/tc01-registration-sobrenome-valido.png)
 
-**TC_003.** Inserir e-mail válido no campo "E-mail" <br>
+### **TC_003.** Inserir e-mail válido no campo "E-mail" <br>
 
 **Resultado esperado:** O sistema deve aceitar o e-mail inserido no formato válido, não exibir mensagens de erro e permitir a continuidade do cadastro.<br>
 
@@ -59,9 +59,9 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![E-mail válido](../Evidências/TC01_REGISTRATION/positivo/TC01_REGISTRATION_003_E-mail_Valido.png)
+![E-mail válido](../evidencias/tc01_registration/positivo/tc01-registration-email-valido.png)
 
-**TC_004.** Inserir senha com caracteres válidos <br>
+### **TC_004.** Inserir senha com caracteres válidos <br>
 
 **Resultado esperado:** O sistema deve aceitar a senha inserida conforme os critérios mínimos definidos, não exibir mensagens de erro e permitir a conclusão do cadastro. <br>
 
@@ -70,13 +70,13 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Senha em formato válido](../Evidências/TC01_REGISTRATION/positivo/TC01_REGISTRATION_012_Senha_Valida.png) <br><br>
+![Senha em formato válido](../evidencias/tc01_registration/positivo/tc01-registration-senha-valida.png) <br><br>
 
 
 Fluxo Alternativo <br><br>
 
 
-**TC_005.** Deixar o campo "Nome" em branco <br>
+### **TC_005.** Deixar o campo "Nome" em branco <br>
 
 **Resultado esperado:** O sistema deve impedir a continuidade do cadastro e exibir uma mensagem clara informando que o campo é obrigatório. <br>
 
@@ -85,9 +85,9 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Campo nome em branco](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_011_Nome_Ausente.png)
+![Campo nome em branco](../evidencias/tc01_registration/negativo/tc01-registration-nome-ausente.png)
 
-**TC_006.** Deixar o campo "Sobrenome" em branco <br>
+### **TC_006.** Deixar o campo "Sobrenome" em branco <br>
 
 **Resultado esperado:** O sistema deve impedir a continuidade do cadastro e exibir uma mensagem clara informando que o campo é obrigatório. <br>
 
@@ -96,9 +96,9 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Campo sobrenome em branco](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_010_Sobrenome_Ausente.png)
+![Campo sobrenome em branco](../evidencias/tc01_registration/negativo/tc01-registration-sobrenome-ausente.png)
 
-**TC_007.** Deixar o campo "Senha" em branco <br>
+### **TC_007.** Deixar o campo "Senha" em branco <br>
 
 **Resultado esperado:** O sistema deve impedir a continuidade do cadastro e exibir uma mensagem clara informando que o campo é obrigatório. <br>
 
@@ -107,12 +107,12 @@ Fluxo Alternativo <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Campo senha em branco](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_009_Senha_ausente.png)
+![Campo senha em branco](../evidencias/tc01_registration/negativo/tc01-registration-senha-ausente.png)
 
 Validação de Campos <br><br>
 
 
-**TC_008.** Inserir números nos campo "Nome" <br>
+### **TC_008.** Inserir números nos campo "Nome" <br>
 
 **Resultado esperado:** O sistema deve aceitar valores no campo nome conforme regra definida (não especificada).<br>
 
@@ -125,12 +125,12 @@ O campo nome aceita caracteres numéricos. Não há definição clara de regra d
 
 ### Evidência <br>
 
-![Sistema aprova criação de cadastro com números no campo nome](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_007_Cadastro-de-Usuario-com-Numeros-BUG.png) <br><br>
+![Sistema aprova criação de cadastro com números no campo nome](../evidencias/tc01_registration/negativo/tc01-registration-cadastro-de-usuario-com-numeros-bug.png) <br><br>
 
-![Prova da criação do cadastro aprovada pelo sistema](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_006_Criacao-Aprovada-pelo-Sistema-BUG.png) <br><br>
+![Prova da criação do cadastro aprovada pelo sistema](../evidencias/tc01_registration/negativo/tc01-registration-criacao-aprovada-pelo-sistema-bug.png) <br><br>
 
 
-**TC_009.** Inserir e-mail inválido no campo "E-mail" <br>
+### **TC_009.** Inserir e-mail inválido no campo "E-mail" <br>
 
 **Resultado esperado:** O sistema deve impedir a criação do cadastro e exibir uma mensagem de erro informando que o e-mail inserido é inválido.<br>
 
@@ -145,11 +145,11 @@ com o cadastro. <br>
 **Status: FAIL** <br><br>
 
 ### Evidências <br>
-![E-mail inválido](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_013_Ausencia_de_infomacao_fail.png) <br><br>
+![E-mail inválido](../evidencias/tc01_registration/negativo/tc01-registration-ausencia-de-informacao-fail.png) <br><br>
 
 
 
-**TC_010.** Inserir senha com apenas 1 caractere (ex: A ou 1) <br>
+### **TC_010.** Inserir senha com apenas 1 caractere (ex: A ou 1) <br>
 
 **Resultado esperado:** O sistema deve impedir a criação do cadastro e exibir mensagem informando os requisitos mínimos de senha.
 <br>
@@ -159,4 +159,4 @@ com o cadastro. <br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Senha com apenas um caractere](../Evidências/TC01_REGISTRATION/negativo/TC01_REGISTRATION_008_Senha_Invalida.png)
+![Senha com apenas um caractere](../evidencias/tc01_registration/negativo/tc01-registration-senha-invalida.png)
