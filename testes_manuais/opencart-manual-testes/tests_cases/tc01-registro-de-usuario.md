@@ -107,9 +107,9 @@ regras de validação definidas para cada campo. <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Campo senha em branco](../evidencias/tc01_registration/negativo/tc01-registration-senha-ausente.png)
+![Campo senha em branco](../evidencias/tc01_registration/negativo/tc01-registration-senha-ausente.png)<br><br>
 
-Validação de Campos <br><br>
+**Validação de Campos** <br><br>
 
 
 ### **TC_008.** Inserir números nos campo "Nome" <br>
