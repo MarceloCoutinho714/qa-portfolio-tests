@@ -21,9 +21,9 @@ O sistema deve permitir que o usuário adicione produtos ao carrinho, visualize 
 selecionados e atualize ou remova produtos, garantindo que apenas itens válidos e disponíveis 
 sejam mantidos no carrinho antes da finalização da compra. <br><br>   
 
-Testes Funcionais - Fluxo Principal <br><br>
+**Testes Funcionais - Fluxo Principal** <br><br>
 
-**TC_001.**  Adicionar produto ao carrinho <br><br>
+### **TC_001.**  Adicionar produto ao carrinho <br><br>
 **Resultado Esperado:** O sistema deve adicionar o produto ao carrinho, atualizar o contador de itens e exibir mensagem de sucesso confirmando a ação. <br>
 
 **Resultado Obtido:** O sistema adicionou o produto ao carrinho, atualizou o contador e exibiu a mensagem: "Sucesso: Você adicionou o iPhone ao seu carrinho de compras!". <br>
@@ -33,10 +33,10 @@ Testes Funcionais - Fluxo Principal <br><br>
 ### Evidência
 **Mensagem de Produto Adicionado** <br><br>
 
-![Produto adicionado ao carrinho com sucesso.](../Evidências/TC04_CART/positivo/TC04_CART_001_Adicionado_Mensagem_Sucesso.png)<br><br>
+![Produto adicionado ao carrinho com sucesso.](../evidencias/tc04_cart/positivo/tc04-cart-adiciona-mensagem-sucesso.png)<br><br>
 
 
-**TC_002.** Visualizar produto no carrinho <br><br>
+### **TC_002.** Visualizar produto no carrinho <br><br>
 
 **Resultado Esperado:** O sistema deve exibir o produto adicionado no carrinho, apresentando informações como nome, preço e quantidade, além de permitir alteração ou remoção. <br>
 
@@ -47,10 +47,10 @@ Testes Funcionais - Fluxo Principal <br><br>
 ### Evidência
 **Confirmação de produto adicionado**<br><br>
 
-![Produto aparecce no carrinho com sucesso](../Evidências/TC04_CART/positivo/TC04_CART_002_Adicionado_Sucesso.png)<br><br>
+![Produto aparecce no carrinho com sucesso](../evidencias/tc04_cart/positivo/tc04-cart-adicionado-sucesso.png)<br><br>
 
 
-**TC_003.**  Prosseguir para checkout <br>
+### **TC_003.**  Prosseguir para checkout <br>
 
 **Resultado Esperado:** O sistema deve redirecionar o usuário para a página de checkout, solicitando dados de endereço e pagamento.<br>
 
@@ -61,7 +61,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Motivo:** Funcionalidade não disponível no ambiente. <br><br>
 
 
-**TC_004.** Remover produto do carrinho <br>
+### **TC_004.** Remover produto do carrinho <br>
 
 **Resultado Esperado:** O sistema deve remover o produto selecionado do carrinho e exibir mensagem de confirmação. <br>
 
@@ -71,12 +71,12 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Produto removido do carrinho com sucesso.](../Evidências/TC04_CART/positivo/TC04_CART_003_Removido_Sucesso.png)<br><br>
+![Produto removido do carrinho com sucesso.](../evidencias/tc04_cart/positivo/tc04-cart-um-produto-removido-sucesso.png)<br><br>
 
 
 
 
-**TC_005.** Alterar quantidade de produto no carrinho <br>
+### **TC_005.** Alterar quantidade de produto no carrinho <br>
 
 **Resultado Esperado:** O sistema deve permitir alterar a quantidade do produto e atualizar o carrinho, recalculando valores e exibindo mensagem de confirmação. <br>
 
@@ -86,10 +86,10 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Quantidade alterada com sucesso.](../Evidências/TC04_CART/positivo/TC04_CART_004_Alterado_Sucesso.png)<br><br>
+![Quantidade alterada com sucesso.](../evidencias/tc04_cart/positivo/tc04-cart-alterado-sucesso.png)<br><br>
 
 
-**TC_006.** Carrinho vazio após remoção de item <br>
+### **TC_006.** Carrinho vazio após remoção de item <br>
 
 **Resultado Esperado:** Ao remover todos os itens, o sistema deve exibir mensagem indicando que o carrinho está vazio. <br>
 
@@ -99,10 +99,10 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Carrinho vazio com sucesso](../Evidências/TC04_CART/positivo/TC04_CART_005_Carrinho_vazio_Sucesso.png)<br><br>
+![Carrinho vazio com sucesso](../evidencias/tc04_cart/positivo/tc04-cart-carrinho-vazio-sucesso.png)<br><br>
 
 
-**TC_007.** Remover um produto quando há múltiplos itens no carrinho <br>
+### **TC_007.** Remover um produto quando há múltiplos itens no carrinho <br>
 
 **Resultado Esperado:** O sistema deve remover apenas o item selecionado e manter os demais produtos no carrinho, atualizando o contador e preços.<br>
 
@@ -112,13 +112,13 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência 
 **Antes** <br>
-![Itens adicionados](../Evidências/TC04_CART/positivo/TC04_CART_009_Produtos_Atualizados_Sucesso.png)<br><br>
+![Itens adicionados](../evidencias/tc04_cart/positivo/tc04-cart-produtos-atualizados-sucesso.png)<br><br>
 
 **Depois** <br>
-![Carrinho atualizado com sucesso após item ter sido removido](../Evidências/TC04_CART/positivo/TC04_CART_012_Um_Produto_Removido_Sucesso.png)<br><br>
+![Carrinho atualizado com sucesso após item ter sido removido](../evidencias/tc04_cart/positivo/tc04-cart-um-produto-removido-sucesso.png)<br><br>
 
 
-**TC_008.** Adicionar múltiplos produtos ao carrinho <br>
+### **TC_008.** Adicionar múltiplos produtos ao carrinho <br>
 
 **Resultado Esperado:** O sistema deve permitir adicionar diferentes produtos ao carrinho simultaneamente. <br>
 
@@ -128,9 +128,9 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência
 
-![Múltiplos produtos adicionados com sucesso](../Evidências/TC04_CART/positivo/TC04_CART_006_Multiplos_Produtos_Adicionados_Sucesso.png)<br><br>
+![Múltiplos produtos adicionados com sucesso](../evidencias/tc04_cart/positivo/tc04-cart-multiplos-produtos-adicinados-sucesso.png)<br><br>
 
-**TC_009.** Adicionar produto fora de estoque ao carrinho <br>
+### **TC_009.** Adicionar produto fora de estoque ao carrinho <br>
 
 **Resultado Esperado:** O sistema deve alertar o usuário quando um produto estiver fora de estoque, indicando indisponibilidade ou quantidade insuficiente. <br>
 
@@ -139,12 +139,12 @@ Testes Funcionais - Fluxo Principal <br><br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![Produto fora de estoque adicionado ao carrinho](../Evidências/TC04_CART/negativo/TC04_CART_014_Carrinho_adiciona_produtos_fora_de_estoque_mas_exibe_informacao.png)<br><br>
+![Produto fora de estoque adicionado ao carrinho](../evidencias/tc04_cart/negativo/tc04-cart-carrinho-adiciona-produtos-fora-de-estoque.png)<br><br>
 
-Fluxos Alternativo - Validação de Carrinho <br><br>
+**Fluxos Alternativo - Validação de Carrinho** <br><br>
 
 
-**TC_010.** Atualização de preço, peso e quantidade ao adicionar ou remover produtos <br>
+### **TC_010.** Atualização de preço, peso e quantidade ao adicionar ou remover produtos <br>
 
 **Resultado Esperado:** O sistema deve atualizar automaticamente o valor total, a quantidade de itens e o peso total do carrinho sempre que um produto for adicionado, removido ou tiver sua quantidade alterada. <br>
 
@@ -154,13 +154,13 @@ Fluxos Alternativo - Validação de Carrinho <br><br>
 
 ### Evidência
 **Antes**<br>
-![Preço atual da soma dos produtos](../Evidências/TC04_CART/positivo/TC04_CART_013_Produtos_adicionados_preco_atualizado.png)<br><br>
+![Preço atual da soma dos produtos](../evidencias/tc04_cart/positivo/tc04-cart-produtos-adicionados-preco-atualizado.png)<br><br>
 
 **Depois** <br>
-![Preço atualizado conforme um produto é adicionado ou removido](../Evidências/TC04_CART/positivo/TC04_CART_007_Atualizacao_Preco_Sucesso_apos_remover_item.png)<br><br>
+![Preço atualizado conforme um produto é adicionado ou removido](../evidencias/tc04_cart/positivo/tc04-cart-atualizacao-preco-sucesso-apos-remover-item.png)<br><br>
 
 
-**TC_011.** Verificar persistência do carrinho após atualizar ou reabrir a página <br>
+### **TC_011.** Verificar persistência do carrinho após atualizar ou reabrir a página <br>
 
 **Resultado Esperado:** O sistema deve manter os produtos no carrinho após atualização da página ou reabertura do site durante a mesma sessão.<br>
 
@@ -169,5 +169,5 @@ Fluxos Alternativo - Validação de Carrinho <br><br>
 **Status: PASS** <br><br>
 
 ## Evidência <br>
-![Carrinho apresenta persistência com sucesso](../Evidências/TC04_CART/positivo/TC04_CART_008_Persistencia_do_Carrinho_Sucesso.png) <br><br>
+![Carrinho apresenta persistência com sucesso](../evidencias/tc04_cart/positivo/tc04-cart-persistencia-do-carrinho-sucesso.png) <br><br>
 
