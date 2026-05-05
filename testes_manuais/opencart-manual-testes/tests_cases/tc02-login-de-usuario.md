@@ -14,7 +14,7 @@ Passos:
 3.  Clicar em entrar
 4.  Informar e-mail válido previamente cadastrado no campo "E-mail" conforme Test Data
 5.  Informar senha válida no campo "Senha" conforme Test Data
-6.  Clicar em "Entrar"
+6.  Clicar em "Entrar" <br><br>
 
 **Regra de Negócio**
 
@@ -22,9 +22,9 @@ O sistema deve permitir o acesso à conta apenas quando o usuário informar cred
 (e-mail e senha cadastrados corretamente), bloqueando o login e exibindo mensagem 
 apropriada quando as informações forem inválidas ou estiverem incompletas. <br><br>   
 
-Testes Funcionais - Fluxo Principal <br><br>
+**Testes Funcionais - Fluxo Principal** <br><br>
 
-**TC_001.** Realizar login com credenciais válidas (e-mail e senha cadastrados) <br>
+### **TC_001.** Realizar login com credenciais válidas (e-mail e senha cadastrados) <br>
 
 **Resultado Esperado:** O sistema deve autenticar o usuário com credenciais válidas, redirecionar para a página "Minha Conta" e exibir elementos que indiquem que o usuário está logado (ex: opção "Logout").<br>
 
@@ -34,11 +34,11 @@ Testes Funcionais - Fluxo Principal <br><br>
 
 ### Evidência <br>
 
-![Login com Sucesso](../Evidências/TC02_LOGIN/positivo/TC02_LOGIN_001_Sucesso.png) <br><br>
+![Login com Sucesso](../evidencias/tc02_login/positivo/tc02-login-sucesso.png) <br><br>
 
-Fluxo Alternativo <br><br>
+**Fluxo Alternativo** <br><br>
 
-**TC_002.** Inserir e-mail inválido no campo e-mail <br>
+### **TC_002.** Inserir e-mail inválido no campo e-mail <br>
 
 **Resultado Esperado:** Sistema não deve autenticar o login e deve exibir mensagem de erro informando que o e-mail ou senha 
 são inválidos. <br>
@@ -48,9 +48,9 @@ são inválidos. <br>
 **Status: PASS** <br><br>
 
 ### Evidência
-![E-mail inválido](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_008_E-mail_invalido.png) <br><br>
+![E-mail inválido](../evidencias/tc02_login/negativo/tc02-login-email-invalido.png) <br><br>
 
-**TC_003.** Inserir senha inválida no campo senha <br>
+### **TC_003.** Inserir senha inválida no campo senha <br>
 
 **Resultado Esperado:** O sistema não deve autenticar o usuário e deve exibir mensagem de erro informando que o e-mail ou senha são inválidos.<br>
 
@@ -58,12 +58,12 @@ são inválidos. <br>
 
 **Status: PASS** <br><br>
 ### Evidência
-![Senha inválido](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_009_Senha_Invalida.png) <br><br>
+![Senha inválido](../evidencias/tc02_login/negativo/tc02-login-senha-invalida.png) <br><br>
 
 
-Validação de campos <br><br>
+**Validação de campos** <br><br>
 
-**TC_004.** Tentar realizar login com campo e-mail vazio <br>
+### **TC_004.** Tentar realizar login com campo e-mail vazio <br>
 
 **Resultado Esperado:** Sistema não deve autenticar o usuário quando o campo e-mail estiver 
 vazio e deve exibir mensagem informando que os dados são inválidos ou obrigatórios. <br>
@@ -73,9 +73,9 @@ de erro informando que não há correspondência para e-mail ou senha impedindo 
 
 **Status: PASS** <br><br>
 ### Evidência
-![E-mail em branco](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_010_E-mail_em_Branco.png) <br><br>
+![E-mail em branco](../evidencias/tc02_login/negativo/tc02-login-email-em-branco.png) <br><br>
 
-**TC_005.** Tentar realizar login com campo senha vazio <br>
+### **TC_005.** Tentar realizar login com campo senha vazio <br>
 
 **Resultado Esperado:** Sistema não deve autenticar o usuário quando o campo senha estiver 
 vazio e deve exibir mensagem informando que os dados são inválidos ou obrigatórios. <br>
@@ -85,11 +85,11 @@ de erro informando que não há correspondência para e-mail ou senha impedindo 
 
 **Status: PASS** <br><br>
 ### Evidência
-![Senha em branco](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_011_Senha_em_Branco.png) <br><br>
+![Senha em branco](../evidencias/tc02_login/negativo/tc02-login-senha-em-branco.png) <br><br>
 
-Teste de Segurança / Regra de Proteção de Conta <br><br>
+**Teste de Segurança / Regra de Proteção de Conta** <br><br>
 
-**TC_006.** Verificar limite de tentativas de login com senha incorreta (proteção contra múltiplas 
+### **TC_006.** Verificar limite de tentativas de login com senha incorreta (proteção contra múltiplas 
 tentativas) <br>
 
 **Resultado Esperado:** O sistema deve limitar o número de tentativas consecutivas de login com credenciais inválidas (ex: 5 tentativas), bloqueando temporariamente a conta ou exigindo verificação adicional.
@@ -102,7 +102,7 @@ tentativas) <br>
 
 **Status: Fail** <br>
 
-**Bug relacionado:** BUG01_Login_Tentativas_Ilimitadas.md
+**Bug relacionado:** bug01-login-com-tentativas-ilimitadas.md
 
 **Severidade** <br>
 **Alta**
@@ -114,22 +114,22 @@ tentativas) <br>
 
 Tentativa_1<br>
 
-![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_002_Tentativa_1.png)<br>
+![Múltiplas tentativas de loguin com senha inválida](../evidencias/tc02_login/negativo/tc02-login-tentativa-1.png)<br>
 Tentativa_2<br>
 
-![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_003_Tentativa_2.png)<br>
+![Múltiplas tentativas de loguin com senha inválida](../evidencias/tc02_login/negativo/tc02-login-tentativa-2.png)<br>
 Tentativa_3<br>
 
-![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_004_Tentativa_3.png)<br>
+![Múltiplas tentativas de loguin com senha inválida](../evidencias/tc02_login/negativo/tc02-login-tentativa-3.png)<br>
 Tentativa_4<br>
 
-![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_005_Tentativa_4.png)<br>
+![Múltiplas tentativas de loguin com senha inválida](../evidencias/tc02_login/negativo/tc02-login-tentativa-4.png)<br>
 Tentativa_5<br>
 
-![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_006_Tentativa_5.png)<br>
+![Múltiplas tentativas de loguin com senha inválida](../evidencias/tc02_login/negativo/tc02-login-tentativa-5.png)<br>
 Tentativa_6<br>
 
-![Múltiplas tentativas de loguin com senha inválida](../Evidências/TC02_LOGIN/negativo/TC02_LOGIN_007_Tentativa_6.png)<br><br>
+![Múltiplas tentativas de loguin com senha inválida](../evidencias/tc02_login/negativo/tc02-login-tentativa-6.png)<br><br>
 
 **Bud identificado:** Sistema permite tentativas ilimitadas de login com senha incorreta.
 
