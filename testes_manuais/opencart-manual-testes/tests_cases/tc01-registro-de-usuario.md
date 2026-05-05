@@ -27,7 +27,7 @@ O sistema deve permitir a criação de uma conta apenas quando todos os campos o
 (Nome, Sobrenome, E-mail e Senha) forem preenchidos com dados válidos, respeitando as 
 regras de validação definidas para cada campo. <br><br>   
 
-Testes Funcionais - Fluxo Principal <br><br>
+**Testes Funcionais - Fluxo Principal** <br><br>
 
 ### **TC_001.** Inserir nome válido no campo "Nome" <br><br>
 **Resultado esperado:** O sistema deve aceitar o nome inserido, não exibir mensagens de erro e permitir a continuidade do preenchimento do formulário de cadastro. <br>
@@ -73,7 +73,7 @@ Testes Funcionais - Fluxo Principal <br><br>
 ![Senha em formato válido](../evidencias/tc01_registration/positivo/tc01-registration-senha-valida.png) <br><br>
 
 
-Fluxo Alternativo <br><br>
+**Fluxo Alternativo** <br><br>
 
 
 ### **TC_005.** Deixar o campo "Nome" em branco <br>
